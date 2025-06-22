@@ -22,7 +22,14 @@
   "engines": {
     "node": ">=18"
   },
-  "keywords": ["web3", "nft", "dao", "ipfs", "hardhat", "gtek"],
+  "keywords": [
+    "web3",
+    "nft",
+    "dao",
+    "ipfs",
+    "hardhat",
+    "gtek"
+  ],
   "author": "gTek Industries",
   "license": "MIT"
 }
