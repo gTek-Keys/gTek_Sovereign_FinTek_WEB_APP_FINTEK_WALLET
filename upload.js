@@ -1,31 +1,31 @@
-// upload.js — CommonJS-Compatible NFT Upload Script
-const { NFTStorage, File } = require('nft.storage');
-const fs = require('fs');
-const path = require('path');
+// upload.js
+import { NFTStorage, File } from 'nft.storage';
+import fs from 'fs';
+import path from 'path';
+import dotenv from 'dotenv';
+dotenv.config();
 
-const NFT_STORAGE_KEY = '98aa173626120f48f3da4cae821c40ddc835d886';
-
-const assetsDir = path.join(__dirname, 'assets');
+const API_KEY = process.env.NFT_STORAGE_API_KEY;
 
 async function main() {
-  console.log('🔄 Uploading files to IPFS via NFT.storage...');
+  const client = new NFTStorage({ token: API_KEY });
 
-  try {
-    const files = fs.readdirSync(assetsDir).map(fileName => {
-      const filePath = path.join(assetsDir, fileName);
-      const content = fs.readFileSync(filePath);
-      return new File([content], fileName, { type: 'application/octet-stream' });
-    });
+  const dirPath = './assets';
+  const files = fs.readdirSync(dirPath).map(fileName => {
+    const filePath = path.join(dirPath, fileName);
+    return new File([fs.readFileSync(filePath)], fileName);
+  });
 
-    const client = new NFTStorage({ token: NFT_STORAGE_KEY });
-    const cid = await client.storeDirectory(files);
-
-    console.log('✅ Upload successful!');
-    console.log(`📦 IPFS CID: ${cid}`);
-    console.log(`🔗 Gateway URL: https://ipfs.io/ipfs/${cid}`);
-  } catch (error) {
-    console.error('🚨 Upload failed:', error);
+  if (files.length === 0) {
+    console.error('🚫 No files found in assets/. Upload aborted.');
+    return;
   }
+
+  console.log('🔄 Uploading files to IPFS via NFT.storage...');
+  const cid = await client.storeDirectory(files);
+  console.log(`✅ Upload successful. CID: ${cid}`);
 }
 
-main();
+main().catch(err => {
+  console.error('🚨 Upload failed:', err);
+});
