@@ -1,0 +1,4 @@
+Smart Contract + NFT Infrastructure Research Guide for Emerging Developers
+==========================================================================
+
+[Content forthcoming based on audit findings and Codex synthesis.]
