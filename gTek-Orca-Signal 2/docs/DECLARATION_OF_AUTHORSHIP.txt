@@ -1,0 +1,7 @@
+Declaration of Authorship
+
+I, Commander Tok (or authorized agent of gTek Global), hereby affirm that all components of the gTek Orca Signal software project,
+including code, logic, design, and concept, were originally developed and authored by me or my team without replication of protected third-party code.
+
+Signed: _____________________
+Date: [Insert Date]

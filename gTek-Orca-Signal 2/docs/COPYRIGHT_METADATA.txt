@@ -1,0 +1,11 @@
+U.S. Copyright Office eCO Metadata
+----------------------------------
+
+Title: gTek Orca Signal: DJ Stream Integration Toolkit
+Type of Work: Computer Program
+Author: Commander Tok / gTek Global
+Year of Completion: 2025
+Nation of First Publication: United States
+Publication Status: Unpublished
+Rights Claimed: All original source code, logic flow, interface designs, documentation
+Deposit File: gtek-orca-ip-assets.zip

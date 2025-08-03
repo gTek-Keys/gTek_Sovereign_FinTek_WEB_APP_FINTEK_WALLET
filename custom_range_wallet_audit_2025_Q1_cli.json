@@ -1,0 +1,23 @@
+{
+    "script_name": "custom_range_wallet_audit_2025_Q1",
+    "created_on": "2025-07-28T13:01:59.163651",
+    "description": "Audit script to collect all wallet and metadata logs from Jan 01 2025 to Apr 01 2025.",
+    "audit_range": {
+        "start_date": "2025-01-01",
+        "end_date": "2025-04-01"
+    },
+    "functions": [
+        "Fetch transaction logs from Coinbase Wallet API",
+        "Fetch Phantom Solana wallet transaction history",
+        "Record and snapshot all associated metadata",
+        "Hash and sign output for cryptographic verification",
+        "Format output to CSV, JSON, and PDF",
+        "Log output to iTek-Lux-TrustChain-Sovereign-Blockchain/audits"
+    ],
+    "output_format": [
+        "csv",
+        "json",
+        "pdf"
+    ],
+    "log_directory": "iTek-Lux-TrustChain-Sovereign-Blockchain/audits"
+}

@@ -1,0 +1,1 @@
+mpl_token_auth_rules::payload::Payload: borsh::BorshSerialize

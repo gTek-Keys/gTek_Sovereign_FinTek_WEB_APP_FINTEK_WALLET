@@ -1,0 +1,35 @@
+{
+  "vault": "BFH iTek LUX LexVault",
+  "owner": "gTek Global Industries",
+  "wallet_identity": "gtekglobalindustries.cb.id",
+  "signer_wallet": "3izqrwVEfQpvxPmimpgBfqVVuWGrfJkxuSih6PXuo4zA",
+  "coinbase_controller": "EEhuYsTGdiDMjjez3KiBaC9w3XRZqrxMohkaEpH9UUUy",
+  "mint_token": {
+    "name": "COLLAT",
+    "mint_address": "GyKKrkrrQh8gD9kXEpWw5cdELxYNUJ9EBH4HKtgDpump",
+    "verified": true,
+    "oracle_oncurve": true
+  },
+  "network": "Solana Mainnet",
+  "repository": "https://github.com/gTek-Keys/iTek-Lux-TrustChain-Sovereign-Blockchain",
+  "funding_source": "Base SDK + Coinbase Developer App",
+  "wallets": [
+    "3izqrwVEfQpvxPmimpgBfqVVuWGrfJkxuSih6PXuo4zA",
+    "EEhuYsTGdiDMjjez3KiBaC9w3XRZqrxMohkaEpH9UUUy",
+    "ABCVgBZvG1U5mQ7GGjVEnLWfu8yhgFz7g9FCsPVKveXi",
+    "DthcfxFeG9ck33HdqDyBDm7qig26opKr8hUG6y3Vw4i2"
+  ],
+  "token_type": "SPL",
+  "deployment": {
+    "status": "in-progress",
+    "pool_type": "Standard AMM",
+    "target_liquidity": {
+      "COLLAT": 127.77,
+      "SOL": 0.121
+    }
+  },
+  "timestamp": "2025-07-28T00:00:00Z",
+  "network_signature": "TrustChain Sovereign Verified",
+  "metadata_type": "Vault Anchor Identity",
+  "version": "v1.0.0"
+}

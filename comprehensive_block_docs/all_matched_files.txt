@@ -1,0 +1,88 @@
+./.git/config
+./.git/FETCH_HEAD
+./.git/hooks/update.sample
+./.git/index
+./.git/logs/HEAD
+./.git/logs/refs/heads/main
+./.git/logs/refs/remotes/origin/HEAD
+./.git/logs/refs/remotes/origin/main
+./block_codex_bundle.zip
+./block_docs_collected/CLAUDE.md
+./block_docs_collected/DESIGN_ADVANCEMENT_PROPOSAL.md
+./block_docs_collected/matched_files.txt
+./block_docs_collected/REPOSITORY_AUDIT_REPORT.md
+./block_docs_collected/The_Block_Auditer_Gamification_Software 2/README.md
+./block_docs_collected/The_Block_Auditer_Gamification_Software/README.md
+./block_docs_collected/transfer_chat_trigger.sh
+./Chat_Builder_Business-main 2/.gitignore
+./Chat_Builder_Business-main 2/App.js
+./Chat_Builder_Business-main 2/CodexGPT_Docs/gTok_Chat_Designer_Pro_Business_Plan.txt
+./Chat_Builder_Business-main 2/CodexGPT_Docs/gTok_One_Sheet_Overview.md
+./Chat_Builder_Business-main 2/CodexGPT_Docs/README.md
+./Chat_Builder_Business-main 2/CodexGPT_InstallGuide.txt
+./Chat_Builder_Business-main 2/CodexGPT_Metadata_Template.json
+./Chat_Builder_Business-main 2/CodexGPT_MissionStatement.txt
+./Chat_Builder_Business-main 2/CodexGPT_Summary.txt
+./Chat_Builder_Business-main 2/CodexGPT_Whitepaper.txt
+./Chat_Builder_Business-main 2/Commission_Portal_UI.md
+./Chat_Builder_Business-main 2/generate_codex_docs.py
+./Chat_Builder_Business-main 2/GitHub_Repository_Description.txt
+./Chat_Builder_Business-main 2/GPT_Sales_Agent.txt
+./Chat_Builder_Business-main 2/gTek_Profile_Bio.md
+./Chat_Builder_Business-main 2/gTok_Chat_Designer_Pro_Business_Plan.txt
+./Chat_Builder_Business-main 2/gTok_One_Sheet_Overview.md
+./Chat_Builder_Business-main 2/index.html
+./Chat_Builder_Business-main 2/LICENSE
+./Chat_Builder_Business-main 2/Pitch_Deck_Highlights.txt
+./Chat_Builder_Business-main 2/README_Rewritten.md
+./Chat_Builder_Business-main 2/README.md
+./Chat_Builder_Business-main/.gitignore
+./Chat_Builder_Business-main/App.js
+./Chat_Builder_Business-main/CodexGPT_Docs/gTok_Chat_Designer_Pro_Business_Plan.txt
+./Chat_Builder_Business-main/CodexGPT_Docs/gTok_One_Sheet_Overview.md
+./Chat_Builder_Business-main/CodexGPT_Docs/README.md
+./Chat_Builder_Business-main/CodexGPT_InstallGuide.txt
+./Chat_Builder_Business-main/CodexGPT_Metadata_Template.json
+./Chat_Builder_Business-main/CodexGPT_MissionStatement.txt
+./Chat_Builder_Business-main/CodexGPT_Summary.txt
+./Chat_Builder_Business-main/CodexGPT_Whitepaper.txt
+./Chat_Builder_Business-main/Commission_Portal_UI.md
+./Chat_Builder_Business-main/generate_codex_docs.py
+./Chat_Builder_Business-main/GitHub_Repository_Description.txt
+./Chat_Builder_Business-main/GPT_Sales_Agent.txt
+./Chat_Builder_Business-main/gTek_Profile_Bio.md
+./Chat_Builder_Business-main/gTok_Chat_Designer_Pro_Business_Plan.txt
+./Chat_Builder_Business-main/gTok_One_Sheet_Overview.md
+./Chat_Builder_Business-main/index.html
+./Chat_Builder_Business-main/LICENSE
+./Chat_Builder_Business-main/Pitch_Deck_Highlights.txt
+./Chat_Builder_Business-main/README_Rewritten.md
+./Chat_Builder_Business-main/README.md
+./CLAUDE.md
+./codex_transfer_intro.md
+./codex_transfer_package.zip
+./codex_transfer_script.sh
+./comprehensive_block_search.sh
+./DESIGN_ADVANCEMENT_PROPOSAL.md
+./filename.txt
+./LICENSE
+./Monumental Status NFT Album/Chat_Builder_Business-main.zip
+./README.md
+./REPOSITORY_AUDIT_REPORT.md
+./sovereign_chat_aggregator.py
+./sovereign_chat_audit_log.txt
+./sovereign_terminal_audit.py
+./terminal_chat_evolution_log.txt
+./The_Block_Auditer_Gamification_Software 2/CodexVault/LICENSE_Private.txt
+./The_Block_Auditer_Gamification_Software 2/CodexVault/README_Codex_LexVault.txt
+./The_Block_Auditer_Gamification_Software 2/CodexVault/vault_env_snapshot.json
+./The_Block_Auditer_Gamification_Software 2/LICENSE.md
+./The_Block_Auditer_Gamification_Software 2/README.md
+./The_Block_Auditer_Gamification_Software 2/scripts/lexvault_env.json
+./The_Block_Auditer_Gamification_Software/CodexVault/LICENSE_Private.txt
+./The_Block_Auditer_Gamification_Software/CodexVault/README_Codex_LexVault.txt
+./The_Block_Auditer_Gamification_Software/CodexVault/vault_env_snapshot.json
+./The_Block_Auditer_Gamification_Software/LICENSE.md
+./The_Block_Auditer_Gamification_Software/README.md
+./The_Block_Auditer_Gamification_Software/scripts/lexvault_env.json
+./transfer_chat_trigger.sh

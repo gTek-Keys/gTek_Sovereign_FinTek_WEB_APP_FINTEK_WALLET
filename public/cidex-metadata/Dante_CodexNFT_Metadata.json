@@ -1,0 +1,28 @@
+{
+    "name": "Codex Drop \u2013 Dante",
+    "description": "Narrative synthesis architect for GPT CodexShell. Dante weaves poetic audit scrolls.",
+    "image": "ipfs://CID/ritual_card_dante.png",
+    "external_url": "https://gtekglobal.design/codex/dante",
+    "attributes": [
+        {
+            "trait_type": "Persona",
+            "value": "Dante"
+        },
+        {
+            "trait_type": "Function",
+            "value": "Narrative + Scrolls"
+        },
+        {
+            "trait_type": "CodexPhase",
+            "value": "14.2"
+        },
+        {
+            "trait_type": "License",
+            "value": "gTek Sovereign Codex v3.0"
+        },
+        {
+            "trait_type": "Chain",
+            "value": "Ethereum"
+        }
+    ]
+}

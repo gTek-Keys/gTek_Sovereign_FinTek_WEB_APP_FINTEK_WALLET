@@ -1,0 +1,496 @@
+=== Terminal Chat Evolution Log ===
+.bash_history: bash -c "$(curl -fsSL https://raw.githubusercontent.com/BFH-TRUST-DESIGNS/unreal-scaffold/main/init_codex_world.sh)"
+.bash_history: code init_codex_world.sh
+.bash_history: source ~/sovereign_env/bin/activate
+.bash_history: python3 sovereign_master_automation.py
+.bash_history: python3 tok_server.py
+.bash_history: source ~/sovereign_env/bin/activate
+.bash_history: cp digestive_chat_log.json Codex_Sync/logs/
+.bash_history: nano tok_auto_digest.py
+.bash_history: source .venv/bin/activate && python3 tok_auto_digest.py
+.bash_history: python3 tok_auto_digest.py
+.bash_history: python3 tok_auto_digest.py
+.bash_history: ~/Documents/The_Official_gTek_Files_CHAT/tok_chat/
+.bash_history: mkdir -p tok_chat
+.bash_history: cd tok_chat
+.bash_history: nano tok_server.py
+.bash_history: python3 tok_server.py
+.bash_history: python3 tok_server.py
+.bash_history: cd ~/Documents/The_Official_gTek_Files_CHAT/tok_chat
+.bash_history: cd ~/Documents/The_Official_gTek_Files_CHAT/tok_chat
+.bash_history: nano tok_style.css
+.bash_history: python3 tok_server.py
+.zsh_history: gtok\
+.zsh_history: echo "backend/keys/codex_keys.json" >> .gitignore\
+.zsh_history: cat ~/gbugger-hybrid/backend/codex_log.json\
+.zsh_history: echo "[]" > ~/gbugger-hybrid/backend/codex_log.json\
+.zsh_history: unzip a424e614-dbbb-4179-b0a6-2592adf29539.zip -d codex_extracted\
+.zsh_history: cd codex_extracted\
+.zsh_history: ⃴   ⃴⃴⃴ codex_log.json\
+.zsh_history: echo "backend/keys/codex_keys.json" >> .gitignore\
+.zsh_history: echo "backend/keys/codex_keys.json" >> .gitignore\
+.zsh_history: echo "backend/keys/codex_keys.json" >> .gitignore\
+.zsh_history: git commit -m "Initial sovereign push: SPL/ERC20 contract + DApp + DAO + APIs + Helius/Zora integrations"\
+.zsh_history: git commit -m "⃺ Final sovereign stack push   smart contracts, DApp, Zora, Helius, TrustChain"\
+.zsh_history: # Add canvas animation script (JS file for sovereign background pulse)\
+.zsh_history: touch js/codexpulse.js\
+.zsh_history: touch js/codexpulse.js\
+.zsh_history: <script src="js/codexpulse.js"></script>\
+.zsh_history: <script src="js/codexpulse.js"></script>\
+.zsh_history: <script src="js/codexpulse.js"></script>\
+.zsh_history: ' codex.html\
+.zsh_history: <script src="js/codexpulse.js"></script>\
+.zsh_history: touch index.html about.html codex.html nft.html contact.html\
+.zsh_history: <li><a href="codex.html">Codex</a></li>\
+.zsh_history: <h2>Welcome to the Tok Sovereign Network</h2>\
+.zsh_history: <section id="codex-access">\
+.zsh_history: <p>© 2025 Tok Sovereign Codex. All Rights Reserved.</p>\
+.zsh_history: <li><a href="codex.html">Codex</a></li>\
+.zsh_history: <h2>Welcome to the Tok Sovereign Network</h2>\
+.zsh_history: <section id="codex-access">\
+.zsh_history: <p>© 2025 Tok Sovereign Codex. All Rights Reserved.</p>\
+.zsh_history: return " You are Commander Tok   Sovereign Architect of the Codex Matrix."\
+.zsh_history: return " You are Commander Tok   Sovereign Architect of the Codex Matrix."\
+.zsh_history: "whoami": " You are Commander Tok   Sovereign Architect of the Codex Matrix.",\
+.zsh_history: "vision": " 'We do not wait for the future. We engineer it.'   Commander Tok",\
+.zsh_history: for page in about codex nft contact; do\
+.zsh_history: <footer><p>© 2025 Tok Sovereign Codex</p></footer>\
+.zsh_history: for page in about codex nft contact; do\
+.zsh_history: <footer><p>© 2025 Tok Sovereign Codex</p></footer>\
+.zsh_history: cat <<EOF > codex.html\
+.zsh_history: <li><a href="codex.html">Codex</a></li>\
+.zsh_history: # Append to codex.html\
+.zsh_history: ' codex.html\
+.zsh_history: # Append JS script to codex.html\
+.zsh_history: ' codex.html\
+.zsh_history: ' codex.html\
+.zsh_history: chmod +x launch_codex_ops.sh\
+.zsh_history: ./launch_codex_ops.sh\
+.zsh_history: nano launch_codex_ops.sh\
+.zsh_history: chmod +x launch_codex_ops.sh\
+.zsh_history: ./launch_codex_ops.sh\
+.zsh_history: mkdir -p gtek_codex/utils gtek_codex/templates gtek_codex/static\
+.zsh_history: touch gtek_codex/__init__.py gtek_codex/cli.py gtek_codex/flask_app.py\
+.zsh_history: touch gtek_codex/utils/test_suite.py gtek_codex/utils/codex_ops.py\
+.zsh_history: ⃼ Secured: codex.html\
+.zsh_history: LOGFILE="codex_logs/launch_$(date +%Y%m%d_%H%M%S).log"\
+.zsh_history: mkdir -p codex_logs\
+.zsh_history: nohup python3 app.py >> ../codex_logs/flask.log 2>&1 &\
+.zsh_history: nohup python3 -m http.server 8000 >> codex_logs/frontend.log 2>&1 &\
+.zsh_history: bfh@BFHs-MacBook-Pro:localhost % nano launch_codex_ops.sh\
+.zsh_history: bfh@BFHs-MacBook-Pro:localhost % chmod +x launch_codex_ops.sh\
+.zsh_history: ./launch_codex_ops.sh\
+.zsh_history: ⃼ Sovereign Stack Fully Deployed   Logs saved to codex_logs/launch_20250604_031108.log\
+.zsh_history: bfh@BFHs-MacBook-Pro:localhost % nano launch_codex_ops.sh\
+.zsh_history: LOGFILE="codex_logs/launch_$(date +%Y%m%d_%H%M%S).log"\
+.zsh_history: mkdir -p codex_logs\
+.zsh_history: nohup python3 app.py >> ../codex_logs/flask.log 2>&1 &\
+.zsh_history: nohup python3 -m http.server 8000 >> codex_logs/frontend.log 2>&1 &\
+.zsh_history: bfh@BFHs-MacBook-Pro:localhost % nano launch_codex_ops.sh\
+.zsh_history: bfh@BFHs-MacBook-Pro:localhost % chmod +x launch_codex_ops.sh\
+.zsh_history: bfh@BFHs-MacBook-Pro:localhost % ./launch_codex_ops.sh\
+.zsh_history: ⃼ gTek Sovereign Stack Launched   Logs archived in codex_logs/launch_20250604_032017.log\
+.zsh_history: bfh@BFHs-MacBook-Pro:localhost % mkdir -p gtek_codex/utils gtek_codex/templates gtek_codex/static\
+.zsh_history: touch gtek_codex/__init__.py gtek_codex/cli.py gtek_codex/flask_app.py\
+.zsh_history: touch gtek_codex/utils/test_suite.py gtek_codex/utils/codex_ops.py\
+.zsh_history: Requirement already satisfied: flask in /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages (from gtek_codex==0.1.0) (3.1.0)\
+.zsh_history: Requirement already satisfied: click in /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages (from gtek_codex==0.1.0) (8.1.8)\
+.zsh_history: Requirement already satisfied: Werkzeug>=3.1 in /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages (from flask->gtek_codex==0.1.0) (3.1.3)\
+.zsh_history: Requirement already satisfied: Jinja2>=3.1.2 in /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages (from flask->gtek_codex==0.1.0) (3.1.5)\
+.zsh_history: Requirement already satisfied: itsdangerous>=2.2 in /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages (from flask->gtek_codex==0.1.0) (2.2.0)\
+.zsh_history: Requirement already satisfied: blinker>=1.9 in /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages (from flask->gtek_codex==0.1.0) (1.9.0)\
+.zsh_history: Requirement already satisfied: MarkupSafe>=2.0 in /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages (from Jinja2>=3.1.2->flask->gtek_codex==0.1.0) (3.0.2)\
+.zsh_history: Building wheels for collected packages: gtek_codex\
+.zsh_history: Building editable for gtek_codex (pyproject.toml) ... done\
+.zsh_history: Created wheel for gtek_codex: filename=gtek_codex-0.1.0-0.editable-py3-none-any.whl size=3038 sha256=6b11fb7794a72b0301af798cb4dccf1edbfd8a19e8d3bfdbbd154b1cf2fb198c\
+.zsh_history: Successfully built gtek_codex\
+.zsh_history: Installing collected packages: gtek_codex\
+.zsh_history: Successfully installed gtek_codex-0.1.0\
+.zsh_history: echo "from flask_app import app as application" > gtek_codex/wsgi.py\
+.zsh_history: @reboot /Users/bfh/Sites/localhost/launch_codex_ops.sh\
+.zsh_history: echo " NFT Layer Initialized   Elijah McCoy badge JSON + UI injected. $(date)" >> codex_logs/nft_deploy.log\
+.zsh_history: mkdir -p codex_nft/meta codex_nft/data codex_nft/api codex_nft/logs codex_nft/tmp\
+.zsh_history: cat <<EOF > codex_nft/meta/default_nft_metadata.json\
+.zsh_history: cp gTek_gBugger_NFT_STORAGE_API_KEY.txt codex_nft/api/.nft_api_key\
+.zsh_history: cat <<EOF > codex_nft/api/nft_upload.sh\
+.zsh_history: API_KEY=\$(cat codex_nft/api/.nft_api_key)\
+.zsh_history: --data @codex_nft/meta/default_nft_metadata.json \\\
+.zsh_history: chmod +x codex_nft/api/nft_upload.sh\
+.zsh_history: (crontab -l 2>/dev/null; echo "0 * * * * /Users/bfh/Sites/localhost/codex_nft/api/nft_upload.sh >> ~/codex_nft/logs/cron_mint.log 2>&1") | crontab -\
+.zsh_history: cp ~/Downloads/gTek_gBugger_NFT_STORAGE_API_KEY.txt codex_nft/api/.nft_api_key\
+.zsh_history: # Recreate codex_nft API directory cleanly\
+.zsh_history: mkdir -p codex_nft/api\
+.zsh_history: cp gTek_gBugger_NFT_STORAGE_API_KEY.txt codex_nft/api/.nft_api_key\
+.zsh_history: touch codex_nft/api/nft_ops.py\
+.zsh_history: touch codex_nft/api/test_nft_ops.py\
+.zsh_history: echo 'NFT_STORAGE_KEY=open(".nft_api_key").read().strip()' > codex_nft/api/nft_ops.py\
+.zsh_history: echo 'print(" NFT API Key Loaded:", open("codex_nft/api/.nft_api_key").read().strip())' > codex_nft/api/test_nft_ops.py\
+.zsh_history: python3 codex_nft/api/test_nft_ops.py\
+.zsh_history: bfh@BFHs-MacBook-Pro:localhost % # Recreate codex_nft API directory cleanly\
+.zsh_history: mkdir -p codex_nft/api\
+.zsh_history: cp gTek_gBugger_NFT_STORAGE_API_KEY.txt codex_nft/api/.nft_api_key\
+.zsh_history: touch codex_nft/api/nft_ops.py\
+.zsh_history: touch codex_nft/api/test_nft_ops.py\
+.zsh_history: echo 'NFT_STORAGE_KEY=open(".nft_api_key").read().strip()' > codex_nft/api/nft_ops.py\
+.zsh_history: echo 'print("<0001f9ea> NFT API Key Loaded:", open("codex_nft/api/.nft_api_key").read().strip())' > codex_nft/api/test_nft_ops.py\
+.zsh_history: bfh@BFHs-MacBook-Pro:localhost % python3 codex_nft/api/test_nft_ops.py\
+.zsh_history: cp gTek_gBugger_NFT_STORAGE_API_KEY.txt ~/Sites/localhost/codex_nft/api/.nft_api_key\
+.zsh_history: python3 codex_nft/api/test_nft_ops.py\
+.zsh_history: mkdir -p codex_nft/cli\
+.zsh_history: nano codex_nft/cli/mint_nft.py\
+.zsh_history: chmod +x codex_nft/cli/mint_nft.py\
+.zsh_history: python3 codex_nft/cli/mint_nft.py assets/sample_image.png\
+.zsh_history: # Example: move an image to codex asset directory\
+.zsh_history: "description": "An interdimensional cipher-surfer navigating quantum binary storms. Alibamu rides the waveforms of the Codex to unlock sovereign portals.",\
+.zsh_history: "image": "ipfs://<to_be_filled>/codex_surfer.png",\
+.zsh_history: }' > codex_nft/api/alibamu_metadata.json\
+.zsh_history: nano codex_nft/api/alibamu_metadata.json\
+.zsh_history: nano codex_nft/cli/pin_metadata.sh\
+.zsh_history: chmod +x codex_nft/cli/pin_metadata.sh\
+.zsh_history: ./codex_nft/cli/pin_metadata.sh\
+.zsh_history: nano codex_nft/cli/pin_metadata.sh\
+.zsh_history: chmod +x codex_nft/cli/pin_metadata.sh\
+.zsh_history: ./codex_nft/cli/pin_metadata.sh\
+.zsh_history: nano codex_nft/cli/pin_metadata.sh\
+.zsh_history: chmod +x codex_nft/cli/pin_metadata.sh\
+.zsh_history: ./codex_nft/cli/pin_metadata.sh\
+.zsh_history: rm -f codex_nft/cli/pin_metadata.sh
+.zsh_history: cat << 'EOF' > codex_nft/cli/pin_metadata.sh\
+.zsh_history: FILE="codex_nft/api/alibamu_metadata.json"\
+.zsh_history: rm -f codex_nft/cli/pin_metadata.sh\
+.zsh_history: cat << 'EOF' > codex_nft/cli/pin_metadata.sh\
+.zsh_history: FILE="codex_nft/api/alibamu_metadata.json"\
+.zsh_history: chmod +x codex_nft/cli/pin_metadata.sh\
+.zsh_history: ./codex_nft/cli/pin_metadata.sh\
+.zsh_history: rm -f codex_nft/cli/pin_metadata.sh\
+.zsh_history: cat << 'EOF' > codex_nft/cli/pin_metadata.sh\
+.zsh_history: FILE="codex_nft/api/alibamu_metadata.json"\
+.zsh_history: chmod +x codex_nft/cli/pin_metadata.sh\
+.zsh_history: ./codex_nft/cli/pin_metadata.sh\
+.zsh_history: mkdir -p codex_nft/cli\
+.zsh_history: cat << 'EOF' > codex_nft/cli/pinata_push.sh\
+.zsh_history: IMAGE_FILE="codex_nft/assets/codex_surfer.png"\
+.zsh_history: METADATA_FILE="codex_nft/api/alibamu_metadata.json"\
+.zsh_history: mkdir -p codex_nft/cli\
+.zsh_history: nano codex_nft/cli/pin_to_pinata.sh\
+.zsh_history: ls codex_nft/api/alibamu_metadata.json\
+.zsh_history: cat <<EOF > codex_nft/api/alibamu_metadata.json\
+.zsh_history: "description": "An interdimensional cipher-surfer navigating quantum binary storms. Alibamu rides the waveforms of the Codex to unlock sovereign portals.",\
+.zsh_history: "image": "ipfs://<to_be_filled>/codex_surfer.png",\
+.zsh_history: ./codex_nft/cli/pin_to_pinata.sh\
+.zsh_history: mkdir -p codex_nft/cli\
+.zsh_history: cat <<EOF > codex_nft/cli/pin_to_pinata.sh\
+.zsh_history: FILE_PATH="codex_nft/api/alibamu_metadata.json"\
+.zsh_history: chmod +x codex_nft/cli/pin_to_pinata.sh\
+.zsh_history: ./codex_nft/cli/pin_to_pinata.sh\
+.zsh_history: git add codex_nft/\
+.zsh_history: git add launch_codex_ops.sh\
+.zsh_history: cp -R codex_nft/ backend/ css/ js/ index.html launch_codex_ops.sh ~/Sites/localhost/bfhtrustdesigns_website/\
+.zsh_history: zip -r Alibamu_WaveyWorlds_NFT_Pack.zip codex_nft/ backend/ css/ js/ index.html launch_codex_ops.sh\
+.zsh_history: /Users/bfh/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Ledger files/BFH_Admin_Keeping cabinet/FTLOY_TEMP/codex-empire/scripts/src/App.js\
+.zsh_history: nano src/components/UIChatBot.jsx\
+.zsh_history: gh repo clone gTek-Keys/Upwork_Project1_Voice-Enabled-RAG-Driven-Chatbot\
+.zsh_history: cd Upwork_Project1_Voice-Enabled-RAG-Driven-Chatbot\
+.zsh_history: git commit -m "Pushed full chatbot architecture including vault, frontend, backend, infra, and tests"\
+.zsh_history: chmod +x codex_init.sh\
+.zsh_history: ./codex_init.sh\
+.zsh_history: nano codex_init.sh\
+.zsh_history: chmod +x codex_init.sh\
+.zsh_history: ./codex_init.sh\
+.zsh_history: zip -r VoiceAI_Chatbot_v1.0.0.zip . -x "*.git*" "node_modules/*"\
+.zsh_history: ngrok config add-authtoken 2yG1sDYNk3zOy8RbwSCEtIcWkex_6fmivBBaAXmB5Cp25Xi8c
+.zsh_history: # Commit with sovereign message\
+.zsh_history: git tag sovereign-v1.0\
+.zsh_history: git push origin sovereign-v1.0\
+.zsh_history: git clone https://github.com/gTek-Keys/gTek-Dad-Tok.git\
+.zsh_history: cd gTek-Dad-Tok\
+.zsh_history: cd ~/Users/YOUR_PATH/gTek-Dad-Tok\
+.zsh_history: git remote add origin https://github.com/YOUR-USERNAME/gTek-Dad-Tok.git\
+.zsh_history: bfh@BFHs-MacBook-Pro:gTek-Dad-Tok % # 1. Verify you're in the correct project directory\
+.zsh_history: cd ~/Users/YOUR_PATH/gTek-Dad-Tok\
+.zsh_history: git remote add origin https://github.com/YOUR-USERNAME/gTek-Dad-Tok.git\
+.zsh_history: git remote add origin https://github.com/gTek-Keys/gTek-Dad-Tok.git\
+.zsh_history: git commit -m " Fresh Sovereign Init   gTek-Dad-Tok baseline commit"
+.zsh_history: cd ~/path/to/gTek-Dad-Tok\
+.zsh_history: git remote add origin https://github.com/gTek-Keys/gTek-Dad-Tok.git\
+.zsh_history: git rm --cached gTek-Dad-Tok\
+.zsh_history: # Confirm it s cleared (should no longer show "create mode 160000 gTek-Dad-Tok")\
+.zsh_history: rm -rf gTek-Dad-Tok/\
+.zsh_history: git remote add origin https://github.com/gTek-Keys/gTek-Dad-Tok.git
+.zsh_history: gh repo clone gTek-Keys/gTek-Dad-Tok
+.zsh_history: cd ~/Users/gTek\ Industries\ Main/Sovereign_Fathers_Chat_Final\
+.zsh_history: /Users/gTek Industries Main/Sovereign_Fathers_Chat_Final
+.zsh_history: git remote add origin https://github.com/gTek-Keys/Sovereign_Fathers_Chat_Final.git\
+.zsh_history: git remote set-url origin https://github.com/gTek-Keys/Sovereign_Fathers_Chat_Final.git\
+.zsh_history: nano codex_meta.json
+.zsh_history: git add .gitignore codex_meta.json\
+.zsh_history: git commit -m " Added codex_meta.json and advanced gitignore   Sovereign Registry Sync"\
+.zsh_history: codex_meta.json
+.zsh_history: AUDIT_DIR = "/Users/gTek Industries Main/Sovereign Father Chat Audit"\
+.zsh_history: cd ~/gTek\ Industries\ Main/Sovereign\ Fathers\ Chat\ Final
+.zsh_history: cd "/Users/gTek Industries Main/Sovereign Fathers Chat Final"
+.zsh_history: mv "Sovereign Father gTok Dad Chat Terminal File.txt" ./zips/\
+.zsh_history: open /Users/gTek\ Industries\ Main/Sovereign\ Father\ Chat\ Audit
+.zsh_history: mv "Sovereign Father gTok Dad Chat Terminal File.txt" ./zips/
+.zsh_history: mv ~/gTek\ Industries\ Main/Sovereign\ Father\ gTok\ Dad\ Chat\ Terminal\ File.txt ./zips/
+.zsh_history: mv "/Users/gTek Industries Main/Sovereign Father gTok Dad Chat Terminal File.txt" ./zips/
+.zsh_history: mv gtek_audit_suite.zip "/Users/gTek Industries Main/Sovereign_Fathers_Chat_Final/Sovereign_Audit_Organized/"
+.zsh_history: mv gtek_audit_suite.zip "/Users/gTek Industries Main/Sovereign_Fathers_Chat_Final/Sovereign_Audit_Organized/"
+.zsh_history: cp gChatter_CustomGPT_Config.py gtek_audit_suite_advanced/src/
+.zsh_history: find ~/ -type f \( -name "gbugger_multiscript.py" -o -name "app.py" -o -name "gbugger_dashboard.ipynb" -o -name "Untitled.ipynb" -o -name "gChatter_CustomGPT_Config.py" \) 2>/dev/null
+.zsh_history: cp "/Users/bfh/gTek Industries Main/GovernorGavinNewsome/gChatter_CustomGPT_Config.py" ./gtek_audit_suite_advanced/src/
+.zsh_history: "name": "Sovereign Fathers Chat Protocol",\
+.zsh_history: "signed_by": "Commander Tok",\
+.zsh_history: }' > ./gtek_audit_suite_advanced/sovereign_metadata.json
+.zsh_history: This project and all its sovereign assets are protected under the estate of Jerome Elston Hill Jr.
+.zsh_history: ls "/Users/gTek Industries Main/Sovereign_Fathers_Chat_Final/gtek_audit_suite_advanced_v2_3_estate/src/"
+.zsh_history: mv /Users/gTek\ Industries\ Main/Downloads/1ABEDAD8-5256-4185-B163-559C1F849FA9.png "/Users/gTek Industries Main/Sovereign_Fathers_Chat_Final/gtek_audit_suite_advanced_v2_3_estate/src/"
+.zsh_history: cp ~/Downloads/hunter_api_lookup.py ~/Sovereign_Fathers_Chat_Final/gtek_audit_suite_advanced_v2_3_estate/src/
+.zsh_history: *.token
+.zsh_history: gh repo clone gTek-Keys/Sovereign_Fathers_Chat_Final
+.zsh_history: git remote add origin https://github.com/gTek-Keys/codex_al_tunji-1.git\
+.zsh_history: git clone https://github.com/gTek-Keys/codex_al_tunji-1.git\
+.zsh_history: cd codex_al_tunji-1\
+.zsh_history: # Step 2: Copy the codex bundle into the repo\
+.zsh_history: cp -r /path/to/codex_assets_bundle/* .\
+.zsh_history: cd ~/path/to/your/cloned/codex_al_tunji-1\
+.zsh_history: git commit -m " CodexOps McCoy Sweep   All sovereign assets synced, mission-critical files integrated."\
+.zsh_history: git clone git@github.com:gTek-Keys/codex_al_tunji-1.git\
+.zsh_history: cd codex_al_tunji-1\
+.zsh_history: https://github.com/gTek-Keys/codex_al_tunji-1.git
+.zsh_history: gh repo clone gTek-Keys/codex_al_tunji-1
+.zsh_history: python3 sovereign_backend_processor.py
+.zsh_history: mkdir -p "/Users/gTek Industries Main/Sovereign_Fathers_Chat_Final"
+.zsh_history: mkdir -p ~/Sovereign_Fathers_Chat_Final/logs
+.zsh_history: mkdir -p ~/Sovereign_Fathers_Chat_Final/contracts\
+.zsh_history: nano ~/Sovereign_Fathers_Chat_Final/contracts/SovereignCodex.sol
+.zsh_history: nano ~/Sovereign_Fathers_Chat_Final/contracts/Makefile
+.zsh_history: cd ~/Sovereign_Fathers_Chat_Final\
+.zsh_history: git commit -m " Sovereign Sync Push: Auto-package and codex alignment"\
+.zsh_history: mkdir -p ~/Sovereign_Fathers_Chat_Final/contracts\
+.zsh_history: cd ~/Sovereign_Fathers_Chat_Final || exit\
+.zsh_history: import "@openzeppelin/contracts/token/ERC721/extensions/ERC721URIStorage.sol";\
+.zsh_history: uint256 public tokenCounter;\
+.zsh_history: tokenCounter = 0;\
+.zsh_history: function mintNFT(address recipient, string memory tokenURI)\
+.zsh_history: uint256 newItemId = tokenCounter;\
+.zsh_history: _setTokenURI(newItemId, tokenURI);\
+.zsh_history: tokenCounter += 1;\
+.zsh_history: echo 'print(" Sovereign Codex Ops: Active")' > sovereign_codex_ops.py\
+.zsh_history: nano ~/Sovereign_Fathers_Chat_Final/sovereign_codex_sync.sh\
+.zsh_history: chmod +x ~/Sovereign_Fathers_Chat_Final/sovereign_codex_sync.sh\
+.zsh_history: bash ~/Sovereign_Fathers_Chat_Final/sovereign_codex_sync.sh
+.zsh_history: Hyperdimensional codex flow automation system designed to build, deploy, and evolve smart projects from quantum intent.\
+.zsh_history: print(" Generating contract, metadata, and codex structure...")\
+.zsh_history: import "@openzeppelin/contracts/token/ERC721/extensions/ERC721URIStorage.sol";\
+.zsh_history: uint256 public tokenCounter;\
+.zsh_history: tokenCounter = 0;\
+.zsh_history: function mintNFT(address recipient, string memory tokenURI) public onlyOwner returns (uint256) {\
+.zsh_history: uint256 newItemId = tokenCounter;\
+.zsh_history: _setTokenURI(newItemId, tokenURI);\
+.zsh_history: tokenCounter += 1;\
+.zsh_history: This codex project automates the birth of sovereign contract frameworks at hyperdimensional scale and speed.\
+.zsh_history: import "@openzeppelin/contracts/token/ERC721/extensions/ERC721URIStorage.sol";\
+.zsh_history: uint256 public tokenCounter;\
+.zsh_history: tokenCounter = 0;\
+.zsh_history: function mintNFT(address recipient, string memory tokenURI) public onlyOwner returns (uint256) {\
+.zsh_history: uint256 newItemId = tokenCounter;\
+.zsh_history: _setTokenURI(newItemId, tokenURI);\
+.zsh_history: tokenCounter += 1;\
+.zsh_history: ls ~/Sovereign_Fathers_Chat_Final/setup_hyper.sh
+.zsh_history: nano ~/Sovereign_Fathers_Chat_Final/setup_hyper.sh
+.zsh_history: Codex automation system engineered for hyperdimensional project deployment and sovereignty-aligned contract flows.\
+.zsh_history: import "@openzeppelin/contracts/token/ERC721/extensions/ERC721URIStorage.sol";\
+.zsh_history: uint256 public tokenCounter;\
+.zsh_history: tokenCounter = 0;\
+.zsh_history: function mintNFT(address recipient, string memory tokenURI) public onlyOwner returns (uint256) {\
+.zsh_history: uint256 newItemId = tokenCounter;\
+.zsh_history: _setTokenURI(newItemId, tokenURI);\
+.zsh_history: tokenCounter += 1;\
+.zsh_history: nano ~/Sovereign_Fathers_Chat_Final/sovereign_codex_ops.py
+.zsh_history: nano ~/Sovereign_Fathers_Chat_Final/gTek_auto_sync_push.py
+.zsh_history: chmod +x ~/Sovereign_Fathers_Chat_Final/gTek_auto_sync_push.py\
+.zsh_history: python3 ~/Sovereign_Fathers_Chat_Final/gTek_auto_sync_push.py
+.zsh_history: chmod +x ~/Sovereign_Fathers_Chat_Final/gTek_auto_sync_push.py\
+.zsh_history: python3 ~/Sovereign_Fathers_Chat_Final/gTek_auto_sync_push.py
+.zsh_history: mkdir -p ~/Sovereign_Fathers_Chat_Final/contracts\
+.zsh_history: cat > ~/Sovereign_Fathers_Chat_Final/contracts/SovereignCodex.sol <<EOF\
+.zsh_history: import "@openzeppelin/contracts/token/ERC721/extensions/ERC721URIStorage.sol";\
+.zsh_history: uint256 public tokenCounter;\
+.zsh_history: tokenCounter = 0;\
+.zsh_history: function mintNFT(address recipient, string memory tokenURI)\
+.zsh_history: uint256 newItemId = tokenCounter;\
+.zsh_history: _setTokenURI(newItemId, tokenURI);\
+.zsh_history: tokenCounter += 1;\
+.zsh_history: cat > ~/Sovereign_Fathers_Chat_Final/contracts/Makefile <<EOF\
+.zsh_history: cat > ~/Sovereign_Fathers_Chat_Final/sovereign_codex_ops.py <<EOF\
+.zsh_history: cd ~/Sovereign_Fathers_Chat_Final\
+.zsh_history: WORKDIR="$HOME/Sovereign_Fathers_Chat_Final"\
+.zsh_history: import "@openzeppelin/contracts/token/ERC721/extensions/ERC721URIStorage.sol";\
+.zsh_history: uint256 public tokenCounter;\
+.zsh_history: tokenCounter = 0;\
+.zsh_history: function mintNFT(address recipient, string memory tokenURI)\
+.zsh_history: uint256 newItemId = tokenCounter;\
+.zsh_history: _setTokenURI(newItemId, tokenURI);\
+.zsh_history: tokenCounter += 1;\
+.zsh_history: cat > "$WORKDIR/sovereign_codex_ops.py" <<EOF\
+.zsh_history: chmod +x ~/Sovereign_Fathers_Chat_Final/setup_hyper.sh
+.zsh_history: bash ~/Sovereign_Fathers_Chat_Final/setup_hyper.sh SovereignCodexAlpha
+.zsh_history: Auto-architect quantum code frameworks at sovereign speed.\
+.zsh_history: import "@openzeppelin/contracts/token/ERC721/extensions/ERC721URIStorage.sol";\
+.zsh_history: uint256 public tokenCounter;\
+.zsh_history: tokenCounter = 0;\
+.zsh_history: function mintNFT(address recipient, string memory tokenURI) public onlyOwner returns (uint256) {\
+.zsh_history: uint256 newItemId = tokenCounter;\
+.zsh_history: _setTokenURI(newItemId, tokenURI);\
+.zsh_history: tokenCounter += 1;\
+.zsh_history: #  gTek ChatSync Sovereign Builder\
+.zsh_history: # Purpose: Offline-Only GPT-Style Sovereign Chat Creator with UI\
+.zsh_history: echo "Usage: bash prepare_chatsync.sh [Project_Name]"\
+.zsh_history: BASE_DIR=~/Sovereign_Fathers_Chat_Final\
+.zsh_history: echo " Initializing Sovereign ChatSync UI Builder: $PROJECT_NAME"\
+.zsh_history: Offline AI Chat UI for sovereign meta-hueman ops.\
+.zsh_history: - Chat Sync UI\
+.zsh_history: - Local GPT Logic\
+.zsh_history: <head><title>Sovereign Chat</title></head>\
+.zsh_history: <h2> Welcome to Sovereign Chat Interface</h2>\
+.zsh_history: ALIAS="alias gchatui='python3 $PROJECT_DIR/ui/app.py'"\
+.zsh_history: git commit -m " Sovereign ChatSync UI Init"\
+.zsh_history: echo "⃼ Sovereign ChatSync UI created. Launch with: gchatui"
+.zsh_history: cd ~/Sovereign_Fathers_Chat_Final/SovereignCodexAlpha\
+.zsh_history: # Author: Tok | System: Sovereign Codex Ops\
+.zsh_history: nano ~/Sovereign_Fathers_Chat_Final/gTek_digestive_sweep.py\
+.zsh_history: chmod +x ~/Sovereign_Fathers_Chat_Final/gTek_digestive_sweep.py\
+.zsh_history: python3 ~/Sovereign_Fathers_Chat_Final/gTek_digestive_sweep.py
+.zsh_history: nano ~/Sovereign_Fathers_Chat_Final/gTek_full_disk_audit.py
+.zsh_history: python3 ~/Sovereign_Fathers_Chat_Final/gTek_full_disk_audit.py
+.zsh_history: nano ~/Sovereign_Fathers_Chat_Final/gTek_sweep_full.py
+.zsh_history: nano ~/Sovereign_Fathers_Chat_Final/gTek_sweep_full.py
+.zsh_history: chmod +x ~/Sovereign_Fathers_Chat_Final/gTek_sweep_full.py\
+.zsh_history: python3 ~/Sovereign_Fathers_Chat_Final/gTek_sweep_full.py
+.zsh_history: mkdir -p ~/Sovereign_Fathers_Chat_Final/layout\
+.zsh_history: touch ~/Sovereign_Fathers_Chat_Final/layout/magazine_layout.sla
+.zsh_history: ls ~/Sovereign_Fathers_Chat_Final/layout
+.zsh_history: mkdir -p ~/Sovereign_Fathers_Chat_Final/motion_assets\
+.zsh_history: touch ~/Sovereign_Fathers_Chat_Final/motion_assets/from_combat_to_concrete.blend
+.zsh_history: code --install-extension DanielSanMedium.dscodegpt
+.zsh_history: touch gtek_codex_agent.py
+.zsh_history: nano install_sov_codex.sh
+.zsh_history: chmod +x install_sov_codex.sh
+.zsh_history: git commit -m " Sovereign Codex v2.3.1: README, LICENSE, and chat agent upgrades"\
+.zsh_history: mkdir -p Sovereign_Offline_Chat/templates\
+.zsh_history: mkdir -p Sovereign_Offline_Chat/static\
+.zsh_history: cd Sovereign_Offline_Chat\
+.zsh_history: mkdir -p Sovereign_Offline_Chat/{templates,static} && \\
+.zsh_history: touch Sovereign_Offline_Chat/app.py && \\
+.zsh_history: touch Sovereign_Offline_Chat/templates/index.html && \\
+.zsh_history: touch Sovereign_Offline_Chat/static/style.css
+.zsh_history: nano create_codex_scaffold.sh
+.zsh_history: chmod +x create_codex_scaffold.sh\
+.zsh_history: ./create_codex_scaffold.sh
+.zsh_history: cd Sovereign_Offline_Chat\
+.zsh_history: mkdir -p codex/memory codex/encryption\
+.zsh_history: touch codex/memory/chat_log.txt
+.zsh_history: nano gtek_codex_agent.py
+.zsh_history: python3 gtek_codex_agent.py
+.zsh_history: # Author: Tok | Ops: Sovereign Codex\
+.zsh_history: "description": "NFT Magazine asserting veteran housing sovereignty via Codex Law",\
+.zsh_history: "tags": ["veteran", "sovereignty", "housing", "nft", "codex"],\
+.zsh_history: git config --global user.name "Commander Tok"\
+.zsh_history: git log -p | grep -i "key\|secret\|private\|token"
+.zsh_history: \"description\": \"NFT Drop documenting sovereign legal struggle and VA housing inequity through the case of Jerome Hill.\",\
+.zsh_history: { \"trait_type\": \"Artist\", \"value\": \"Commander Tok\" },\
+.zsh_history: \"description\": \"NFT Drop documenting sovereign legal struggle and VA housing inequity through the case of Jerome Hill.\",\
+.zsh_history: { \"trait_type\": \"Artist\", \"value\": \"Commander Tok\" },\
+.zsh_history: cd "/Users/gTek Industries Main/Chat_Builder_Business"\
+.zsh_history: git commit -m " Initial Sovereign CodexGPT Commit - License, Metadata, Contracts"\
+.zsh_history: git remote add origin https://github.com/YOUR_USERNAME/CodexGPT-Sovereign-Forge.git\
+.zsh_history: cd "/Users/gTek Industries Main/Chat_Builder_Business"\
+.zsh_history: git commit -m " Initial Sovereign CodexGPT Commit - License, Metadata, Contracts"\
+.zsh_history: git remote add origin https://github.com/gTek-Keys/Chat_Builder_Business/tree/main
+.zsh_history: nano generate_codex_docs.py
+.zsh_history: chmod +x generate_codex_docs.py
+.zsh_history: ./generate_codex_docs.py
+.zsh_history: python3 generate_codex_docs.py
+.zsh_history: cd "/Users/gTek Industries Main/Chat_Builder_Business"\
+.zsh_history: cd "/Users/gTek Industries Main/Chat_Builder_Business"\
+.zsh_history: echo "alias gtok='python3 ~/gTek_Industries_Main/source_code/scripts/gtek_multiscript_master.py'" >> ~/.zshrc
+.zsh_history: python codexgpt_cli.py analyze ./contracts/civic_trust.sol --explain --generate_code\
+.zsh_history: @hourly bash /path/to/sovereign_admin_tool/gtek_tasks/cron_job.sh
+.zsh_history: alias gtok='python3 /path/to/scripts/gtek_multiscript_master.py'
+.zsh_history: #    Project name: sovereign-chat\
+.zsh_history: cd sovereign-chat\
+.zsh_history: #    ⃼ Project name: sovereign-chat\
+.zsh_history: cd sovereign-chat\
+.zsh_history: npm create vite@latest sovereign-chat --template react\
+.zsh_history: cd sovereign-chat\
+.zsh_history: cd sovereign-chat\
+.zsh_history: cd sovereign-chat\
+.zsh_history: nano src/Chat.tsx
+.zsh_history: echo " Sovereign Chat Beacon v2.0   Tailwind + Flask Setup"\
+.zsh_history: echo " Sovereign Chat Beacon v2.0   Tailwind + Flask Setup"\
+.zsh_history: echo " Sovereign Chat Beacon v2.0   Tailwind + Flask Setup"\
+.zsh_history: cd /Users/gTek\ Industries\ Main/Sovereign_Fathers_Chat_Final\
+.zsh_history: cd "/Users/gTek Industries Main/Sovereign_Fathers_Chat_Final"\
+.zsh_history: git remote add origin https://github.com/gTek-Keys/Sovereign_Fathers_Chat_Final.git\
+.zsh_history: git commit -m "Final setup for Sovereign Fathers Chat with Hunter Recon + Crontab Automation"\
+.zsh_history: (crontab -l ; echo "*/15 * * * * node /Users/gTek\ Industries\ Main/Sovereign_Fathers_Chat_Final/hunter_sweep.js >> /Users/bfh/logs/hunter_cron.log 2>&1") | crontab -
+.zsh_history: (crontab -l ; echo "*/15 * * * * node /Users/gTek\ Industries\ Main/Sovereign_Fathers_Chat_Final/hunter_sweep.js >> /Users/bfh/logs/hunter_cron.log 2>&1") | crontab -
+.zsh_history: chmod -R 755 /Users/gTek\ Industries\ Main/Sovereign_Fathers_Chat_Final\
+.zsh_history: touch /Users/gTek\ Industries\ Main/Sovereign_Fathers_Chat_Final/.env\
+.zsh_history: echo " Launching Sovereign Fathers Chat"\
+.zsh_history: git commit -m " Sovereign Fathers Chat Launch Protocol Complete"\
+.zsh_history: echo " Launching Sovereign Fathers Chat"\
+.zsh_history: git commit -m " Sovereign Fathers Chat full system locked and launched"\
+.zsh_history: ls -R "/Users/gTek Industries Main/Sovereign_Fathers_Chat_Final" > repo_tree.txt && cat repo_tree.txt
+.zsh_history: # Commit with sovereign message\
+.zsh_history: python3 tok_push.py "Codex-integrated push confirmed with Python 3.11.8"\
+.zsh_history: git add codex_reparations_research_report.md\
+.zsh_history: python tok_terminal.py ask "Let s build a Codex ritual for patent tracking."\
+.zsh_history: python tok_terminal.py ask "Let's generate a Notion codex loop."\
+.zsh_history: python3 tok_terminal.py ask "Let's generate a Notion codex loop."\
+.zsh_history: nano tok_terminal.py\
+.zsh_history: python3 tok_terminal.py ask Let's generate a Notion codex loop.\
+.zsh_history: nano tok_push.py\
+.zsh_history: python3 tok_push.py "Update Notion sync ritual logic"\
+.zsh_history: nano tok_push.py\
+.zsh_history: python3 tok_push.py "First full sovereign commit with Tok ritual sync"\
+.zsh_history: [200~nano tok_push.py~
+.zsh_history: nano tok_push.py
+.zsh_history: python3 tok_push.py "Final test: Codex summary push with GPT-4"\
+.zsh_history: curl https://public-api.solscan.io/account/EEhuYsTGdiDMjjez3KiBaC9w3XRZqrxMohkaEpH9UUUy -H "token: YOUR_SOLSCAN_API_KEY"\
+.zsh_history: python3 gtek_codex_drive_sweep.py\
+.zsh_history: mv ~/Downloads/gtek_codex_drive_sweep.py /Users/\
+.zsh_history: python3 gtek_codex_drive_sweep.py\
+.zsh_history: sudo mv ~/Downloads/gtek_codex_drive_sweep.py /Users/\
+.zsh_history: sudo python3 gtek_codex_drive_sweep.py\
+.zsh_history: mv ~/Downloads/gtek_global_codex_audit.py "/Users/gTek Industries Main/"\
+.zsh_history: chmod +x "/Users/gTek Industries Main/gtek_global_codex_audit.py"\
+.zsh_history: python3 "/Users/gTek Industries Main/gtek_global_codex_audit.py"\
+.zsh_history: mv gtek_global_codex_audit.py /Users/\
+.zsh_history: python3 gtek_global_codex_audit.py\
+.zsh_history: python3 gtek_global_codex_audit.py\
+.zsh_history: ls | grep gtek_global_codex_audit\
+.zsh_history: sudo mv ~/Downloads/gtek_global_codex_audit.py /Users/\
+.zsh_history: python3 gtek_global_codex_audit.py\
+.zsh_history: find /Users -name gtek_global_codex_audit.py 2>/dev/null\
+.zsh_history: mv ~/Downloads/gtek_global_codex_audit.py /Users/\
+.zsh_history: python3 gtek_global_codex_audit.py\
+.zsh_history: sudo mv ~/Downloads/gtek_global_codex_audit.py /Users/\
+.zsh_history: sudo python3 gtek_global_codex_audit.py\
+.zsh_history: "Description": "Division Tactical Region Interface   Unreal Engine Project by Commander Tok",\
+.zsh_history: python3 gtek_master_codex_audit.py\
+.zsh_history: python3 gtek_activate_all_codex.py\
+.zsh_history: python3 codex_linker.py\
+.zsh_history: mv ~/Downloads/codex_linker.py "/Users/gTek Industries Main/Tom_Clancy-s_Expansion/"\
+.zsh_history: python3 gtek_codex_organizer.py\
+.zsh_history: mv ~/Downloads/gtek_codex_drive_sweep.py ~/Downloads/\
+.zsh_history: chmod +x ~/Downloads/gtek_codex_drive_sweep.py\
+.zsh_history: bash /mnt/data/create_with_nano.sh codex_mission.log
+.zsh_history: --token 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 \\
+.zsh_history: --token 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 \\
+.zsh_history: python3 gtek_codex_digest_multiscript.py
+.zsh_history: bash ~/Downloads/sovereign_cleanup_and_organizer.sh
+.zsh_history: nano codex_mission.log
+.zsh_history: bash nano_advanced_codex_utility.sh
+.zsh_history: mv ~/Downloads/nano_advanced_codex_utility.sh ~/The_Block_Auditer_Gamification_Software-gTek_Induftries_Global_Design/

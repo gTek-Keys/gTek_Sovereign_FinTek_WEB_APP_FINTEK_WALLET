@@ -1,0 +1,70 @@
+# === gTek Sovereign Git Ignore Protocol v2.3 ===
+
+# 🛡️ Secrets & Keys
+.env
+secure.key
+*.pem
+*.key
+*.crt
+
+# 🔐 Encrypted / Vault Files
+*.enc
+*.vault
+enc_pass.txt
+vault.json
+master_audit.log
+
+# 📦 Dependency & Build Artifacts
+node_modules/
+bower_components/
+__pycache__/
+*.egg-info/
+dist/
+build/
+coverage/
+.cache/
+.parcel-cache/
+
+# 🧠 Logs, Temp & System Output
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# 💻 IDE, Editor & OS Metadata
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+ehthumbs.db
+*.sublime-project
+*.sublime-workspace
+
+# 🔁 Archives & Deployment Packages
+*.zip
+*.tar.gz
+*.7z
+*.rar
+
+# 🚫 System State & Session
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# 📄 gTek Project-Specific
+gTek_Dad_Tok_Audit/
+gTek_MasterKeyAudit.py
+gTek_SecureEnv_Setup.py
+LICENSE.md
+codex_meta.json
+sovereign_trace.log
+
+# 🚀 NFT / Web3 Deploys
+deploy_keys/
+mint_config/
+eth_wallet_backup.json
+.env.local
+.env.production
+.env.development

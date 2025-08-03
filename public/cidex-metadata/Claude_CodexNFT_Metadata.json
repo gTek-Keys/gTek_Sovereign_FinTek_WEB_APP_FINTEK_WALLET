@@ -1,0 +1,28 @@
+{
+    "name": "Codex Drop \u2013 Claude",
+    "description": "Ritual licensing validator for GPT personas. Claude generates IP logic and schema output.",
+    "image": "ipfs://CID/ritual_card_claude.png",
+    "external_url": "https://gtekglobal.design/codex/claude",
+    "attributes": [
+        {
+            "trait_type": "Persona",
+            "value": "Claude"
+        },
+        {
+            "trait_type": "Function",
+            "value": "IP Logic + Licensing"
+        },
+        {
+            "trait_type": "CodexPhase",
+            "value": "14.2"
+        },
+        {
+            "trait_type": "License",
+            "value": "gTek Sovereign Codex v3.0"
+        },
+        {
+            "trait_type": "Chain",
+            "value": "Ethereum"
+        }
+    ]
+}

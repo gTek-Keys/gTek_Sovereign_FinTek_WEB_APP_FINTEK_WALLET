@@ -1,0 +1,13 @@
+{
+  "verification_type": "DAO Capsule Vault Proof",
+  "project": "gTek DAO RWA Automation",
+  "data_tx_id": "zJ_sGTv4lGDxoOpoIgTTMtJFbXS22L09Cq2B9xZqpk8",
+  "timestamp": "2025-07-31T12:03:39.182191",
+  "vault_reference": "gTek LEX VAULT",
+  "capsule_reference": "Digestive Capsule NFT",
+  "linked_nft": "GTCOLLAT",
+  "linked_token": "$COLLAT - GyKKrkrrQh8gD9kXEpWw5cdELxYNUJ9EBH4HKtgDpump",
+  "created_by": "MetaHueman TrustChain",
+  "justification": "Immutable audit capsule for DAO governance, sub-mint automation, and multisig vault logic anchored to ArDrive TX.",
+  "verification_signature": "TrustChain::gTek::2025::CAPSULE::VALID"
+}

@@ -1,0 +1,51 @@
+{
+  "name": "TrustChain Verification: gTek DAO Capsule",
+  "symbol": "TCVERI",
+  "description": "Proof of DAO capsule linkage, sub-mint logic, multisig vault automation, and Arweave TX anchor for gTek DAO.",
+  "image": "https://ipfs.io/ipfs/QmSjmKW7is3qdpbev4TUyiquJWXahKekyzrSGq4fsxWdoi",
+  "attributes": [
+    {
+      "trait_type": "Capsule",
+      "value": "Digestive"
+    },
+    {
+      "trait_type": "DAO Vault",
+      "value": "gTek LEX VAULT"
+    },
+    {
+      "trait_type": "Linked Token",
+      "value": "$COLLAT"
+    },
+    {
+      "trait_type": "Verification TX",
+      "value": "zJ_sGTv4lGDxoOpoIgTTMtJFbXS22L09Cq2B9xZqpk8"
+    },
+    {
+      "trait_type": "Verification Type",
+      "value": "TrustChain Capsule Proof"
+    },
+    {
+      "trait_type": "Timestamp",
+      "value": "2025-07-31T12:05:18.809959"
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "https://ipfs.io/ipfs/QmSjmKW7is3qdpbev4TUyiquJWXahKekyzrSGq4fsxWdoi",
+        "type": "image/png"
+      },
+      {
+        "uri": "https://arweave.net/zJ_sGTv4lGDxoOpoIgTTMtJFbXS22L09Cq2B9xZqpk8",
+        "type": "application/json"
+      }
+    ],
+    "category": "trustchain-verification",
+    "creators": [
+      {
+        "address": "iDWdDLgiVJMEtipLM8theNkrPTt7Tdd7diioAvdkGyT",
+        "share": 100
+      }
+    ]
+  }
+}

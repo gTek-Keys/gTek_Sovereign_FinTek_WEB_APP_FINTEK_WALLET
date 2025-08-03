@@ -1,0 +1,6 @@
+./The_Block_Auditer_Gamification_Software/README.md
+./DESIGN_ADVANCEMENT_PROPOSAL.md
+./The_Block_Auditer_Gamification_Software 2/README.md
+./REPOSITORY_AUDIT_REPORT.md
+./transfer_chat_trigger.sh
+./CLAUDE.md

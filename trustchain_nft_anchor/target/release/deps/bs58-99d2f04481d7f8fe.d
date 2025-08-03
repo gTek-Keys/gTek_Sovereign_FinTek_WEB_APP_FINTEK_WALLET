@@ -1,0 +1,10 @@
+/Users/bfh/Library/CloudStorage/GoogleDrive-collabnonfaablab@gtekglobal.design/My Drive/iTek-Lux-TrustChain-Sovereign-Blockchain/trustchain_nft_anchor/target/release/deps/bs58-99d2f04481d7f8fe.d: /Users/bfh/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bs58-0.4.0/src/lib.rs /Users/bfh/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bs58-0.4.0/src/alphabet.rs /Users/bfh/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bs58-0.4.0/src/decode.rs /Users/bfh/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bs58-0.4.0/src/encode.rs
+
+/Users/bfh/Library/CloudStorage/GoogleDrive-collabnonfaablab@gtekglobal.design/My Drive/iTek-Lux-TrustChain-Sovereign-Blockchain/trustchain_nft_anchor/target/release/deps/libbs58-99d2f04481d7f8fe.rlib: /Users/bfh/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bs58-0.4.0/src/lib.rs /Users/bfh/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bs58-0.4.0/src/alphabet.rs /Users/bfh/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bs58-0.4.0/src/decode.rs /Users/bfh/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bs58-0.4.0/src/encode.rs
+
+/Users/bfh/Library/CloudStorage/GoogleDrive-collabnonfaablab@gtekglobal.design/My Drive/iTek-Lux-TrustChain-Sovereign-Blockchain/trustchain_nft_anchor/target/release/deps/libbs58-99d2f04481d7f8fe.rmeta: /Users/bfh/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bs58-0.4.0/src/lib.rs /Users/bfh/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bs58-0.4.0/src/alphabet.rs /Users/bfh/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bs58-0.4.0/src/decode.rs /Users/bfh/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bs58-0.4.0/src/encode.rs
+
+/Users/bfh/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bs58-0.4.0/src/lib.rs:
+/Users/bfh/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bs58-0.4.0/src/alphabet.rs:
+/Users/bfh/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bs58-0.4.0/src/decode.rs:
+/Users/bfh/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bs58-0.4.0/src/encode.rs:

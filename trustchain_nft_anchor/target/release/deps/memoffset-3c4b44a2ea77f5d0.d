@@ -1,0 +1,10 @@
+/Users/bfh/Library/CloudStorage/GoogleDrive-collabnonfaablab@gtekglobal.design/My Drive/iTek-Lux-TrustChain-Sovereign-Blockchain/trustchain_nft_anchor/target/release/deps/memoffset-3c4b44a2ea77f5d0.d: /Users/bfh/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/memoffset-0.7.1/src/lib.rs /Users/bfh/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/memoffset-0.7.1/src/raw_field.rs /Users/bfh/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/memoffset-0.7.1/src/offset_of.rs /Users/bfh/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/memoffset-0.7.1/src/span_of.rs
+
+/Users/bfh/Library/CloudStorage/GoogleDrive-collabnonfaablab@gtekglobal.design/My Drive/iTek-Lux-TrustChain-Sovereign-Blockchain/trustchain_nft_anchor/target/release/deps/libmemoffset-3c4b44a2ea77f5d0.rlib: /Users/bfh/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/memoffset-0.7.1/src/lib.rs /Users/bfh/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/memoffset-0.7.1/src/raw_field.rs /Users/bfh/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/memoffset-0.7.1/src/offset_of.rs /Users/bfh/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/memoffset-0.7.1/src/span_of.rs
+
+/Users/bfh/Library/CloudStorage/GoogleDrive-collabnonfaablab@gtekglobal.design/My Drive/iTek-Lux-TrustChain-Sovereign-Blockchain/trustchain_nft_anchor/target/release/deps/libmemoffset-3c4b44a2ea77f5d0.rmeta: /Users/bfh/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/memoffset-0.7.1/src/lib.rs /Users/bfh/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/memoffset-0.7.1/src/raw_field.rs /Users/bfh/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/memoffset-0.7.1/src/offset_of.rs /Users/bfh/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/memoffset-0.7.1/src/span_of.rs
+
+/Users/bfh/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/memoffset-0.7.1/src/lib.rs:
+/Users/bfh/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/memoffset-0.7.1/src/raw_field.rs:
+/Users/bfh/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/memoffset-0.7.1/src/offset_of.rs:
+/Users/bfh/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/memoffset-0.7.1/src/span_of.rs:

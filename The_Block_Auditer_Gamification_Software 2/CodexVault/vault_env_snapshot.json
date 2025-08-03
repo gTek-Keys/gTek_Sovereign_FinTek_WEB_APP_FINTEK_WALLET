@@ -1,0 +1,27 @@
+{
+    "helius_api_key": "API_6759c1e2-798a-44b6-b30a-cbd52e8e6246",
+    "keys": {
+        "minting": [],
+        "licensing": [],
+        "wallets": []
+    },
+    "last_updated": "2025-07-01 05:29:39.983341",
+    "license_policy": {
+        "name": "gTek Sovereign OmniLicense v2.2.2.2",
+        "author": "Commander Tok / gTek Industries",
+        "codex_registry_id": "51509329",
+        "orcid": "0009-0001-7636-2345",
+        "terms": {
+            "derivatives": "Must preserve license and Codex attribution",
+            "commercial_use": "Requires explicit licensing via digital contract or NFT ownership",
+            "penalty": "Double Equity Toll + Codex Surveillance Activation",
+            "enforcement_contact": "BFHTrustDesigns@homemade-productions.com",
+            "accepted_currencies": [
+                "ETH",
+                "Brave Wallet",
+                "American Express Cashflow"
+            ]
+        },
+        "last_verified": "2025-07-01 05:31:29.594578"
+    }
+}

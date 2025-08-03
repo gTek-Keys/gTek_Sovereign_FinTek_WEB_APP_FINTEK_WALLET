@@ -1,0 +1,48 @@
+{
+    "name": "Sovereign CodexVault License NFT",
+    "symbol": "GTOK",
+    "description": "Immutable license, metadata, and archive reference for CodexVault deployments.",
+    "files": [
+        {
+            "uri": "CodexVault_Final_Embedded.zip",
+            "type": "application/zip"
+        },
+        {
+            "uri": "LICENSE_Private.txt",
+            "type": "text/plain"
+        },
+        {
+            "uri": "CodexManifest.md",
+            "type": "text/markdown"
+        },
+        {
+            "uri": "README_Codex_LexVault.txt",
+            "type": "text/plain"
+        }
+    ],
+    "creators": [
+        {
+            "name": "Commander Tok",
+            "orcid": "0009-0001-7636-2345",
+            "codex_registry_id": "51509329"
+        }
+    ],
+    "attributes": [
+        {
+            "trait_type": "License Type",
+            "value": "Private Use Only"
+        },
+        {
+            "trait_type": "Chain Enforcement",
+            "value": "Double Equity Toll"
+        },
+        {
+            "trait_type": "Registry",
+            "value": "gTek Sovereign Registry"
+        },
+        {
+            "trait_type": "Mobbin",
+            "value": "Eternal"
+        }
+    ]
+}

@@ -1,0 +1,10 @@
+/Users/bfh/Library/CloudStorage/GoogleDrive-collabnonfaablab@gtekglobal.design/My Drive/iTek-Lux-TrustChain-Sovereign-Blockchain/trustchain_nft_anchor/target/release/deps/autocfg-6f3c18194064f60d.d: /Users/bfh/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/autocfg-1.5.0/src/lib.rs /Users/bfh/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/autocfg-1.5.0/src/error.rs /Users/bfh/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/autocfg-1.5.0/src/rustc.rs /Users/bfh/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/autocfg-1.5.0/src/version.rs
+
+/Users/bfh/Library/CloudStorage/GoogleDrive-collabnonfaablab@gtekglobal.design/My Drive/iTek-Lux-TrustChain-Sovereign-Blockchain/trustchain_nft_anchor/target/release/deps/libautocfg-6f3c18194064f60d.rlib: /Users/bfh/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/autocfg-1.5.0/src/lib.rs /Users/bfh/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/autocfg-1.5.0/src/error.rs /Users/bfh/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/autocfg-1.5.0/src/rustc.rs /Users/bfh/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/autocfg-1.5.0/src/version.rs
+
+/Users/bfh/Library/CloudStorage/GoogleDrive-collabnonfaablab@gtekglobal.design/My Drive/iTek-Lux-TrustChain-Sovereign-Blockchain/trustchain_nft_anchor/target/release/deps/libautocfg-6f3c18194064f60d.rmeta: /Users/bfh/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/autocfg-1.5.0/src/lib.rs /Users/bfh/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/autocfg-1.5.0/src/error.rs /Users/bfh/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/autocfg-1.5.0/src/rustc.rs /Users/bfh/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/autocfg-1.5.0/src/version.rs
+
+/Users/bfh/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/autocfg-1.5.0/src/lib.rs:
+/Users/bfh/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/autocfg-1.5.0/src/error.rs:
+/Users/bfh/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/autocfg-1.5.0/src/rustc.rs:
+/Users/bfh/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/autocfg-1.5.0/src/version.rs:

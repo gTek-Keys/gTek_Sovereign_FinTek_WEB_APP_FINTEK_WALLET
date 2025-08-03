@@ -1,0 +1,15 @@
+USPTO TEAS Plus Application Draft
+---------------------------------
+
+Mark Name: gTek Orca Signal
+Goods/Services:
+- Class 009: Computer software for live DJ performance, digital audio streaming, and signal routing
+- Class 042: Software as a service (SaaS) for digital music mixing, audio streaming integration, and DJ automation
+
+Filing Basis: Section 1(b) - Intent to Use
+Owner: Commander Tok / gTek Global
+Entity Type: Individual or LLC (TBD)
+Contact Email: gtek@gtekglobal.design
+Website: https://gtekglobal.design
+First Use Date: [To be filled at filing]
+Specimen: Software dashboard and script interface screenshots

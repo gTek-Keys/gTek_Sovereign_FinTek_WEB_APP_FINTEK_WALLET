@@ -1,0 +1,15 @@
+#!/usr/bin/env python3
+import os
+
+def remove_empty_dirs(path):
+    for root, dirs, _ in os.walk(path, topdown=False):
+        for d in dirs:
+            dirpath = os.path.join(root, d)
+            if d.lower().endswith('_unzipped') and not os.listdir(dirpath):
+                os.rmdir(dirpath)
+                print(f'Removed empty: {dirpath}')
+
+if __name__ == '__main__':
+    base = os.path.expanduser('~/SovereignStack')
+    remove_empty_dirs(base)
+    print('✅ Empty zip folders cleaned.')

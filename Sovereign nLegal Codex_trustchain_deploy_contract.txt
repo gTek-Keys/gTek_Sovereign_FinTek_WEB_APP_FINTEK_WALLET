@@ -1,0 +1,36 @@
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.20;
+
+contract TrustChainArtifactRegistry {
+    address public owner;
+    struct Artifact {
+        string name;
+        string ipfsHash;
+        string checksum;
+        uint256 timestamp;
+    }
+
+    mapping(uint256 => Artifact) public artifacts;
+    uint256 public artifactCount;
+
+    event ArtifactRegistered(uint256 indexed id, string name, string ipfsHash, string checksum);
+
+    modifier onlyOwner() {
+        require(msg.sender == owner, "Not authorized");
+        _;
+    }
+
+    constructor() {
+        owner = msg.sender;
+    }
+
+    function registerArtifact(string memory name, string memory ipfsHash, string memory checksum) public onlyOwner {
+        artifacts[artifactCount] = Artifact(name, ipfsHash, checksum, block.timestamp);
+        emit ArtifactRegistered(artifactCount, name, ipfsHash, checksum);
+        artifactCount++;
+    }
+
+    function getArtifact(uint256 id) public view returns (Artifact memory) {
+        return artifacts[id];
+    }
+}

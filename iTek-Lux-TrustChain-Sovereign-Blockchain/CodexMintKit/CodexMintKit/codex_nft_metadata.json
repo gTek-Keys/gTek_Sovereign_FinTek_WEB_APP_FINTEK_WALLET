@@ -1,0 +1,15 @@
+{
+  "name": "Sovereign Codexing – Ritual-Based IP Vault",
+  "description": "Ritual deployment CLI + symbolic vault system for invention sovereignty. Vault minted via CodexShell + CodexChat.",
+  "image": "ipfs://bafybeigw7rbgpjnucyerrrpjmewicjspijmtb6p6mi6slupc53n4a4gkl4",
+  "external_url": "https://github.com/gTek-Keys/iTek-Lux-TrustChain-Sovereign-Blockchain",
+  "chain": "polygon",
+  "wallets": [
+    "0x45693ca3b17c2525fd681e932196c8fa50662be9",
+    "0x63098c75c24D5CC68AceA933A80bA92926636Db6",
+    "0xd613dc29d0eF9589C8a4173acd6c4782424Ce349"
+  ],
+  "tags": ["codexshell", "cli", "symbolic-ip", "vault-template", "zora", "thirdweb", "manifold"],
+  "crid": "JHILL-THM-ARCH-CRID-51509329",
+  "estate": "Jerome Elston Hill Jr."
+}

@@ -1,0 +1,9 @@
+Metaplex Drop Setup Notes
+
+1. Set up Solana wallet
+2. Use Metaplex CLI to initialize Candy Machine v2
+3. Upload JSON metadata for each GPT
+4. Configure royalties, collection badge, mint limit
+5. Deploy and connect to frontend UI
+
+Reference: https://docs.metaplex.com/

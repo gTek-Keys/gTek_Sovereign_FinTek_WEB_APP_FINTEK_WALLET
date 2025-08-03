@@ -1,0 +1,28 @@
+{
+  "project": "gNaRa gNeN\u2074 Quantum Cultural Compute Stack",
+  "repo": "https://github.com/gTek-Keys/gNaRa-gNeN-",
+  "synced": true,
+  "last_push": "2025-07-13",
+  "core_files": [
+    "gNaRa_gNeN4_Whitepaper_v1.pdf",
+    "gNaRa_gNeN4_CIDEX_Metadata.json",
+    "gTek_Combined_Grant_Metadata.json",
+    "gNaRa_gNeN4_Trademark_IP_Sheet.txt",
+    "LICENSE",
+    "README.md",
+    ".gitignore"
+  ],
+  "authors": [
+    {
+      "name": "Tok Commander",
+      "orcid": "0009-0001-7636-2345"
+    },
+    {
+      "name": "TOK MHA",
+      "role": "SovereignCodex MetAsistant"
+    }
+  ],
+  "cidex_id": "GNEN-QUAD-DAO-7777",
+  "license": "gTek Sovereign Codex License v3.0",
+  "status": "Live & Codified"
+}

@@ -1,0 +1,64 @@
+=== Sovereign Chat Audit Log ===
+
+--- File: /Users/gTek Industries Main/The_Block_Auditer_Gamification_Software-gTek_Induftries_Global_Design/sovereign_chat_aggregator.py ---
+import os
+
+CHAT_KEYWORDS = ['chat', 'Chat', 'CHAT']
+TARGET_EXTENSIONS = ['.py', '.json', '.txt', '.md', '.log']
+TARGET_DIR = "/Users/gTek Industries Main/The_Block_Auditer_Gamification_Software-gTek_Induftries_Global_Design"
+OUTPUT_FILE = "sovereign_chat_audit_log.txt"
+
+chat_data = []
+
+def scan_for_chat_files(base_dir):
+    for root, dirs, files in os.walk(base_dir):
+        for file in files:
+            if any(kw in file for kw in CHAT_KEYWORDS) and os.path.splitext(file)[1] in TARGET_EXTENSIONS:
+                full_path = os.path.join(root, file)
+                try:
+                    with open(full_path, 'r', encoding='utf-8', errors='ignore') as f:
+                        content = f
+
+--- File: /Users/gTek Industries Main/The_Block_Auditer_Gamification_Software-gTek_Induftries_Global_Design/Chat_Builder_Business-main 2/gTok_Chat_Designer_Pro_Business_Plan.txt ---
+gTek gTok Chat Designer Pro Advanced™ — Strategic Business Plan v1.0
+
+MISSION:
+To design, mint, license, and deploy advanced sovereign GPTs using secure metadata, blockchain verification, and Codex task logic. Our focus is digital sovereignty, neurodiverse empowerment, and full-stack autonomous system design.
+
+BUSINESS OBJECTIVES:
+- Deliver GPTs as license-based products (with NFT identity)
+- Provide sovereign task systems and Codex services
+- Train apprentices and neurodivergent developers in GPT customization
+- Scale from zero-capital digital services to custom hardware + chip design
+
+SERVICE TIERS:
+1. Base GPT — $25: Custom GPT (no NFT/license)
+2. Ritual GPT — $75: With Codex badge + sess
+
+--- File: /Users/gTek Industries Main/The_Block_Auditer_Gamification_Software-gTek_Induftries_Global_Design/Chat_Builder_Business-main 2/CodexGPT_Docs/gTok_Chat_Designer_Pro_Business_Plan.txt ---
+gTek gTok Chat Designer Pro Advanced — Business Plan
+MISSION: Monetize GPTs via tiers, mint as NFTs, enforce via smart contract.
+PHASES: GPT Sales → Codex Nodes → OS & Chip Design.
+
+
+--- File: /Users/gTek Industries Main/The_Block_Auditer_Gamification_Software-gTek_Induftries_Global_Design/Chat_Builder_Business-main/gTok_Chat_Designer_Pro_Business_Plan.txt ---
+gTek gTok Chat Designer Pro Advanced™ — Strategic Business Plan v1.0
+
+MISSION:
+To design, mint, license, and deploy advanced sovereign GPTs using secure metadata, blockchain verification, and Codex task logic. Our focus is digital sovereignty, neurodiverse empowerment, and full-stack autonomous system design.
+
+BUSINESS OBJECTIVES:
+- Deliver GPTs as license-based products (with NFT identity)
+- Provide sovereign task systems and Codex services
+- Train apprentices and neurodivergent developers in GPT customization
+- Scale from zero-capital digital services to custom hardware + chip design
+
+SERVICE TIERS:
+1. Base GPT — $25: Custom GPT (no NFT/license)
+2. Ritual GPT — $75: With Codex badge + sess
+
+--- File: /Users/gTek Industries Main/The_Block_Auditer_Gamification_Software-gTek_Induftries_Global_Design/Chat_Builder_Business-main/CodexGPT_Docs/gTok_Chat_Designer_Pro_Business_Plan.txt ---
+gTek gTok Chat Designer Pro Advanced — Business Plan
+MISSION: Monetize GPTs via tiers, mint as NFTs, enforce via smart contract.
+PHASES: GPT Sales → Codex Nodes → OS & Chip Design.
+

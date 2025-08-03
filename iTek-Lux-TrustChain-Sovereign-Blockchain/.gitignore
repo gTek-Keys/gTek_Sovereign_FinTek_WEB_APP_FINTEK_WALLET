@@ -1,0 +1,6 @@
+# === gTek Sovereign Git Ignore Protocol v2.3 ===
+.env
+secure.key
+*.pem
+node_modules/
+__pycache__/

@@ -1,0 +1,1 @@
+MIT License - For public modules only. See CodexVault/LICENSE_Private.txt for sovereign terms.

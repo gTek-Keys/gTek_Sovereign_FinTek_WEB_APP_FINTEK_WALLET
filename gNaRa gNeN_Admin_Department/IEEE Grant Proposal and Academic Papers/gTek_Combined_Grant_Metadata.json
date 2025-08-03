@@ -1,0 +1,27 @@
+{
+  "original_project": {
+    "name": "gTekFinTek Grant Proposal Protocol",
+    "description": "NFT-encoded intellectual property and funding framework for decentralized finance, governance, and asset tokenization systems.",
+    "author": "MetaHueman TrustChain Labs",
+    "orcid": "https://orcid.org/0009-0001-7636-2345",
+    "license": "Sovereign Copyright\u2122 + DAO Registered",
+    "doi": "Pending | GTFTK-001-DAO-7225",
+    "ipfs_link": "ipfs://[TO_BE_FILLED]",
+    "document_type": "Funding Grant Protocol",
+    "timestamp": "2025-07-14T04:32:56.214579Z",
+    "wallet": "0x742d35Cc6634C0532925a3b8D9F0C3D8A123456",
+    "project_site": "https://gTekglobal.design"
+  },
+  "additional_project": {
+    "project_name": "gNaRa gNeN\u2074 Quantum Cultural Compute Stack",
+    "description": "Unified framework integrating the gNaRa gNeN\u2074 quantum-faith processor, The Block motion graphic platform, and CIDEX DAO grant governance for AfroAsiatic sovereign systems.",
+    "author": "Tok Commander, TOK MHA",
+    "orcid": "https://orcid.org/0009-0001-7636-2345",
+    "doi": "Pending | GNEN-QUAD-DAO-7777",
+    "ipfs_link": "ipfs://[TO_BE_GENERATED]",
+    "document_type": "Unified Cultural Compute + Grant Proposal",
+    "timestamp": "2025-07-14T05:14:12.695669Z",
+    "wallet": "0x742d35Cc6634C0532925a3b8D9F0C3D8A123456",
+    "project_site": "https://gTekglobal.design"
+  }
+}

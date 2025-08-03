@@ -1,0 +1,555 @@
+Log started at 04/08/2025 02:26:26 (2025-04-08T09:26:26Z)
+No config file at /usr/share/Unreal Engine/UnrealBuildTool/BuildConfiguration.xml
+No config file at /Users/bfh/Documents/Unreal Engine/UnrealBuildTool/BuildConfiguration.xml
+Configuration will be read from:
+  /Users/bfh/Library/Application Support/Unreal Engine/UnrealBuildTool/BuildConfiguration.xml
+  /Users/bfh/Library/Application Support/Unreal Engine/UnrealBuildTool/BuildConfiguration.xml
+Setting temp directory to '/var/folders/7_/zqhnfxfn6wsb9pm3qv930d700000gn/T/UnrealBuildTool/f0f5cb59'
+    Registering build platform: UnrealBuildTool.AndroidPlatformFactory
+    Registering build platform: UnrealBuildTool.IOSPlatformFactory
+    Registering build platform: UnrealBuildTool.LinuxPlatformFactory
+    Registering build platform: UnrealBuildTool.MacPlatformFactory
+Mac Installed SDK(s): MinVersion_Sdk=15.2.0, MaxVersion_Sdk=16.9.0, CurrentVersion_Sdk=16.3, Version_AutoSdk=15.2, CurrentVersion_AutoSdk=
+        Registering build platform: Mac - buildable: True
+    Registering build platform: UnrealBuildTool.TVOSPlatformFactory
+    Registering build platform: UnrealBuildTool.WindowsPlatformFactory
+    Registering build platform: UnrealBuildTool.VisionOSPlatformFactory
+Command line: "/Users/Shared/Epic Games/UE_5.5/Engine/Binaries/DotNET/UnrealBuildTool/UnrealBuildTool.dll" TheBlockB4TheEmpire2 Mac Development /Users/bfh/Documents/BFH_Codex_XcodeProject/TheBlockB4TheEmpire/TheBlockB4TheEmpire2/TheBlockB4TheEmpire2.uproject -architecture=arm64
+Log file: /Users/bfh/Documents/Library/Application Support/Epic/UnrealBuildTool/Log.txt
+Deleting old log file: /Users/bfh/Documents/Library/Application Support/Epic/UnrealBuildTool/Log-backup-2025.04.08-07.15.09.txt
+
+Creating makefile for TheBlockB4TheEmpire2 (no existing makefile)
+Skipping /Users/Shared/Epic Games/UE_5.5/Engine/Intermediate/Build/BuildRules/UE5Rules.dll: File is installed
+Skipping /Users/Shared/Epic Games/UE_5.5/Engine/Intermediate/Build/BuildRules/UE5ProgramRules.dll: File is installed
+Building UnrealGame - TheBlockB4TheEmpire2 - Mac - Development
+Choosing MODERN XCODE based on .ini settings
+Found circular reference to Engine.Build.cs, but Engine declares a cycle on GameplayTags which breaks the chain
+Found circular reference to PacketHandler.Build.cs, but PacketHandler declares a cycle on ReliabilityHandlerComponent which breaks the chain
+Found circular reference to Engine.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
+Found circular reference to Engine.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
+Found circular reference to Engine.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
+Found circular reference to Engine.Build.cs, but Engine declares a cycle on Landscape which breaks the chain
+Found circular reference to Engine.Build.cs, but Engine declares a cycle on UMG which breaks the chain
+Found circular reference to Engine.Build.cs, but Engine declares a cycle on UMG which breaks the chain
+Found circular reference to Engine.Build.cs, but Engine declares a cycle on UMG which breaks the chain
+Found circular reference to Engine.Build.cs, but Engine declares a cycle on UMG which breaks the chain
+Found circular reference to Engine.Build.cs, but Engine declares a cycle on UMG which breaks the chain
+Found circular reference to Engine.Build.cs, but Engine declares a cycle on UMG which breaks the chain
+Found circular reference to Engine.Build.cs, but Engine declares a cycle on UMG which breaks the chain
+Found circular reference to Engine.Build.cs, but Engine declares a cycle on UMG which breaks the chain
+Found circular reference to Engine.Build.cs, but Engine declares a cycle on UMG which breaks the chain
+Found circular reference to Engine.Build.cs, but Engine declares a cycle on UMG which breaks the chain
+Found circular reference to Engine.Build.cs, but Engine declares a cycle on UMG which breaks the chain
+Found circular reference to Engine.Build.cs, but Engine declares a cycle on UMG which breaks the chain
+Found circular reference to Engine.Build.cs, but Engine declares a cycle on UMG which breaks the chain
+Found circular reference to Engine.Build.cs, but Engine declares a cycle on CinematicCamera which breaks the chain
+Found circular reference to Engine.Build.cs, but Engine declares a cycle on AudioMixer which breaks the chain
+Found circular reference to Engine.Build.cs, but Engine declares a cycle on AudioMixer which breaks the chain
+Found circular reference to Engine.Build.cs, but Engine declares a cycle on AudioMixer which breaks the chain
+Found circular reference to AudioMixer.Build.cs, but Engine declares a cycle on AudioMixer which breaks the chain
+Found circular reference to Engine.Build.cs, but Engine declares a cycle on AudioMixer which breaks the chain
+Found circular reference to AudioMixer.Build.cs, but Engine declares a cycle on AudioMixer which breaks the chain
+Using EngineIncludeOrderVersion.Unreal5_5 for target TheBlockB4TheEmpire2.Target.cs
+UnrealHeaderTool needs to run because SavedTimestamp is older than HeaderFileTimestamp (/Users/bfh/Documents/BFH_Codex_XcodeProject/TheBlockB4TheEmpire/TheBlockB4TheEmpire2/Source/TheBlockB4TheEmpire2/VaultTrigger.h) for module TheBlockB4TheEmpire2
+Parsing headers for TheBlockB4TheEmpire2
+  Running Internal UnrealHeaderTool /Users/bfh/Documents/BFH_Codex_XcodeProject/TheBlockB4TheEmpire/TheBlockB4TheEmpire2/TheBlockB4TheEmpire2.uproject /Users/bfh/Documents/BFH_Codex_XcodeProject/TheBlockB4TheEmpire/TheBlockB4TheEmpire2/Intermediate/Build/Mac/TheBlockB4TheEmpire2/Development/TheBlockB4TheEmpire2.uhtmanifest -WarningsAsErrors -installed
+Step - Exports
+       Exporter Stats skipped
+       Exporter Json skipped
+       Running exporter CodeGen
+Total of 0 written
+Reflection code generated for TheBlockB4TheEmpire2 in 1.3338239 seconds
+Found 4 shared PCH headers (listed in order of preference):
+	Engine
+	Slate
+	CoreUObject
+	Core
+  CppStandard Cpp17 cannot use PCHUsage UseExplicitOrSharedPCHs. Overriding to NoPCHs for ACLPlugin
+  CppStandard Cpp17 cannot use PCHUsage UseExplicitOrSharedPCHs. Overriding to NoPCHs for UnrealUSDWrapper
+Converted Apple version 17.0.0 to LLVM version 17.0.6
+VerseVMBytecodeGenerator.Generate, generating CPP headers in: '/Users/Shared/Epic Games/UE_5.5/Engine/Intermediate/Build/Mac/UnrealGame/Inc/CoreUObject/VerseVMBytecode'
+	Writing out generated header file. Changed:False Path:'/Users/Shared/Epic Games/UE_5.5/Engine/Intermediate/Build/Mac/UnrealGame/Inc/CoreUObject/VerseVMBytecode/VVMBytecodeOps.gen.h'
+	Writing out generated header file. Changed:False Path:'/Users/Shared/Epic Games/UE_5.5/Engine/Intermediate/Build/Mac/UnrealGame/Inc/CoreUObject/VerseVMBytecode/VVMBytecodesAndCaptures.gen.h'
+	Writing out generated header file. Changed:False Path:'/Users/Shared/Epic Games/UE_5.5/Engine/Intermediate/Build/Mac/UnrealGame/Inc/CoreUObject/VerseVMBytecode/VVMMakeCapturesFuncs.gen.h'
+	Writing out generated header file. Changed:False Path:'/Users/Shared/Epic Games/UE_5.5/Engine/Intermediate/Build/Mac/UnrealGame/Inc/CoreUObject/VerseVMBytecode/VVMCaptureSwitch.gen.h'
+Compile module: BuildSettings
+Compile module: TraceLog
+Compile module: ICU
+Compile module: IntelTBB
+Compile module: zlib
+Compile module: AtomicQueue
+Compile module: BLAKE3
+Compile module: OodleDataCompression
+Compile module: xxhash
+Compile module: PLCrashReporter
+Compile module: mimalloc
+Compile module: GuidelinesSupportLibrary
+Compile module: Core
+Compile module: RapidJSON
+Compile module: Json
+Compile module: Projects
+Compile module: CorePreciseFP
+Compile module: CoreUObject
+Compile module: EditorAnalyticsSession
+Compile module: AnimationCore
+Compile module: InputCore
+Compile module: OpenGL
+Compile module: ApplicationCore
+Compile module: Nanosvg
+Compile module: DeveloperSettings
+Compile module: UElibPNG
+Compile module: FreeType2
+Compile module: HarfBuzz
+Compile module: SlateCore
+Compile module: stb_image_resize2
+Compile module: ImageCore
+Compile module: Imath
+Compile module: UEOpenExr
+Compile module: LibJpegTurbo
+Compile module: LibTiff
+Compile module: UEJpegComp
+Compile module: ImageWrapper
+Compile module: Settings
+Compile module: Slate
+Compile module: TelemetryUtils
+Compile module: AssetRegistry
+Compile module: MessageLog
+Compile module: ToolMenus
+Compile module: TypedElementFramework
+Compile module: DesktopPlatform
+Compile module: Messaging
+Compile module: ToolWidgets
+Compile module: SlateReflector
+Compile module: AppFramework
+Compile module: NetCommon
+Compile module: Sockets
+Compile module: Networking
+Compile module: CookOnTheFly
+Compile module: NullDrv
+Compile module: RHI
+Compile module: RenderCore
+Compile module: MathCore
+Compile module: MaterialShaderQualitySettings
+Compile module: EngineSettings
+Compile module: GeometryCore
+Compile module: IntelISPC
+Compile module: ChaosCore
+Compile module: Voronoi
+Compile module: ChaosVDRuntime
+Compile module: Eigen
+Compile module: Chaos
+Compile module: PhysicsCore
+Compile module: FieldNotification
+Compile module: EventLoop
+Compile module: HTTP
+Compile module: NetCore
+Compile module: IrisCore
+Compile module: UniversalObjectLocator
+Compile module: MeshDescription
+Compile module: MeshUtilitiesCommon
+Compile module: RawMesh
+Compile module: MikkTSpace
+Compile module: StaticMeshDescription
+Compile module: SkeletalMeshDescription
+Compile module: MeshConversion
+Compile module: DataflowCore
+Compile module: PropertyPath
+Compile module: UELibSampleRate
+Compile module: UEOgg
+Compile module: Vorbis
+Compile module: VorbisFile
+Compile module: libOpus
+Compile module: SignalProcessing
+Compile module: AudioMixerCore
+Compile module: AudioExtensions
+Compile module: TypedElementRuntime
+Compile module: MoviePlayerProxy
+Compile module: Analytics
+Compile module: AudioPlatformConfiguration
+Compile module: AudioLinkCore
+Compile module: Icmp
+Compile module: XmlParser
+Compile module: CoreOnline
+Compile module: JsonUtilities
+Compile module: MessagingCommon
+Compile module: AnalyticsET
+Compile module: EngineMessages
+Compile module: SynthBenchmark
+Compile module: ReliabilityHandlerComponent
+Compile module: PacketHandler
+Compile module: OpenSSL
+Compile module: RSA
+Compile module: PakFile
+Compile module: NetworkReplayStreaming
+Compile module: ClothingSystemRuntimeInterface
+Compile module: SourceControl
+Compile module: Localization
+Compile module: AVIWriter
+Compile module: Media
+Compile module: Advertising
+Compile module: Navmesh
+Compile module: libWebSockets
+Compile module: ImageWriteQueue
+Compile module: HeadMountedDisplay
+Compile module: EyeTracker
+Compile module: Renderer
+Compile module: Foliage
+Compile module: Landscape
+Compile module: SlateRHIRenderer
+Compile module: TimeManagement
+Compile module: MovieScene
+Compile module: DataflowEngine
+Compile module: DataflowSimulation
+Compile module: ChaosSolverEngine
+Compile module: FieldSystemEngine
+Compile module: GeometryCollectionEngine
+Compile module: AnimGraphRuntime
+Compile module: Constraints
+Compile module: MovieSceneTracks
+Compile module: UMG
+Compile module: CinematicCamera
+Compile module: NonRealtimeAudioRenderer
+Compile module: SoundFieldRendering
+Compile module: AudioLinkEngine
+Compile module: AudioMixer
+Compile module: GameplayTags
+Compile module: LocalizationService
+Compile module: TranslationEditor
+Compile module: RadAudioDecoder
+Compile module: BinkAudioDecoder
+Compile module: VorbisAudioDecoder
+Compile module: OpusAudioDecoder
+Compile module: AdpcmAudioDecoder
+Compile module: MovieSceneCapture
+Compile module: MediaUtils
+Compile module: MediaAssets
+Compile module: LevelSequence
+Compile module: MRMesh
+Compile module: MoviePlayer
+Compile module: StreamingPauseRendering
+Compile module: SlateNullRenderer
+Compile module: NullNetworkReplayStreaming
+Compile module: LocalFileNetworkReplayStreaming
+Compile module: HttpNetworkReplayStreaming
+Compile module: GameplayTasks
+Compile module: DrawPrimitiveDebugger
+Compile module: GameplayDebugger
+Compile module: NavigationSystem
+Compile module: AIModule
+Compile module: AITestSuite
+Compile module: MassEntityTestSuite
+Compile module: MassEntity
+Compile module: Engine
+Compile module: SandboxFile
+Compile module: Cbor
+Compile module: Serialization
+Compile module: Overlay
+Compile module: VirtualFileCache
+Compile module: BuildPatchServices
+Compile module: PreLoadScreen
+Compile module: InstallBundleManager
+Compile module: NetworkFile
+Compile module: StreamingFile
+Compile module: AutomationTest
+Compile module: AutomationMessages
+Compile module: AutomationWorker
+Compile module: ClothingSystemRuntimeCommon
+Compile module: ClothingSystemRuntimeNv
+Compile module: UnrealEdMessages
+Compile module: ScreenShotComparisonTools
+Compile module: AutomationController
+Compile module: FunctionalTesting
+Compile module: StorageServerClient
+Compile module: StorageServerClientDebug
+Compile module: SessionMessages
+Compile module: SessionServices
+Compile module: AudioMixerPlatformAudioLink
+Compile module: AudioMixerCoreAudio
+Compile module: ProfileVisualizer
+Compile module: RealtimeProfiler
+Compile module: Launch
+Compile module: EnhancedInput
+Compile module: TheBlockB4TheEmpire2
+Module 'TheBlockB4TheEmpire2' uses PCH 'arm64' for Architecture '/Users/bfh/Documents/BFH_Codex_XcodeProject/TheBlockB4TheEmpire/TheBlockB4TheEmpire2/Intermediate/Build/Mac/arm64/TheBlockB4TheEmpire2/Development/Engine/SharedPCH.Engine.Project.ValApi.Cpp20.h.gch'
+Compile module: ActorModifierCore
+Compile module: DatabaseSupport
+Compile module: PlatformCryptoTypes
+Compile module: PlatformCryptoOpenSSL
+Compile module: PlatformCrypto
+Compile module: AESGCMHandlerComponent
+Compile module: AESHandlerComponent
+Compile module: VectorVM
+Compile module: NiagaraCore
+Compile module: NiagaraVertexFactories
+Compile module: NiagaraShader
+Compile module: Niagara
+Compile module: DataRegistry
+Compile module: GameplayAbilities
+Compile module: GameplayBehaviorsModule
+Compile module: NiagaraAnimNotifies
+Compile module: PythonScriptPluginPreload
+Compile module: GeometryCache
+Compile module: HairStrandsCore
+Compile module: ComputeFramework
+Compile module: OptimusSettings
+Compile module: RigVM
+Compile module: ControlRig
+Compile module: OptimusCore
+Compile module: HairStrandsDeformer
+Compile module: HairStrandsRuntime
+Compile module: GeometryCacheTracks
+Compile module: SequencerScripting
+Compile module: AnalyticsBlueprintLibrary
+Compile module: AnimNext
+Compile module: BlendStack
+Compile module: RewindDebuggerRuntimeInterface
+Compile module: Chooser
+Compile module: AnimNextAnimGraph
+Compile module: ProxyTable
+Compile module: RewindDebuggerRuntime
+Compile module: RewindDebuggerVLogRuntime
+Compile module: AnimNextChooser
+Compile module: StateTreeModule
+Compile module: AnimNextStateTree
+Compile module: AnimationBudgetAllocator
+Compile module: CurveExpression
+Compile module: AnimationLocomotionLibraryRuntime
+Compile module: AnimationWarpingRuntime
+Compile module: ControlRigSpline
+Compile module: AnimToTexture
+Compile module: ApexDestruction
+Compile module: AugmentedReality
+Compile module: XRBase
+Compile module: AppleImageUtils
+Compile module: LiveLinkInterface
+Compile module: LiveLinkAnimationCore
+Compile module: ARUtilities
+Compile module: AppleARKit
+Compile module: AppleARKitPoseTrackingLiveLink
+Compile module: LiveLinkMessageBusFramework
+Compile module: LiveLink
+Compile module: LiveLinkComponents
+Compile module: LiveLinkMovieScene
+Compile module: TakeMovieScene
+Compile module: AudioCaptureCore
+Compile module: AudioCaptureRtAudio
+Compile module: AudioCapture
+Compile module: SQLiteCore
+Compile module: ProceduralMeshComponent
+Compile module: AppleARKitFaceSupport
+Compile module: AppleVision
+Compile module: MetasoundGraphCore
+Compile module: MetasoundFrontend
+Compile module: MetasoundStandardNodes
+Compile module: MetasoundGenerator
+Compile module: WaveTable
+Compile module: MetasoundEngine
+Compile module: AudioModulation
+Compile module: MetasoundEngineTest
+Compile module: AudioSynesthesiaCore
+Compile module: AudioAnalyzer
+Compile module: AudioSynesthesia
+Compile module: AdvancedWidgets
+Compile module: AudioWidgets
+Compile module: AudioMotorSim
+Compile module: AudioMotorSimStandardComponents
+Compile module: AudioGameplay
+Compile module: AudioGameplayVolume
+Compile module: Gauntlet
+Compile module: AutomatedPerfTesting
+Compile module: Paper2D
+Compile module: AISupportModule
+Compile module: ACLPlugin
+Compile module: PBIK
+Compile module: IKRig
+Compile module: FullBodyIK
+Compile module: MetaHumanSDKRuntime
+Compile module: RigLogicLib
+Compile module: RigLogicModule
+Compile module: TemplateSequence
+Compile module: GameplayCameras
+Compile module: EngineCameras
+Compile module: ChaosCaching
+Compile module: ChaosCloth
+Compile module: ChaosVDBlueprint
+Compile module: GeometryAlgorithms
+Compile module: DynamicMesh
+Compile module: MeshFileUtils
+Compile module: OodleNetworkHandlerComponent
+Compile module: SignificanceManager
+Compile module: AnimationSharing
+Compile module: DumpGPUServices
+Compile module: UObjectPlugin
+Compile module: FacialAnimation
+Compile module: VariantManagerContent
+Compile module: DatasmithContent
+Compile module: GLTFExporter
+Compile module: InterchangeCore
+Compile module: Draco
+Compile module: GLTFCore
+Compile module: InterchangeNodes
+Compile module: InterchangeEngine
+Compile module: TextureUtilitiesCommon
+Compile module: InterchangeFactoryNodes
+Compile module: InterchangeMessages
+Compile module: InterchangeDispatcher
+Compile module: InterchangeCommon
+Compile module: InterchangeCommonParser
+Compile module: InteractiveToolsFramework
+Compile module: GeometryFramework
+Compile module: USDClasses
+Compile module: Boost
+Compile module: UnrealUSDWrapper
+Compile module: OpenSubdiv
+Compile module: USDUtilities
+Compile module: IESFile
+Compile module: InterchangeImport
+Compile module: InterchangeExport
+Compile module: InterchangePipelines
+Compile module: AutomationUtils
+Compile module: BackChannel
+Compile module: GeometryCollectionTracks
+Compile module: DataflowEnginePlugin
+Compile module: DataflowNodes
+Compile module: PlanarCut
+Compile module: FractureEngine
+Compile module: GeometryCollectionNodes
+Compile module: GeometryCollectionDepNodes
+Compile module: ModelingOperators
+Compile module: MeshConversionEngineTypes
+Compile module: ModelingComponents
+Compile module: MeshModelingTools
+Compile module: MeshModelingToolsExp
+Compile module: ModelingUI
+Compile module: ChaosNiagara
+Compile module: ChaosUserDataPT
+Compile module: CharacterAI
+Compile module: LocalizableMessage
+Compile module: LocalizableMessageBlueprint
+Compile module: EOSSDK
+Compile module: EOSShared
+Compile module: NiagaraSimCaching
+Compile module: AvfMedia
+Compile module: AvfMediaFactory
+Compile module: AvfMediaCapture
+Compile module: ImgMediaEngine
+Compile module: ImgMediaFactory
+Compile module: OpenExrWrapper
+Compile module: ExrReaderGpu
+Compile module: ImgMedia
+Compile module: MediaCompositing
+Compile module: MediaPlate
+Compile module: HoldoutComposite
+Compile module: WmfMediaFactory
+Compile module: TcpMessaging
+Compile module: UdpMessaging
+Compile module: ActorSequence
+Compile module: NNEDenoiserShaders
+Compile module: NNE
+Compile module: NNEDenoiser
+Compile module: NNEOnnxruntime
+Compile module: NNERuntimeORT
+Compile module: OnlineBase
+Compile module: OnlineSubsystem
+Compile module: OnlineServicesInterface
+Compile module: Voice
+Compile module: OnlineSubsystemUtils
+Compile module: OnlineSubsystemNull
+Compile module: OnlineServicesCommon
+Compile module: OnlineServicesCommonEngineUtils
+Compile module: LauncherChunkInstaller
+Compile module: ActorLayerUtilities
+Compile module: AndroidFileServer
+Compile module: AndroidPermission
+Compile module: AppleMoviePlayer
+Compile module: ArchVisCharacter
+Compile module: AssetTags
+Compile module: CableComponent
+Compile module: ChunkDownloader
+Compile module: CustomMeshComponent
+Compile module: ExampleDeviceProfileSelector
+Compile module: GooglePAD
+Compile module: InputDebugging
+Compile module: LocationServicesBPLibrary
+Compile module: MobilePatchingUtils
+Compile module: MsQuic
+Compile module: MsQuicRuntime
+Compile module: ResonanceAudio
+Compile module: SoundFields
+Compile module: Synthesis
+Compile module: WebMMediaFactory
+Compile module: LibVpx
+Compile module: LibWebM
+Compile module: WebMMedia
+Compile module: WebMMoviePlayer
+Compile module: TraceUtilities
+Compile module: WorldMetricsCore
+Compile module: WorldMetricsTest
+Compile module: CsvMetrics
+Compile module: NVAftermath
+Compile module: RHICore
+Compile module: MetalCPP
+Compile module: MetalShaderConverter
+Compile module: MetalRHI
+VaultTrigger.gen.cpp: Produced item "/Users/bfh/Documents/BFH_Codex_XcodeProject/TheBlockB4TheEmpire/TheBlockB4TheEmpire2/Intermediate/Build/Mac/arm64/UnrealGame/Development/TheBlockB4TheEmpire2/VaultTrigger.gen.cpp.d" doesn't exist.
+CodexSaveSystem.cpp: Produced item "/Users/bfh/Documents/BFH_Codex_XcodeProject/TheBlockB4TheEmpire/TheBlockB4TheEmpire2/Intermediate/Build/Mac/arm64/UnrealGame/Development/TheBlockB4TheEmpire2/CodexSaveSystem.cpp.d" doesn't exist.
+VaultTrigger.gen.cpp: Produced item "/Users/bfh/Documents/BFH_Codex_XcodeProject/TheBlockB4TheEmpire/TheBlockB4TheEmpire2/Intermediate/Build/Mac/arm64/UnrealGame/Development/TheBlockB4TheEmpire2/VaultTrigger.gen.cpp.o" doesn't exist.
+CodexSaveSystem.cpp: Produced item "/Users/bfh/Documents/BFH_Codex_XcodeProject/TheBlockB4TheEmpire/TheBlockB4TheEmpire2/Intermediate/Build/Mac/arm64/UnrealGame/Development/TheBlockB4TheEmpire2/CodexSaveSystem.cpp.o" doesn't exist.
+SharedPCH.Engine.Project.ValApi.Cpp20.h: Produced item "/Users/bfh/Documents/BFH_Codex_XcodeProject/TheBlockB4TheEmpire/TheBlockB4TheEmpire2/Intermediate/Build/Mac/arm64/TheBlockB4TheEmpire2/Development/Engine/SharedPCH.Engine.Project.ValApi.Cpp20.h.d" doesn't exist.
+CodexSaveSystem.gen.cpp: Produced item "/Users/bfh/Documents/BFH_Codex_XcodeProject/TheBlockB4TheEmpire/TheBlockB4TheEmpire2/Intermediate/Build/Mac/arm64/UnrealGame/Development/TheBlockB4TheEmpire2/CodexSaveSystem.gen.cpp.d" doesn't exist.
+TheBlockB4TheEmpire2.init.gen.cpp: Produced item "/Users/bfh/Documents/BFH_Codex_XcodeProject/TheBlockB4TheEmpire/TheBlockB4TheEmpire2/Intermediate/Build/Mac/arm64/UnrealGame/Development/TheBlockB4TheEmpire2/TheBlockB4TheEmpire2.init.gen.cpp.d" doesn't exist.
+PhantomUnlock.cpp: Produced item "/Users/bfh/Documents/BFH_Codex_XcodeProject/TheBlockB4TheEmpire/TheBlockB4TheEmpire2/Intermediate/Build/Mac/arm64/UnrealGame/Development/TheBlockB4TheEmpire2/PhantomUnlock.cpp.d" doesn't exist.
+TheBlockB4TheEmpire2.cpp: Produced item "/Users/bfh/Documents/BFH_Codex_XcodeProject/TheBlockB4TheEmpire/TheBlockB4TheEmpire2/Intermediate/Build/Mac/arm64/UnrealGame/Development/TheBlockB4TheEmpire2/TheBlockB4TheEmpire2.cpp.d" doesn't exist.
+EchoGuideCharacter.cpp: Produced item "/Users/bfh/Documents/BFH_Codex_XcodeProject/TheBlockB4TheEmpire/TheBlockB4TheEmpire2/Intermediate/Build/Mac/arm64/UnrealGame/Development/TheBlockB4TheEmpire2/EchoGuideCharacter.cpp.d" doesn't exist.
+EchoGuideCharacter.gen.cpp: Produced item "/Users/bfh/Documents/BFH_Codex_XcodeProject/TheBlockB4TheEmpire/TheBlockB4TheEmpire2/Intermediate/Build/Mac/arm64/UnrealGame/Development/TheBlockB4TheEmpire2/EchoGuideCharacter.gen.cpp.d" doesn't exist.
+VaultTrigger.cpp: Produced item "/Users/bfh/Documents/BFH_Codex_XcodeProject/TheBlockB4TheEmpire/TheBlockB4TheEmpire2/Intermediate/Build/Mac/arm64/UnrealGame/Development/TheBlockB4TheEmpire2/VaultTrigger.cpp.d" doesn't exist.
+Updating version file: /Users/bfh/Documents/BFH_Codex_XcodeProject/TheBlockB4TheEmpire/TheBlockB4TheEmpire2/Intermediate/Build/Versions.xcconfig: Prerequisite /Users/bfh/Documents/BFH_Codex_XcodeProject/TheBlockB4TheEmpire/TheBlockB4TheEmpire2/Binaries/Mac/TheBlockB4TheEmpire2 doesn't exist.
+VaultTrigger.cpp: Produced item "/Users/bfh/Documents/BFH_Codex_XcodeProject/TheBlockB4TheEmpire/TheBlockB4TheEmpire2/Intermediate/Build/Mac/arm64/UnrealGame/Development/TheBlockB4TheEmpire2/VaultTrigger.cpp.o" doesn't exist.
+TheBlockB4TheEmpire2.target: Produced item "/Users/bfh/Documents/BFH_Codex_XcodeProject/TheBlockB4TheEmpire/TheBlockB4TheEmpire2/Binaries/Mac/TheBlockB4TheEmpire2.target" doesn't exist.
+TheBlockB4TheEmpire2: Produced item "/Users/bfh/Documents/BFH_Codex_XcodeProject/TheBlockB4TheEmpire/TheBlockB4TheEmpire2/Binaries/Mac/TheBlockB4TheEmpire2" doesn't exist.
+PhantomUnlock.gen.cpp: Produced item "/Users/bfh/Documents/BFH_Codex_XcodeProject/TheBlockB4TheEmpire/TheBlockB4TheEmpire2/Intermediate/Build/Mac/arm64/UnrealGame/Development/TheBlockB4TheEmpire2/PhantomUnlock.gen.cpp.d" doesn't exist.
+SharedPCH.Engine.Project.ValApi.Cpp20.h: Produced item "/Users/bfh/Documents/BFH_Codex_XcodeProject/TheBlockB4TheEmpire/TheBlockB4TheEmpire2/Intermediate/Build/Mac/arm64/TheBlockB4TheEmpire2/Development/Engine/SharedPCH.Engine.Project.ValApi.Cpp20.h.gch" doesn't exist.
+CodexSaveSystem.gen.cpp: Produced item "/Users/bfh/Documents/BFH_Codex_XcodeProject/TheBlockB4TheEmpire/TheBlockB4TheEmpire2/Intermediate/Build/Mac/arm64/UnrealGame/Development/TheBlockB4TheEmpire2/CodexSaveSystem.gen.cpp.o" doesn't exist.
+TheBlockB4TheEmpire2.init.gen.cpp: Produced item "/Users/bfh/Documents/BFH_Codex_XcodeProject/TheBlockB4TheEmpire/TheBlockB4TheEmpire2/Intermediate/Build/Mac/arm64/UnrealGame/Development/TheBlockB4TheEmpire2/TheBlockB4TheEmpire2.init.gen.cpp.o" doesn't exist.
+PhantomUnlock.cpp: Produced item "/Users/bfh/Documents/BFH_Codex_XcodeProject/TheBlockB4TheEmpire/TheBlockB4TheEmpire2/Intermediate/Build/Mac/arm64/UnrealGame/Development/TheBlockB4TheEmpire2/PhantomUnlock.cpp.o" doesn't exist.
+TheBlockB4TheEmpire2.cpp: Produced item "/Users/bfh/Documents/BFH_Codex_XcodeProject/TheBlockB4TheEmpire/TheBlockB4TheEmpire2/Intermediate/Build/Mac/arm64/UnrealGame/Development/TheBlockB4TheEmpire2/TheBlockB4TheEmpire2.cpp.o" doesn't exist.
+EchoGuideCharacter.cpp: Produced item "/Users/bfh/Documents/BFH_Codex_XcodeProject/TheBlockB4TheEmpire/TheBlockB4TheEmpire2/Intermediate/Build/Mac/arm64/UnrealGame/Development/TheBlockB4TheEmpire2/EchoGuideCharacter.cpp.o" doesn't exist.
+EchoGuideCharacter.gen.cpp: Produced item "/Users/bfh/Documents/BFH_Codex_XcodeProject/TheBlockB4TheEmpire/TheBlockB4TheEmpire2/Intermediate/Build/Mac/arm64/UnrealGame/Development/TheBlockB4TheEmpire2/EchoGuideCharacter.gen.cpp.o" doesn't exist.
+Executing PostBuildSync [/Users/bfh/Documents/BFH_Codex_XcodeProject/TheBlockB4TheEmpire/TheBlockB4TheEmpire2/Binaries/Mac/TheBlockB4TheEmpire2]: Produced item "/Users/bfh/Documents/BFH_Codex_XcodeProject/TheBlockB4TheEmpire/TheBlockB4TheEmpire2/Binaries/Mac/TheBlockB4TheEmpire2.app/Contents/PkgInfo" doesn't exist.
+PhantomUnlock.gen.cpp: Produced item "/Users/bfh/Documents/BFH_Codex_XcodeProject/TheBlockB4TheEmpire/TheBlockB4TheEmpire2/Intermediate/Build/Mac/arm64/UnrealGame/Development/TheBlockB4TheEmpire2/PhantomUnlock.gen.cpp.o" doesn't exist.
+Checking for live coding mutex: Global\LiveCoding_+Users+bfh+Documents+BFH_Codex_XcodeProject+TheBlockB4TheEmpire+TheBlockB4TheEmpire2+Binaries+Mac+TheBlockB4TheEmpire2
+Building TheBlockB4TheEmpire2...
+Determining max actions to execute in parallel (12 physical cores, 12 logical cores)
+  Executing up to 12 processes, one per physical core
+Using Unreal Build Accelerator local executor to run 15 action(s)
+  Storage capacity 40Gb
+Deleting old log file: /Users/bfh/Documents/Library/Application Support/Epic/UnrealBuildTool/Log-backup-2025.04.08-07.08.07.uba
+---- Starting trace ----
+UbaSessionServer - Disable remote execution (remote sessions will finish current processes)
+------ Building 15 action(s) started ------
+[1/15] Compile [Apple] SharedPCH.Engine.Project.ValApi.Cpp20.h (UBA disabled)
+[2/15] Compile [Apple] VaultTrigger.gen.cpp
+[3/15] Compile [Apple] VaultTrigger.cpp
+[4/15] Compile [Apple] TheBlockB4TheEmpire2.init.gen.cpp
+[5/15] Compile [Apple] PhantomUnlock.gen.cpp
+[6/15] Compile [Apple] PhantomUnlock.cpp
+[7/15] Compile [Apple] TheBlockB4TheEmpire2.cpp
+[8/15] Compile [Apple] CodexSaveSystem.gen.cpp
+[9/15] Compile [Apple] EchoGuideCharacter.cpp
+[10/15] Compile [Apple] CodexSaveSystem.cpp
+[11/15] Compile [Apple] EchoGuideCharacter.gen.cpp
+[12/15] Link [Apple] TheBlockB4TheEmpire2 (UBA disabled)
+[13/15] Updating version file: /Users/bfh/Documents/BFH_Codex_XcodeProject/TheBlockB4TheEmpire/TheBlockB4TheEmpire2/Intermediate/Build/Versions.xcconfig (UBA disabled)
+[14/15] ApplePostBuildSync Executing PostBuildSync [/Users/bfh/Documents/BFH_Codex_XcodeProject/TheBlockB4TheEmpire/TheBlockB4TheEmpire2/Binaries/Mac/TheBlockB4TheEmpire2] (UBA disabled)
+[15/15] WriteMetadata TheBlockB4TheEmpire2.target (UBA disabled)
+Trace file written to /Users/bfh/Documents/Library/Application Support/Epic/UnrealBuildTool/Log.uba with size 4.9kb
+Total time in Unreal Build Accelerator local executor: 15.86 seconds
+Deploying TheBlockB4TheEmpire2 Mac Development...
+Deploying now!
+Total execution time: 20.28 seconds
+WriteFileIfChanged() wrote 38 changed files of 38 requested writes.
+Timeline:
+
+[ 0.000]
+[ 0.000](+20.283) <unknown>
+[20.283]

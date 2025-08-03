@@ -1,0 +1,12 @@
+Codex Ritual Task Tracker
+
+GPT-Build Tracker:
+[ ] GPT-01: Educator AI
+[ ] GPT-02: Music Creator AI
+[ ] GPT-03: Ritual Guide GPT
+
+Monthly Loops:
+[ ] Digest Report - Month 1
+[ ] Ritual Badge Issuance - Phase I
+
+Log new tasks via: codex://tasks/add

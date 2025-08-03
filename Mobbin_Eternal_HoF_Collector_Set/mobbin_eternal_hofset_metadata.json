@@ -1,0 +1,46 @@
+{
+  "name": "Mobbin Eternal: HoF Legacy Collector Set",
+  "description": "A rare Sovereign Vault bundle featuring signed, framed Klay Thompson (LE 17/100) and Kevin Durant (LE 8/35) Warriors jerseys, with a bonus 2018 DeMarcus Cousins City Edition jersey. All players are guaranteed Hall of Famers. Verified by BFH Trust Designs. Codex ID: BFH-VLT-HOFSET-01.",
+  "image": "ipfs://5341ebb9907269de0c06528462c879f70ae44cadb2364ba3197d398c24de1bfc",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "Collector Memorabilia"
+    },
+    {
+      "trait_type": "Klay Thompson Jersey",
+      "value": "Signed, LE 17/100, Framed"
+    },
+    {
+      "trait_type": "Kevin Durant Jersey",
+      "value": "Signed, LE 8/35, Framed"
+    },
+    {
+      "trait_type": "Bonus Jersey",
+      "value": "DeMarcus Cousins #0, City Edition, BNWT"
+    },
+    {
+      "trait_type": "Ownership",
+      "value": "collabnonfaablab@gtekglobal.design"
+    },
+    {
+      "trait_type": "Origin",
+      "value": "BFH Trust Designs"
+    },
+    {
+      "trait_type": "Codex ID",
+      "value": "BFH-VLT-HOFSET-01"
+    },
+    {
+      "trait_type": "Sovereign Mode",
+      "value": "gTok Keeze 1111.1.1-2222.2.2"
+    }
+  ],
+  "external_url": "https://mobbineternal.gtekglobal.design/nft/BFH-VLT-HOFSET-01",
+  "proof": [
+    "ipfs://110c9983e6df777cdd11653880256886a257d99dfa8e689e14772144788a5b11",
+    "ipfs://92211e1b434d9b626cf12d9fd1a61df1b9e9578346f99d91563e4c2c0f0b3f11",
+    "ipfs://5881fc2f4a867fb6093c46338e9a2d72523a68dc1a9fe94387cb3680521deb19",
+    "ipfs://c4c22fd7e03e09d0c3e661dcd67b1db46933b90ed3aa1685e35815c54dccd4a6"
+  ]
+}

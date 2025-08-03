@@ -1,0 +1,11 @@
+{
+  "name": "Sovereign Codexing – Ritual-Based IP Vault",
+  "description": "This CodexShell repo is a ritualized invention infrastructure for patenting, protecting, and funding symbolic IP through blockchain logic, CLI tools, and vault-based authorship.",
+  "image": "ipfs://bafybeihash/codex_shell_badge.svg",
+  "external_url": "https://github.com/gTek-Keys/iTek-Lux-TrustChain-Sovereign-Blockchain",
+  "crid": "JHILL-THM-ARCH-CRID-51509329",
+  "estate": "Jerome Elston Hill Jr.",
+  "chain": "polygon",
+  "category": "template-vault",
+  "tags": ["codexshell", "cli", "vault", "symbolic-ip", "crowdfunding", "ritual-deploy"]
+}

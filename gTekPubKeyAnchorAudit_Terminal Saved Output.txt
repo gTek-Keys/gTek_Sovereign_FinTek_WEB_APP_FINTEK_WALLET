@@ -1,0 +1,381 @@
+Last login: Sat Jun 28 14:44:37 on ttys005
+You have new mail.
+bfh@BFHs-MacBook-Pro:~ % cd ~/
+python3 ~/Downloads/gTekCodex_MetaQuantum_OneShot.py
+
+🧠 🚀 Starting gTek Codex MetaQuantum OneShot Suite
+🧠 ▶️ Running gTekCodex_WalletConnect.py
+🔍 🚀 gTek Wallet Connector INIT
+🔍 Coinbase API Error: 401
+🔍 Solana API Error: 404
+🔍 ✅ Scan Complete — Reports in ~/Codex_Wallet_Scan
+🧠 ✅ Completed: gTekCodex_WalletConnect.py
+🧠 ▶️ Running gTekCodex_AnchorRecovery_Pro_Safe.py
+🧠 gTek Anchor Recovery PRO (SAFE) — INITIATING
+🔐 Recovered LUX_COIN_Metadata_Registry.json from /Users/gTek Industries Main/Sovereign_Fathers_Chat_Final/gtek_audit_suite/Sovereign_Audit_ByDate/2025-06-15/Codex_Divorce_Legal_Dispatch_Bundle 2_unzipped/Codex_Divorce_Legal_Dispatch_Bundle 
+Context: ..."symbol": "LUX",
+  "networks": [
+    "Ethereum",
+    "Solana",
+    "Cronos"
+  ],
+  "wallet_id": "EEhuYsTGdiDMjjez3KiBaC9w3XRZqrxMohkaEpH9UUUy",
+  "client_api_key": "hoV9tLpw5cOlZVNU1UIYqXIZvq3GsFSC",
+  "auth_token": "Bearer TipXXXYdhJFZgLUDNb5XjIA...
+🔐 Recovered PUB RECOVER_9Ether V.1_.txt from /Users/gTek Industries Main/Sovereign_Fathers_Chat_Final/gtek_audit_suite/Sovereign_Audit_ByDate/2025-06-09 
+Context: ...ole-control-strings/package.json
+bfh@BFHs-MacBook-Pro gTek_iTek_LUX_coin_MOMENT_OF_TRUTH % grep -r "EEhuYsTGdiDMjjez3KiBaC9w3XRZqrxMohkaEpH9UUUy" ~/ 2>/dev/null
+/Users/bfh/BFH-TRUST-DESIGNS-iTekLux-Coin copy/docs/RELEASE_NOTES.md:- 🔐 Smart Contract R...
+🔐 Recovered api_keys_vault_synced.json from /Users/gTek Industries Main/Sovereign_Fathers_Chat_Final/gtek_audit_suite/Sovereign_Audit_ByDate/2025-05-20 
+Context: ...XVCJ9...",
+    "helius_api_key": "e7755a25-392d-4a3b-b9bf-e3b0ae482dd6",
+    "luxcoin_public_key": "EEhuYsTGdiDMjjez3KiBaC9w3XRZqrxMohkaEpH9UUUy",
+    "codename": "Kingwave | MOBGODKINGWAVE (M.G.K.W)"
+}...
+🔐 Recovered LUX_COIN_Metadata_Registry.json from /Users/gTek Industries Main/Sovereign_Fathers_Chat_Final/gtek_audit_suite/Sovereign_Audit_ByDate/2025-05-20 
+Context: ..."symbol": "LUX",
+  "networks": [
+    "Ethereum",
+    "Solana",
+    "Cronos"
+  ],
+  "wallet_id": "EEhuYsTGdiDMjjez3KiBaC9w3XRZqrxMohkaEpH9UUUy",
+  "client_api_key": "hoV9tLpw5cOlZVNU1UIYqXIZvq3GsFSC",
+  "auth_token": "Bearer TipXXXYdhJFZgLUDNb5XjIA...
+🔐 Recovered Digest_README.md from /Users/gTek Industries Main/Sovereign_Fathers_Chat_Final/gtek_audit_suite/Sovereign_Audit_ByDate/2025-05-20 
+Context: ...n Entry #004.1  
+- 🪙 **Wallet**: 3izqrwVEfQpvxPmimpgBfqVVuWGrfJkxuSih6PXuo4zA  
+- 🔐 **Public Key**: EEhuYsTGdiDMjjez3KiBaC9w3XRZqrxMohkaEpH9UUUy  
+- 📁 **Bundle**: api_keys_vault_synced.json  
+- 🔑 **Hash**: a5ff60ec7ea37ab4a59d39bfe45a9ce2630d4929b21f...
+🔐 Recovered Digest_README.md from /Users/gTek Industries Main/Sovereign_Fathers_Chat_Final/gtek_audit_suite/Sovereign_Audit_ByDate/2025-05-20/CodexVault_DesignDrop_Package_unzipped 
+Context: ...n Entry #004.1  
+- 🪙 **Wallet**: 3izqrwVEfQpvxPmimpgBfqVVuWGrfJkxuSih6PXuo4zA  
+- 🔐 **Public Key**: EEhuYsTGdiDMjjez3KiBaC9w3XRZqrxMohkaEpH9UUUy  
+- 📁 **Bundle**: api_keys_vault_synced.json  
+- 🔑 **Hash**: a5ff60ec7ea37ab4a59d39bfe45a9ce2630d4929b21f...
+🔐 Recovered PUB RECORY NOTES.txt from /Users/gTek Industries Main/Sovereign_Fathers_Chat_Final/Sovereign_Audit_ByDate/2025-06-16 
+Context: ...❌ No match found in 2000 paths.
+bfh@BFHs-MacBook-Pro gTek_iTek_LUX_coin_MOMENT_OF_TRUTH % grep -rl "EEhuYsTGdiDMjjez3KiBaC9w3XRZqrxMohkaEpH9UUUy" ~/
+grep: /Users/bfh/.docker/mutagen/daemon/daemon.sock: Operation not supported on socket
+grep: /Users/b...
+🔐 Recovered CodexVault_Digest_Entry_006.json from /Users/gTek Industries Main/Sovereign_Fathers_Chat_Final/Sovereign_Audit_ByDate/2025-06-16 
+Context: ..."Digest Chain Entry #006",
+    "type": "Wallet Recovery & MetaVault Scan",
+    "wallet_attempted": "EEhuYsTGdiDMjjez3KiBaC9w3XRZqrxMohkaEpH9UUUy",
+    "matched_pubkey": null,
+    "scan_paths_checked": 101,
+    "repo_linked": "https://github.com/HomeM...
+🔐 Recovered Digest_Chain_Summary.json from /Users/gTek Industries Main/Sovereign_Fathers_Chat_Final/Sovereign_Audit_ByDate/2025-06-16/Mt_Clodagh_Digest_Report_Bundle_unzipped 
+Context: ..."#004",
+        "#004.1",
+        "#005",
+        "#006"
+    ],
+    "wallets": {
+        "target": "EEhuYsTGdiDMjjez3KiBaC9w3XRZqrxMohkaEpH9UUUy",
+        "phantom": "3izqrwVEfQpvxPmimpgBfqVVuWGrfJkxuSih6PXuo4zA"
+    },
+    "project": "gTek | iTek |...
+🔐 Recovered Mt_Clodagh_Digest_Report.txt from /Users/gTek Industries Main/Sovereign_Fathers_Chat_Final/Sovereign_Audit_ByDate/2025-06-16/Mt_Clodagh_Digest_Report_Bundle_unzipped 
+Context: ...ial Documentation + LUX COIN Equity
+
+Codename: Kingwave | MOBGODKINGWAVE (M.G.K.W.)
+Vault Identity: EEhuYsTGdiDMjjez3KiBaC9w3XRZqrxMohkaEpH9UUUy
+Phantom Receiver: 3izqrwVEfQpvxPmimpgBfqVVuWGrfJkxuSih6PXuo4zA
+CodexOps Repository: https://github.com/Ho...
+🔐 Recovered KEY_PAIR_RECOVERY.txt from /Users/bfh/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Ledger files/BFH_Admin_Keeping cabinet/The_Block_ENTERPISAL_ENVIRONMENT_PROJECT_PRE-TO-POST-FILES/BFH TRUST DESIGNS ENTERP/BFH_Archive_Dev_Phase_2023-2025/BFH FILING CABINET 
+Context: ...branch 'feature/initial-setup'
+bfh@BFHs-MacBook-Pro BFH-TRUST-DESIGNS-iTekLux-Coin % solana account EEhuYsTGdiDMjjez3KiBaC9w3XRZqrxMohkaEpH9UUUy
+
+Public Key: EEhuYsTGdiDMjjez3KiBaC9w3XRZqrxMohkaEpH9UUUy
+Balance: 3.209972669 SOL
+Owner: 111111111111111...
+🔐 Recovered iTek_LUX_COIN_RECOVERY_INFO.txt from /Users/bfh/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Ledger files/BFH_Admin_Keeping cabinet/The_Block_ENTERPISAL_ENVIRONMENT_PROJECT_PRE-TO-POST-FILES/BFH TRUST DESIGNS ENTERP/BFH_Archive_Dev_Phase_2023-2025/BFH FILING CABINET 
+Context: ...branch 'feature/initial-setup'
+bfh@BFHs-MacBook-Pro BFH-TRUST-DESIGNS-iTekLux-Coin % solana account EEhuYsTGdiDMjjez3KiBaC9w3XRZqrxMohkaEpH9UUUy
+
+Public Key: EEhuYsTGdiDMjjez3KiBaC9w3XRZqrxMohkaEpH9UUUy
+Balance: 3.209972669 SOL
+Owner: 111111111111111...
+🔐 Recovered RESOLVING_GIT_MERGE_CONFLICT.txt from /Users/bfh/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Ledger files/BFH_Admin_Keeping cabinet/The_Block_ENTERPISAL_ENVIRONMENT_PROJECT_PRE-TO-POST-FILES/BFH TRUST DESIGNS ENTERP/BFH_Archive_Dev_Phase_2023-2025/BFH FILING CABINET 
+Context: ...Book-Pro BFH-TRUST-DESIGNS-iTekLux-Coin % find ~/ -name "*.json" -type f 2>/dev/null -exec grep -l "EEhuYsTGdiDMjjez3KiBaC9w3XRZqrxMohkaEpH9UUUy" {} \;
+bfh@BFHs-MacBook-Pro BFH-TRUST-DESIGNS-iTekLux-Coin % mkdir -p ~/Documents/solana_wallet_backups/u...
+🔐 Recovered Git REBASE.txt from /Users/bfh/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Ledger files/BFH_Admin_Keeping cabinet/The_Block_ENTERPISAL_ENVIRONMENT_PROJECT_PRE-TO-POST-FILES/BFH TRUST DESIGNS ENTERP/BFH_Archive_Dev_Phase_2023-2025/BFH FILING CABINET 
+Context: ...Book-Pro BFH-TRUST-DESIGNS-iTekLux-Coin % find ~/ -name "*.json" -type f 2>/dev/null -exec grep -l "EEhuYsTGdiDMjjez3KiBaC9w3XRZqrxMohkaEpH9UUUy" {} \;
+bfh@BFHs-MacBook-Pro BFH-TRUST-DESIGNS-iTekLux-Coin % mkdir -p ~/Documents/solana_wallet_backups/u...
+🔐 Recovered Fix_THE_GIT_MERGE_CONFLICT.txt from /Users/bfh/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Ledger files/BFH_Admin_Keeping cabinet/The_Block_ENTERPISAL_ENVIRONMENT_PROJECT_PRE-TO-POST-FILES/BFH TRUST DESIGNS ENTERP/BFH_Archive_Dev_Phase_2023-2025/BFH FILING CABINET 
+Context: ...Book-Pro BFH-TRUST-DESIGNS-iTekLux-Coin % find ~/ -name "*.json" -type f 2>/dev/null -exec grep -l "EEhuYsTGdiDMjjez3KiBaC9w3XRZqrxMohkaEpH9UUUy" {} \;
+bfh@BFHs-MacBook-Pro BFH-TRUST-DESIGNS-iTekLux-Coin % mkdir -p ~/Documents/solana_wallet_backups/u...
+🔐 Recovered Digest_Chain_Summary.json from /Users/bfh/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Mt_Clodagh_Digest_Report_Bundle_unzipped 
+Context: ..."#004",
+        "#004.1",
+        "#005",
+        "#006"
+    ],
+    "wallets": {
+        "target": "EEhuYsTGdiDMjjez3KiBaC9w3XRZqrxMohkaEpH9UUUy",
+        "phantom": "3izqrwVEfQpvxPmimpgBfqVVuWGrfJkxuSih6PXuo4zA"
+    },
+    "project": "gTek | iTek |...
+🔐 Recovered Mt_Clodagh_Digest_Report.txt from /Users/bfh/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Mt_Clodagh_Digest_Report_Bundle_unzipped 
+Context: ...ial Documentation + LUX COIN Equity
+
+Codename: Kingwave | MOBGODKINGWAVE (M.G.K.W.)
+Vault Identity: EEhuYsTGdiDMjjez3KiBaC9w3XRZqrxMohkaEpH9UUUy
+Phantom Receiver: 3izqrwVEfQpvxPmimpgBfqVVuWGrfJkxuSih6PXuo4zA
+CodexOps Repository: https://github.com/Ho...
+🔐 Recovered RELEASE_NOTES.md from /Users/bfh/Library/Mobile Documents/com~apple~CloudDocs/Documents/BFH_REPOSITORY_HUB/BFH_TRUST_DESIGNS/BFH_Production_2025/docs 
+Context: ...mer, Elijah McCoy Integration
+
+---
+
+### 🔒 Key Security Milestones
+
+- 🔐 Smart Contract Recovery for `EEhuYsTGdiDMjjez3KiBaC9w3XRZqrxMohkaEpH9UUUy`  
+- 🔐 Automated Keypair Logging + Cold Vault Setup  
+- 🔐 Solana CLI Verified Wallet Structure  
+- 🔐 Cust...
+🔐 Recovered RELEASE_NOTES.md from /Users/bfh/Library/Mobile Documents/com~apple~CloudDocs/Documents/BFH_REPOSITORY_HUB/BFH_TRUST_DESIGNS/BFH_Production_2025/EVERYTHING BFH/BFH-TRUST-DESIGNS-iTekLux-Coin/docs 
+Context: ...mer, Elijah McCoy Integration
+
+---
+
+### 🔒 Key Security Milestones
+
+- 🔐 Smart Contract Recovery for `EEhuYsTGdiDMjjez3KiBaC9w3XRZqrxMohkaEpH9UUUy`  
+- 🔐 Automated Keypair Logging + Cold Vault Setup  
+- 🔐 Solana CLI Verified Wallet Structure  
+- 🔐 Cust...
+🔐 Recovered Digest_Chain_Summary.json from /Users/bfh/Codex_Recovered 
+Context: ..."#004",
+        "#004.1",
+        "#005",
+        "#006"
+    ],
+    "wallets": {
+        "target": "EEhuYsTGdiDMjjez3KiBaC9w3XRZqrxMohkaEpH9UUUy",
+        "phantom": "3izqrwVEfQpvxPmimpgBfqVVuWGrfJkxuSih6PXuo4zA"
+    },
+    "project": "gTek | iTek |...
+🔐 Recovered api_keys_vault_synced.json from /Users/bfh/Codex_Recovered 
+Context: ...XVCJ9...",
+    "helius_api_key": "e7755a25-392d-4a3b-b9bf-e3b0ae482dd6",
+    "luxcoin_public_key": "EEhuYsTGdiDMjjez3KiBaC9w3XRZqrxMohkaEpH9UUUy",
+    "codename": "Kingwave | MOBGODKINGWAVE (M.G.K.W)"
+}...
+🔐 Recovered LUX_COIN_Metadata_Registry.json from /Users/bfh/Codex_Recovered 
+Context: ..."symbol": "LUX",
+  "networks": [
+    "Ethereum",
+    "Solana",
+    "Cronos"
+  ],
+  "wallet_id": "EEhuYsTGdiDMjjez3KiBaC9w3XRZqrxMohkaEpH9UUUy",
+  "client_api_key": "hoV9tLpw5cOlZVNU1UIYqXIZvq3GsFSC",
+  "auth_token": "Bearer TipXXXYdhJFZgLUDNb5XjIA...
+🔐 Recovered Digest_README.md from /Users/bfh/Codex_Recovered 
+Context: ...n Entry #004.1  
+- 🪙 **Wallet**: 3izqrwVEfQpvxPmimpgBfqVVuWGrfJkxuSih6PXuo4zA  
+- 🔐 **Public Key**: EEhuYsTGdiDMjjez3KiBaC9w3XRZqrxMohkaEpH9UUUy  
+- 📁 **Bundle**: api_keys_vault_synced.json  
+- 🔑 **Hash**: a5ff60ec7ea37ab4a59d39bfe45a9ce2630d4929b21f...
+🔐 Recovered Mt_Clodagh_Digest_Report.txt from /Users/bfh/Codex_Recovered 
+Context: ...ial Documentation + LUX COIN Equity
+
+Codename: Kingwave | MOBGODKINGWAVE (M.G.K.W.)
+Vault Identity: EEhuYsTGdiDMjjez3KiBaC9w3XRZqrxMohkaEpH9UUUy
+Phantom Receiver: 3izqrwVEfQpvxPmimpgBfqVVuWGrfJkxuSih6PXuo4zA
+CodexOps Repository: https://github.com/Ho...
+🔐 Recovered api_keys_vault_synced.json from /Users/bfh/.codex_al_tunji 
+Context: ...XVCJ9...",
+    "helius_api_key": "e7755a25-392d-4a3b-b9bf-e3b0ae482dd6",
+    "luxcoin_public_key": "EEhuYsTGdiDMjjez3KiBaC9w3XRZqrxMohkaEpH9UUUy",
+    "codename": "Kingwave | MOBGODKINGWAVE (M.G.K.W)"
+}...
+🔐 Recovered Digest_README.md from /Users/bfh/.codex_al_tunji 
+Context: ...n Entry #004.1  
+- 🪙 **Wallet**: 3izqrwVEfQpvxPmimpgBfqVVuWGrfJkxuSih6PXuo4zA  
+- 🔐 **Public Key**: EEhuYsTGdiDMjjez3KiBaC9w3XRZqrxMohkaEpH9UUUy  
+- 📁 **Bundle**: api_keys_vault_synced.json  
+- 🔑 **Hash**: a5ff60ec7ea37ab4a59d39bfe45a9ce2630d4929b21f...
+🔐 Recovered api_keys_vault_synced.json from /Users/bfh/.codex_al_tunji/Digest004_1_API_Vault_unzipped 
+Context: ...XVCJ9...",
+    "helius_api_key": "e7755a25-392d-4a3b-b9bf-e3b0ae482dd6",
+    "luxcoin_public_key": "EEhuYsTGdiDMjjez3KiBaC9w3XRZqrxMohkaEpH9UUUy",
+    "codename": "Kingwave | MOBGODKINGWAVE (M.G.K.W)"
+}...
+🔐 Recovered Digest_README.md from /Users/bfh/.codex_al_tunji/CodexVault_DesignDrop_Package_unzipped 
+Context: ...n Entry #004.1  
+- 🪙 **Wallet**: 3izqrwVEfQpvxPmimpgBfqVVuWGrfJkxuSih6PXuo4zA  
+- 🔐 **Public Key**: EEhuYsTGdiDMjjez3KiBaC9w3XRZqrxMohkaEpH9UUUy  
+- 📁 **Bundle**: api_keys_vault_synced.json  
+- 🔑 **Hash**: a5ff60ec7ea37ab4a59d39bfe45a9ce2630d4929b21f...
+🔐 Recovered api_keys_vault_synced.json from /Users/bfh/Sites/localhost/assets/gTek_iTek_LUX_coin_MOMENT_OF_TRUTH-main 
+Context: ...XVCJ9...",
+    "helius_api_key": "e7755a25-392d-4a3b-b9bf-e3b0ae482dd6",
+    "luxcoin_public_key": "EEhuYsTGdiDMjjez3KiBaC9w3XRZqrxMohkaEpH9UUUy",
+    "codename": "Kingwave | MOBGODKINGWAVE (M.G.K.W)"
+}...
+🔐 Recovered Digest_README.md from /Users/bfh/Sites/localhost/assets/gTek_iTek_LUX_coin_MOMENT_OF_TRUTH-main 
+Context: ...n Entry #004.1  
+- 🪙 **Wallet**: 3izqrwVEfQpvxPmimpgBfqVVuWGrfJkxuSih6PXuo4zA  
+- 🔐 **Public Key**: EEhuYsTGdiDMjjez3KiBaC9w3XRZqrxMohkaEpH9UUUy  
+- 📁 **Bundle**: api_keys_vault_synced.json  
+- 🔑 **Hash**: a5ff60ec7ea37ab4a59d39bfe45a9ce2630d4929b21f...
+🔐 Recovered api_keys_vault_synced.json from /Users/bfh/Sites/localhost/assets/gTek_iTek_LUX_coin_MOMENT_OF_TRUTH-main/Digest004_1_API_Vault_unzipped 
+Context: ...XVCJ9...",
+    "helius_api_key": "e7755a25-392d-4a3b-b9bf-e3b0ae482dd6",
+    "luxcoin_public_key": "EEhuYsTGdiDMjjez3KiBaC9w3XRZqrxMohkaEpH9UUUy",
+    "codename": "Kingwave | MOBGODKINGWAVE (M.G.K.W)"
+}...
+🔐 Recovered Digest_README.md from /Users/bfh/Sites/localhost/assets/gTek_iTek_LUX_coin_MOMENT_OF_TRUTH-main/CodexVault_DesignDrop_Package_unzipped 
+Context: ...n Entry #004.1  
+- 🪙 **Wallet**: 3izqrwVEfQpvxPmimpgBfqVVuWGrfJkxuSih6PXuo4zA  
+- 🔐 **Public Key**: EEhuYsTGdiDMjjez3KiBaC9w3XRZqrxMohkaEpH9UUUy  
+- 📁 **Bundle**: api_keys_vault_synced.json  
+- 🔑 **Hash**: a5ff60ec7ea37ab4a59d39bfe45a9ce2630d4929b21f...
+🔐 Recovered LUX_COIN_Metadata_Registry.json from /Users/bfh/Ieee Dropbox/Ieee Team Folder/Divorce Decree/For-The-Law-of-Equity 
+Context: ..."symbol": "LUX",
+  "networks": [
+    "Ethereum",
+    "Solana",
+    "Cronos"
+  ],
+  "wallet_id": "EEhuYsTGdiDMjjez3KiBaC9w3XRZqrxMohkaEpH9UUUy",
+  "client_api_key": "hoV9tLpw5cOlZVNU1UIYqXIZvq3GsFSC",
+  "auth_token": "Bearer TipXXXYdhJFZgLUDNb5XjIA...
+🔐 Recovered LUX_COIN_Metadata_Registry.json from /Users/bfh/Ieee Dropbox/Ieee Team Folder/Divorce Decree/For-The-Law-of-Equity/Codex_Divorce_Legal_Dispatch_Bundle_unzipped 
+Context: ..."symbol": "LUX",
+  "networks": [
+    "Ethereum",
+    "Solana",
+    "Cronos"
+  ],
+  "wallet_id": "EEhuYsTGdiDMjjez3KiBaC9w3XRZqrxMohkaEpH9UUUy",
+  "client_api_key": "hoV9tLpw5cOlZVNU1UIYqXIZvq3GsFSC",
+  "auth_token": "Bearer TipXXXYdhJFZgLUDNb5XjIA...
+🔐 Recovered api_keys_vault_synced.json from /Users/bfh/Ieee Dropbox/Ieee Team Folder/NFT Simple Mission May 20 Sovereign Feather Of Maat 
+Context: ...XVCJ9...",
+    "helius_api_key": "e7755a25-392d-4a3b-b9bf-e3b0ae482dd6",
+    "luxcoin_public_key": "EEhuYsTGdiDMjjez3KiBaC9w3XRZqrxMohkaEpH9UUUy",
+    "codename": "Kingwave | MOBGODKINGWAVE (M.G.K.W)"
+}...
+🔐 Recovered Digest_README.md from /Users/bfh/Ieee Dropbox/Ieee Team Folder/NFT Simple Mission May 20 Sovereign Feather Of Maat 
+Context: ...n Entry #004.1  
+- 🪙 **Wallet**: 3izqrwVEfQpvxPmimpgBfqVVuWGrfJkxuSih6PXuo4zA  
+- 🔐 **Public Key**: EEhuYsTGdiDMjjez3KiBaC9w3XRZqrxMohkaEpH9UUUy  
+- 📁 **Bundle**: api_keys_vault_synced.json  
+- 🔑 **Hash**: a5ff60ec7ea37ab4a59d39bfe45a9ce2630d4929b21f...
+🔐 Recovered api_keys_vault_synced.json from /Users/bfh/Ieee Dropbox/Ieee Team Folder/NFT Simple Mission May 20 Sovereign Feather Of Maat/Digest004_1_API_Vault_unzipped 
+Context: ...XVCJ9...",
+    "helius_api_key": "e7755a25-392d-4a3b-b9bf-e3b0ae482dd6",
+    "luxcoin_public_key": "EEhuYsTGdiDMjjez3KiBaC9w3XRZqrxMohkaEpH9UUUy",
+    "codename": "Kingwave | MOBGODKINGWAVE (M.G.K.W)"
+}...
+🔐 Recovered Digest_README.md from /Users/bfh/Ieee Dropbox/Ieee Team Folder/NFT Simple Mission May 20 Sovereign Feather Of Maat/CodexVault_DesignDrop_Package_unzipped 
+Context: ...n Entry #004.1  
+- 🪙 **Wallet**: 3izqrwVEfQpvxPmimpgBfqVVuWGrfJkxuSih6PXuo4zA  
+- 🔐 **Public Key**: EEhuYsTGdiDMjjez3KiBaC9w3XRZqrxMohkaEpH9UUUy  
+- 📁 **Bundle**: api_keys_vault_synced.json  
+- 🔑 **Hash**: a5ff60ec7ea37ab4a59d39bfe45a9ce2630d4929b21f...
+🔐 Recovered api_keys_vault_synced.json from /Users/bfh/Ieee Dropbox/Jerome Hill/Mac/Desktop/gTek Industries Main/BFH json files and more may 20 v 1.1 
+Context: ...XVCJ9...",
+    "helius_api_key": "e7755a25-392d-4a3b-b9bf-e3b0ae482dd6",
+    "luxcoin_public_key": "EEhuYsTGdiDMjjez3KiBaC9w3XRZqrxMohkaEpH9UUUy",
+    "codename": "Kingwave | MOBGODKINGWAVE (M.G.K.W)"
+}...
+🔐 Recovered Digest_README.md from /Users/bfh/Ieee Dropbox/Jerome Hill/Mac/Desktop/gTek Industries Main/BFH json files and more may 20 v 1.1 
+Context: ...n Entry #004.1  
+- 🪙 **Wallet**: 3izqrwVEfQpvxPmimpgBfqVVuWGrfJkxuSih6PXuo4zA  
+- 🔐 **Public Key**: EEhuYsTGdiDMjjez3KiBaC9w3XRZqrxMohkaEpH9UUUy  
+- 📁 **Bundle**: api_keys_vault_synced.json  
+- 🔑 **Hash**: a5ff60ec7ea37ab4a59d39bfe45a9ce2630d4929b21f...
+🔐 Recovered api_keys_vault_synced.json from /Users/bfh/Ieee Dropbox/Jerome Hill/Mac/Desktop/gTek Industries Main/BFH json files and more may 20 v 1.1/gTek_iTek_LUX_coin_MOMENT_OF_TRUTH-main_unzipped/gTek_iTek_LUX_coin_MOMENT_OF_TRUTH-main 
+Context: ...XVCJ9...",
+    "helius_api_key": "e7755a25-392d-4a3b-b9bf-e3b0ae482dd6",
+    "luxcoin_public_key": "EEhuYsTGdiDMjjez3KiBaC9w3XRZqrxMohkaEpH9UUUy",
+    "codename": "Kingwave | MOBGODKINGWAVE (M.G.K.W)"
+}...
+🔐 Recovered Digest_README.md from /Users/bfh/Ieee Dropbox/Jerome Hill/Mac/Desktop/gTek Industries Main/BFH json files and more may 20 v 1.1/gTek_iTek_LUX_coin_MOMENT_OF_TRUTH-main_unzipped/gTek_iTek_LUX_coin_MOMENT_OF_TRUTH-main 
+Context: ...n Entry #004.1  
+- 🪙 **Wallet**: 3izqrwVEfQpvxPmimpgBfqVVuWGrfJkxuSih6PXuo4zA  
+- 🔐 **Public Key**: EEhuYsTGdiDMjjez3KiBaC9w3XRZqrxMohkaEpH9UUUy  
+- 📁 **Bundle**: api_keys_vault_synced.json  
+- 🔑 **Hash**: a5ff60ec7ea37ab4a59d39bfe45a9ce2630d4929b21f...
+🔐 Recovered api_keys_vault_synced.json from /Users/bfh/Ieee Dropbox/Jerome Hill/Mac/Desktop/gTek Industries Main/BFH json files and more may 20 v 1.1/Digest004_1_API_Vault_unzipped 
+Context: ...XVCJ9...",
+    "helius_api_key": "e7755a25-392d-4a3b-b9bf-e3b0ae482dd6",
+    "luxcoin_public_key": "EEhuYsTGdiDMjjez3KiBaC9w3XRZqrxMohkaEpH9UUUy",
+    "codename": "Kingwave | MOBGODKINGWAVE (M.G.K.W)"
+}...
+🔐 Recovered api_keys_vault_synced.json from /Users/bfh/Ieee Dropbox/Jerome Hill/Mac/Downloads/gTek_iTek_LUX_coin_MOMENT_OF_TRUTH-main_unzipped/gTek_iTek_LUX_coin_MOMENT_OF_TRUTH-main 
+Context: ...XVCJ9...",
+    "helius_api_key": "e7755a25-392d-4a3b-b9bf-e3b0ae482dd6",
+    "luxcoin_public_key": "EEhuYsTGdiDMjjez3KiBaC9w3XRZqrxMohkaEpH9UUUy",
+    "codename": "Kingwave | MOBGODKINGWAVE (M.G.K.W)"
+}...
+🔐 Recovered Digest_README.md from /Users/bfh/Ieee Dropbox/Jerome Hill/Mac/Downloads/gTek_iTek_LUX_coin_MOMENT_OF_TRUTH-main_unzipped/gTek_iTek_LUX_coin_MOMENT_OF_TRUTH-main 
+Context: ...n Entry #004.1  
+- 🪙 **Wallet**: 3izqrwVEfQpvxPmimpgBfqVVuWGrfJkxuSih6PXuo4zA  
+- 🔐 **Public Key**: EEhuYsTGdiDMjjez3KiBaC9w3XRZqrxMohkaEpH9UUUy  
+- 📁 **Bundle**: api_keys_vault_synced.json  
+- 🔑 **Hash**: a5ff60ec7ea37ab4a59d39bfe45a9ce2630d4929b21f...
+🔐 Recovered LUX_COIN_Metadata_Registry.json from /Users/bfh/Ieee Dropbox/Jerome Hill/Mac/Downloads/LUX_Codex_Genesis_Launch_Kit_unzipped 
+Context: ..."symbol": "LUX",
+  "networks": [
+    "Ethereum",
+    "Solana",
+    "Cronos"
+  ],
+  "wallet_id": "EEhuYsTGdiDMjjez3KiBaC9w3XRZqrxMohkaEpH9UUUy",
+  "client_api_key": "hoV9tLpw5cOlZVNU1UIYqXIZvq3GsFSC",
+  "auth_token": "Bearer TipXXXYdhJFZgLUDNb5XjIA...
+🔐 Recovered api_keys_vault_synced.json from /Users/bfh/Ieee Dropbox/Jerome Hill/NFT Simple Mission May 20 Sovereign Feather Of Maat 
+Context: ...XVCJ9...",
+    "helius_api_key": "e7755a25-392d-4a3b-b9bf-e3b0ae482dd6",
+    "luxcoin_public_key": "EEhuYsTGdiDMjjez3KiBaC9w3XRZqrxMohkaEpH9UUUy",
+    "codename": "Kingwave | MOBGODKINGWAVE (M.G.K.W)"
+}...
+🔐 Recovered Digest_README.md from /Users/bfh/Ieee Dropbox/Jerome Hill/NFT Simple Mission May 20 Sovereign Feather Of Maat 
+Context: ...n Entry #004.1  
+- 🪙 **Wallet**: 3izqrwVEfQpvxPmimpgBfqVVuWGrfJkxuSih6PXuo4zA  
+- 🔐 **Public Key**: EEhuYsTGdiDMjjez3KiBaC9w3XRZqrxMohkaEpH9UUUy  
+- 📁 **Bundle**: api_keys_vault_synced.json  
+- 🔑 **Hash**: a5ff60ec7ea37ab4a59d39bfe45a9ce2630d4929b21f...
+🔐 Recovered api_keys_vault_synced.json from /Users/bfh/Ieee Dropbox/Jerome Hill/NFT Simple Mission May 20 Sovereign Feather Of Maat/Digest004_1_API_Vault_unzipped 
+Context: ...XVCJ9...",
+    "helius_api_key": "e7755a25-392d-4a3b-b9bf-e3b0ae482dd6",
+    "luxcoin_public_key": "EEhuYsTGdiDMjjez3KiBaC9w3XRZqrxMohkaEpH9UUUy",
+    "codename": "Kingwave | MOBGODKINGWAVE (M.G.K.W)"
+}...
+🔐 Recovered Digest_README.md from /Users/bfh/Ieee Dropbox/Jerome Hill/NFT Simple Mission May 20 Sovereign Feather Of Maat/CodexVault_DesignDrop_Package_unzipped 
+Context: ...n Entry #004.1  
+- 🪙 **Wallet**: 3izqrwVEfQpvxPmimpgBfqVVuWGrfJkxuSih6PXuo4zA  
+- 🔐 **Public Key**: EEhuYsTGdiDMjjez3KiBaC9w3XRZqrxMohkaEpH9UUUy  
+- 📁 **Bundle**: api_keys_vault_synced.json  
+- 🔑 **Hash**: a5ff60ec7ea37ab4a59d39bfe45a9ce2630d4929b21f...
+🔐 ✅ Recovery complete. 50 files secured.
+🧠 ✅ Completed: gTekCodex_AnchorRecovery_Pro_Safe.py
+🧠 ⚠️ gTekCodex_iTekLux_WalletScanner_v2.py not found in ~/Downloads/
+🧠 ▶️ Running gTekCodex_LicenseCollector.py
+🧠 gTek Plugin License Collector — INIT
+[2025-06-29 13:18:44] 🔐 Total plugin license files recovered: 0
+📦 Saved to: /Users/bfh/Codex_License_Vault
+🧠 ✅ Completed: gTekCodex_LicenseCollector.py
+🧠 ⚠️ gtek_global_codex_audit.py not found in ~/Downloads/
+🧠 ▶️ Running gtek_codex_hyper_minting_suite.py
+Traceback (most recent call last):
+  File "/Users/bfh/Downloads/gtek_codex_hyper_minting_suite.py", line 93, in <module>
+    main()
+    ~~~~^^
+  File "/Users/bfh/Downloads/gtek_codex_hyper_minting_suite.py", line 87, in main
+    log("🔁 INIT HYPERDIMENSIONAL MINT ORGANIZER")
+    ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/bfh/Downloads/gtek_codex_hyper_minting_suite.py", line 22, in log
+    with open(LOG, "a") as f:
+         ~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/bfh/Codex_NFT_Bundles/minting_log.txt'
+🧠 ❌ Failed: gtek_codex_hyper_minting_suite.py | Command '['python3', '/Users/bfh/Downloads/gtek_codex_hyper_minting_suite.py']' returned non-zero exit status 1.
+🧠 🔁 All MetaQuantum functions executed.
+bfh@BFHs-MacBook-Pro:~ % 

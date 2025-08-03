@@ -1,0 +1,112 @@
+{
+  "typeAcquisition": {
+    "enable": true
+  },
+  "references": [
+    {
+      "path": ".wix/types/aabye/jsconfig.json"
+    },
+    {
+      "path": ".wix/types/acn2r/jsconfig.json"
+    },
+    {
+      "path": ".wix/types/afjtk/jsconfig.json"
+    },
+    {
+      "path": ".wix/types/bjfkf/jsconfig.json"
+    },
+    {
+      "path": ".wix/types/eumit/jsconfig.json"
+    },
+    {
+      "path": ".wix/types/fyg8r/jsconfig.json"
+    },
+    {
+      "path": ".wix/types/godys/jsconfig.json"
+    },
+    {
+      "path": ".wix/types/i03tk/jsconfig.json"
+    },
+    {
+      "path": ".wix/types/ldaq0/jsconfig.json"
+    },
+    {
+      "path": ".wix/types/mjva3/jsconfig.json"
+    },
+    {
+      "path": ".wix/types/mpqq9/jsconfig.json"
+    },
+    {
+      "path": ".wix/types/nukk7/jsconfig.json"
+    },
+    {
+      "path": ".wix/types/o2xus/jsconfig.json"
+    },
+    {
+      "path": ".wix/types/o37dw/jsconfig.json"
+    },
+    {
+      "path": ".wix/types/ojlkj/jsconfig.json"
+    },
+    {
+      "path": ".wix/types/pv9zk/jsconfig.json"
+    },
+    {
+      "path": ".wix/types/qk6ny/jsconfig.json"
+    },
+    {
+      "path": ".wix/types/qm0b4/jsconfig.json"
+    },
+    {
+      "path": ".wix/types/qporx/jsconfig.json"
+    },
+    {
+      "path": ".wix/types/r69qt/jsconfig.json"
+    },
+    {
+      "path": ".wix/types/rdqse/jsconfig.json"
+    },
+    {
+      "path": ".wix/types/remc0/jsconfig.json"
+    },
+    {
+      "path": ".wix/types/smnx3/jsconfig.json"
+    },
+    {
+      "path": ".wix/types/u88d7/jsconfig.json"
+    },
+    {
+      "path": ".wix/types/uc3i8/jsconfig.json"
+    },
+    {
+      "path": ".wix/types/uyk07/jsconfig.json"
+    },
+    {
+      "path": ".wix/types/wcdxa/jsconfig.json"
+    },
+    {
+      "path": ".wix/types/wo29j/jsconfig.json"
+    },
+    {
+      "path": ".wix/types/z0prr/jsconfig.json"
+    },
+    {
+      "path": ".wix/types/z9rxp/jsconfig.json"
+    },
+    {
+      "path": ".wix/types/zlnbf/jsconfig.json"
+    },
+    {
+      "path": ".wix/types/c88zy/jsconfig.json"
+    },
+    {
+      "path": ".wix/types/masterPage/jsconfig.json"
+    },
+    {
+      "path": ".wix/types/backend/jsconfig.json"
+    },
+    {
+      "path": ".wix/types/public/jsconfig.json"
+    }
+  ]
+}

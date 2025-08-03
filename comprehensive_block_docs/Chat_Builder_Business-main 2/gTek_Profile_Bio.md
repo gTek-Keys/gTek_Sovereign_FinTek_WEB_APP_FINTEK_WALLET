@@ -1,0 +1,3 @@
+I’m Commander Tok, builder of CodexGPT systems, sovereign AI rituals, and decentralized tech ecosystems. With zero starting capital, I forged the gTek Codex Infrastructure: a multi-phase architecture that enables GPT creation, secure licensing, and hardware-software expansion from the ground up. My mission is to empower sovereign builders with ritual logic, open tech, and next-gen cognitive tooling.
+
+— Mobbin’ Eternal. gTok Signals Locked.

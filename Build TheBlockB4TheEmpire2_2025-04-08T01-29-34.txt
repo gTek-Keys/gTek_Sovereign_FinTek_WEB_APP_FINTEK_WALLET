@@ -1,0 +1,21 @@
+
+Showing Recent Issues
+
+Build target TheBlockB4TheEmpire2 of project TheBlockB4TheEmpire2 (Mac) with configuration Development
+
+CodeSign /Users/bfh/Documents/BFH_Codex_XcodeProject/TheBlockB4TheEmpire/TheBlockB4TheEmpire2/Binaries/Mac/TheBlockB4TheEmpire2.app (in target 'TheBlockB4TheEmpire2' from project 'TheBlockB4TheEmpire2 (Mac)')
+    cd /Users/bfh/Documents/BFH_Codex_XcodeProject/TheBlockB4TheEmpire/TheBlockB4TheEmpire2/Intermediate/ProjectFiles
+    
+    Signing Identity:     "Sign to Run Locally"
+    
+    /usr/bin/codesign --force --sign - --entitlements /Users/bfh/Documents/BFH_Codex_XcodeProject/TheBlockB4TheEmpire/TheBlockB4TheEmpire2/Binaries/TheBlockB4TheEmpire2\ \(Mac\).build/Mac/TheBlockB4TheEmpire2.build/TheBlockB4TheEmpire2.app.xcent --timestamp\=none --generate-entitlement-der /Users/bfh/Documents/BFH_Codex_XcodeProject/TheBlockB4TheEmpire/TheBlockB4TheEmpire2/Binaries/Mac/TheBlockB4TheEmpire2.app
+
+/Users/bfh/Documents/BFH_Codex_XcodeProject/TheBlockB4TheEmpire/TheBlockB4TheEmpire2/Binaries/Mac/TheBlockB4TheEmpire2.app: replacing existing signature
+/Users/bfh/Documents/BFH_Codex_XcodeProject/TheBlockB4TheEmpire/TheBlockB4TheEmpire2/Binaries/Mac/TheBlockB4TheEmpire2.app: resource fork, Finder information, or similar detritus not allowed
+Command CodeSign failed with a nonzero exit code
+
+Command CodeSign failed with a nonzero exit code
+
+
+
+Build failed    4/8/25, 01:30    39.2 seconds

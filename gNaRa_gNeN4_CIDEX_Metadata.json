@@ -1,0 +1,40 @@
+{
+  "project_name": "gNaRa gNeN\u2074 Quantum Cultural Compute Stack",
+  "token_standard": "ERC-721",
+  "metadata_schema": "CIDEX Sovereign Metadata v1.0",
+  "cidex_id": "GNEN-QUAD-DAO-7777",
+  "title": "gNaRa gNeN\u2074\u2122 Whitepaper + IP Stack",
+  "description": "This NFT contains CIDEX-encoded metadata, proof of authorship, and sovereign IP registry for the gNaRa gNeN\u2074\u2122 processor, The Block platform, and gTekFinTek DAO protocol.",
+  "authors": [
+    {
+      "name": "Tok Commander",
+      "orcid": "https://orcid.org/0009-0001-7636-2345"
+    },
+    {
+      "name": "TOK MHA",
+      "role": "SovereignCodex MetAsistant"
+    }
+  ],
+  "files": [
+    {
+      "name": "gNaRa_gNeN4_Whitepaper_v1.pdf",
+      "type": "application/pdf",
+      "url": "ipfs://[TO_BE_LINKED]"
+    },
+    {
+      "name": "gNaRa_gNeN4_Trademark_IP_Sheet.txt",
+      "type": "text/plain",
+      "url": "ipfs://[TO_BE_LINKED]"
+    },
+    {
+      "name": "gTek_Combined_Grant_Metadata.json",
+      "type": "application/json",
+      "url": "ipfs://[TO_BE_LINKED]"
+    }
+  ],
+  "rights": "Sovereign Copyright\u2122 + DAO Registered",
+  "doi": "Pending",
+  "wallet": "0x742d35Cc6634C0532925a3b8D9F0C3D8A123456",
+  "mint_ready": true,
+  "timestamp": "2025-07-14T05:29:55.606584Z"
+}

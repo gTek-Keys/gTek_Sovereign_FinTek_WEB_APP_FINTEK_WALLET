@@ -1,0 +1,24 @@
+To the Irys, PermaDAO, and Community Labs Grant Committees,
+
+My name is Commander Tok, founder of gTek Sovereign Systems and originator of the CodexVault Sovereign AI Infrastructure.
+
+I am writing to request funding to expand and scale our existing CodexVault Sovereign Licensing Platform — an encrypted, immutable, and metadata-rich vault system designed for AI creators, NFT developers, and sovereign digital economies.
+
+This platform is currently operational, timestamped, and archived permanently. You can access the core vault metadata here:
+https://arweave.net/<TX_ID>
+
+It includes:
+- Private-use sovereign license: `LICENSE_Private.txt`
+- Codex system architecture: `CodexManifest.md`, `CLAUDE.md`
+- Audit trails and deployment roadmap
+- NFT-ready metadata: `codex_nft_metadata.json`
+
+I seek to continue building this platform under your support, integrating smart contract licensing, DAO interoperability, and public utility APIs that ensure creators retain ownership and monetization of their AI agents and IP.
+
+Thank you for your consideration. I welcome a meeting or further audit upon request.
+
+Mobbin’ Eternal,  
+Commander Tok  
+BFH TRUST DESIGNS / gTek Industries  
+66 Franklin St, Ste 300, Oakland CA 94607  
+BFHTrustDesigns@homemade-productions.com

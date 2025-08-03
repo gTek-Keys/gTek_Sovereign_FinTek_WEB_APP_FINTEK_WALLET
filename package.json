@@ -1,35 +1,16 @@
 {
-  "name": "gtek-sovereign-fintech-wallet",
-  "version": "1.0.0",
-  "description": "Sovereign Web3 Deployment Toolkit for NFT + DAO Infrastructure",
-  "type": "module",
+  "devDependencies": {
+    "@wix/cli": "^1.0.0",
+    "@wix/eslint-plugin-cli": "^1.0.0",
+    "eslint": "^8.25.0",
+    "react": "^18.2.0"
+  },
   "scripts": {
-    "compile": "hardhat compile",
-    "test": "hardhat test",
-    "deploy": "hardhat run scripts/deploy.js --network goerli",
-    "upload": "node upload.js"
+    "postinstall": "wix sync-types",
+    "dev": "wix dev",
+    "lint": "eslint ."
   },
   "dependencies": {
-    "dotenv": "^16.5.0",
-    "nft.storage": "^7.2.0"
-  },
-  "devDependencies": {
-    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
-    "@nomiclabs/hardhat-ethers": "^2.2.3",
-    "ethers": "5.8.0",
-    "hardhat": "^2.24.3"
-  },
-  "engines": {
-    "node": ">=18"
-  },
-  "keywords": [
-    "web3",
-    "nft",
-    "dao",
-    "ipfs",
-    "hardhat",
-    "gtek"
-  ],
-  "author": "gTek Industries",
-  "license": "MIT"
+    "react-dom": "^18.2.0"
+  }
 }

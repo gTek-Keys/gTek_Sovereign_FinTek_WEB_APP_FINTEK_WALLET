@@ -1,17 +1,158 @@
-node_modules
+# ==============================================================================
+# gTek Sovereign FinTek Web App - .gitignore
+# ==============================================================================
+
+# Large Files (>100MB limit for GitHub)
+*.zip
+*.rar
+*.7z
+*.tar.gz
+*.dmg
+*.pkg
+*.iso
+*.wav
+*.mp3
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.pdf
+*.docx
+*.doc
+*.pptx
+*.ppt
+*.xlsx
+*.xls
+
+# Specific large files
+July_16_2025Photos.zip
+Feeling\ uNCooL.wav
+*.crdownload
+
+# macOS system files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
 .env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+codex-env/
 
-# Hardhat files
-/cache
-/artifacts
+# Jupyter Notebook
+.ipynb_checkpoints
 
-# TypeChain files
-/typechain
-/typechain-types
+# Git related
+.git*/
+*.orig
 
-# solidity-coverage files
-/coverage
-/coverage.json
+# Environment variables
+.env*
+!.env.example
 
-# Hardhat Ignition default folder for deployments against a local node
-ignition/deployments/chain-31337
+# Logs
+*.log
+logs/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.temp
+
+# Blockchain/Crypto
+*.json.backup
+*.key
+*.pem
+ardrive-wallet.json
+
+# Build outputs
+dist/
+build/
+out/
+
+# Test coverage
+coverage/
+.nyc_output
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Next.js
+.next/
+out/
+
+# Webpack
+.webpack/
+
+# Serverless
+.serverless/
+
+# FuseBox cache
+.fusebox/
+
+# DynamoDB Local files
+.dynamodb/
+
+# TernJS port file
+.tern-port

@@ -1,0 +1,3544 @@
+Last login: Sun Jul 27 02:55:50 on ttys002
+You have new mail.
+bfh@BFHs-MacBook-Pro:~ % cat ~/.zsh_history
+
+python3 hunter_api_lookup.py --domain "veteransaffairs.gov" --limit 10 --api_key "8f81a302e9e255841812146dbf99640fb470d53
+cd /Users/bfh/Documents/The_Official_gTek_Files_CHAT/Sovereign_Codex_Legacy\
+
+git init\
+
+git push -u origin main\
+
+brew install ipfs        # For macOS (Homebrew)\
+sudo apt install ipfs    # For Debian/Ubuntu
+brew install ipfs
+ipfs init\
+ipfs daemon
+gh repo clone gTek-Keys/Sovereign_Fathers_Chat_Final
+nano gtek_push_script.py
+python3 gtek_push_script.py
+mv ~/Downloads/Housing_Rights_Complaint_JEH_Estate.pdf .\
+mv ~/Downloads/ALJES_Sealed_Sovereign_Artifact.pdf .\
+mv ~/Downloads/ALJES_Sovereign_Artifact_Metadata.json .
+./gtek_push_script.py
+find ~ -name "*Complaint*.pdf"\
+find ~ -name "*ALJES*.pdf"\
+find ~ -name "*.json"
+nano gtek_email_scraper.py
+python3 gtek_email_scraper.py
+unzip ~/Downloads/RUGGED\ USB\ USER\ MANUAL.zip -d ~/RUGGED_USB_DOCS
+nano gTek_PythonPush_FilingCabinet_Cleanser.py
+while true; do\
+  clear\
+  echo "??????? Scanning for new disks at $(date)..."\
+  diskutil list\
+  sleep 5\
+done
+python3 gTek_PythonPush_FilingCabinet_Cleanser.py
+system_profiler SPUSBDataType
+diskutil list
+diskutil mountDisk /dev/diskX
+git init\
+git remote add origin https://github.com/gTek-Keys/codex_al_tunji-1.git\
+git add .\
+git commit -m "Sovereign Initial Commit - MetaHueman Codex Full Push"\
+git push -u origin main
+# Step 1: Clone your GitHub repository\
+git clone https://github.com/gTek-Keys/codex_al_tunji-1.git\
+cd codex_al_tunji-1\
+\
+# Step 2: Copy the codex bundle into the repo\
+cp -r /path/to/codex_assets_bundle/* .\
+\
+# Step 3: Stage all files\
+git add .\
+\
+# Step 4: Commit with a descriptive message\
+git commit -m "?????? CodexOps McCoy Sweep: Mass import of structured Sovereign Assets, UI, Docs, and MetaInfrastructure"\
+\
+# Step 5: Push to GitHub\
+git push origin main
+# Navigate to your local repository\
+cd ~/path/to/your/cloned/codex_al_tunji-1\
+\
+# Copy over all CodexOps files from the extracted archive\
+cp -r ~/Downloads/CodexOps_McCoy_Sweep/* .\
+\
+# Stage all changes\
+git add .\
+\
+# Commit with Sovereign Codex message\
+git commit -m "?????? CodexOps McCoy Sweep  ? All sovereign assets synced, mission-critical files integrated."\
+\
+# Push to GitHub\
+git push origin main
+git clone git@github.com:gTek-Keys/codex_al_tunji-1.git\
+cd codex_al_tunji-1\
+npm install
+https://github.com/gTek-Keys/codex_al_tunji-1.git
+gh repo clone gTek-Keys/codex_al_tunji-1
+python3 sovereign_backend_processor.py
+mkdir -p "/Users/gTek Industries Main/Sovereign_Fathers_Chat_Final"
+nano gTek_digestive_audit_push.py\
+chmod +x gTek_digestive_audit_push.py\
+python3 gTek_digestive_audit_push.py
+mkdir -p ~/Library/LaunchAgents\
+nano ~/Library/LaunchAgents/com.gtek.digestive.sweep.plist
+mkdir -p ~/Sovereign_Fathers_Chat_Final/logs
+nano ~/Library/LaunchAgents/com.gtek.digestive.sweep.plist
+plutil ~/Library/LaunchAgents/com.gtek.digestive.sweep.plist
+launchctl unload ~/Library/LaunchAgents/com.gtek.digestive.sweep.plist
+launchctl load ~/Library/LaunchAgents/com.gtek.digestive.sweep.plist
+# Create directory if needed\
+mkdir -p ~/Sovereign_Fathers_Chat_Final/contracts\
+\
+# Create Solidity (.sol) file using nano\
+nano ~/Sovereign_Fathers_Chat_Final/contracts/SovereignCodex.sol
+# Create build helper for remix/truffle/hardhat-style environments\
+nano ~/Sovereign_Fathers_Chat_Final/contracts/Makefile
+brew update\
+brew tap ethereum/ethereum\
+brew install solidity
+cd ~/Sovereign_Fathers_Chat_Final\
+\
+# Stage all files\
+git add .\
+\
+# Commit with Sovereign Message\
+git commit -m "?????? Sovereign Sync Push: Auto-package and codex alignment"\
+\
+# Push to the main branch\
+git push origin main
+echo "full_disk_audit_log.txt" >> .gitignore
+git filter-repo --path full_disk_audit_log.txt --invert-paths
+git add .\
+git commit -m "?????? Cleaned audit artifacts; retrying Sovereign Sync"\
+git push origin main
+git add .gitattributes full_disk_audit_log.txt\
+git commit -m "??????? Tracked large audit file with LFS"\
+git push origin main
+#/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"\
+\
+\
+echo "?????? Initiating Sovereign Codex AutoSync..."\
+\
+# Create directories and files\
+mkdir -p ~/Sovereign_Fathers_Chat_Final/contracts\
+cd ~/Sovereign_Fathers_Chat_Final || exit\
+\
+# Git LFS init\
+if ! command -v git-lfs &> /dev/null; then\
+    echo "?????? Installing Git LFS..."\
+    brew install git-lfs\
+    git lfs install\
+fi\
+\
+# Add large file tracking\
+git lfs track "full_disk_audit_log.txt"\
+echo "full_disk_audit_log.txt" >> .gitattributes\
+echo "full_disk_audit_log.txt" >> .gitignore\
+\
+# Create smart contract\
+cat > contracts/SovereignCodex.sol <<EOF\
+// SPDX-License-Identifier: MIT\
+pragma solidity ^0.8.20;\
+\
+import "@openzeppelin/contracts/token/ERC721/extensions/ERC721URIStorage.sol";\
+import "@openzeppelin/contracts/access/Ownable.sol";\
+\
+contract CombatToConcreteNFT is ERC721URIStorage, Ownable {\
+    uint256 public tokenCounter;\
+    constructor(address initialOwner)\
+        ERC721("CombatToConcrete", "CTCNFT")\
+        Ownable(initialOwner) {\
+        tokenCounter = 0;\
+    }\
+\
+    function mintNFT(address recipient, string memory tokenURI)\
+        public onlyOwner returns (uint256) {\
+        uint256 newItemId = tokenCounter;\
+        _safeMint(recipient, newItemId);\
+        _setTokenURI(newItemId, tokenURI);\
+        tokenCounter += 1;\
+        return newItemId;\
+    }\
+}\
+EOF\
+\
+# Optional makefile\
+echo -e "all:\n\tnpx hardhat compile" > contracts/Makefile\
+\
+# Create Python utility\
+echo 'print("?????? Sovereign Codex Ops: Active")' > sovereign_codex_ops.py\
+\
+# Final Git commands\
+git add .\
+git commit -m "?????? Codex LFS Sync: Contract + ops files auto-tracked"\
+git push origin main\
+\
+echo "⃼?? Sovereign Sync Complete."
+nano ~/Sovereign_Fathers_Chat_Final/sovereign_codex_sync.sh\
+chmod +x ~/Sovereign_Fathers_Chat_Final/sovereign_codex_sync.sh\
+bash ~/Sovereign_Fathers_Chat_Final/sovereign_codex_sync.sh
+#/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"\
+\
+# setup_hyper.sh  ? gTek Hyper Script Bash Core\
+echo "?????? gTek Hyper Init: Ether Flow Sync Online"\
+\
+PROJECT_NAME="$1"\
+mkdir -p "$PROJECT_NAME/contracts"\
+cd "$PROJECT_NAME" || exit\
+\
+# Create markdown design doc\
+cat > gtek_hyper.md <<EOF\
+# gTek Hyper Script Genesis  ? ${PROJECT_NAME}\
+\
+## ?????? Project Mission\
+Hyperdimensional codex flow automation system designed to build, deploy, and evolve smart projects from quantum intent.\
+\
+## ⃺??︃? Auto-Created Artifacts\
+- Solidity Smart Contract (QuantumNFT.sol)\
+- Python Generator (gtek_autogen.py)\
+- Git Sync Ready\
+EOF\
+\
+# Python Autogen Script\
+cat > gtek_autogen.py <<EOF\
+# gTek Autogen Engine for ${PROJECT_NAME}\
+print("?????? Generating contract, metadata, and codex structure...")\
+\
+contract_code = \"\"\"pragma solidity ^0.8.20;\
+\
+import "@openzeppelin/contracts/token/ERC721/extensions/ERC721URIStorage.sol";\
+import "@openzeppelin/contracts/access/Ownable.sol";\
+\
+contract QuantumNFT is ERC721URIStorage, Ownable {\
+    uint256 public tokenCounter;\
+    constructor(address initialOwner) ERC721("QuantumNFT", "QFT") Ownable(initialOwner) {\
+        tokenCounter = 0;\
+    }\
+    function mintNFT(address recipient, string memory tokenURI) public onlyOwner returns (uint256) {\
+        uint256 newItemId = tokenCounter;\
+        _safeMint(recipient, newItemId);\
+        _setTokenURI(newItemId, tokenURI);\
+        tokenCounter += 1;\
+        return newItemId;\
+    }\
+}\
+\"\"\"\
+\
+with open("contracts/QuantumNFT.sol", "w") as f:\
+    f.write(contract_code)\
+\
+print("⃼?? QuantumNFT.sol created.")\
+EOF\
+\
+# .gitignore\
+cat > .gitignore <<EOF\
+__pycache__/\
+*.log\
+*.tmp\
+node_modules/\
+.env\
+EOF\
+\
+# License\
+cat > LICENSE <<EOF\
+MIT License  ? gTek Sovereign Systems\
+© 2025 gTek Industries. Mobbin ? Eternal.\
+EOF\
+\
+echo "⃼?? Hyperdimensional Codex Engine Initialized: $PROJECT_NAME"
+#/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"\
+\
+# ?????? setup_hyper.sh  ? gTek Hyper Script Core\
+echo "?????? gTek Hyper Init: Ether Flow Sync Online"\
+\
+# Ensure project name was passed\
+if [ -z "$1" ]; then\
+  echo "⃽?? Error: No project name supplied."\
+  echo "Usage: bash setup_hyper.sh [Project_Name]"\
+  exit 1\
+fi\
+\
+PROJECT_NAME="$1"\
+mkdir -p "$PROJECT_NAME/contracts"\
+cd "$PROJECT_NAME" || exit\
+\
+# ??????? gtek_hyper.md\
+cat > gtek_hyper.md <<EOF\
+# gTek Hyper Script Genesis  ? ${PROJECT_NAME}\
+\
+## ?????? Mission\
+This codex project automates the birth of sovereign contract frameworks at hyperdimensional scale and speed.\
+\
+## ⃺??︃? Auto-Artifacts:\
+- ?????? Smart Contract (QuantumNFT.sol)\
+- ?????? Python Generator (gtek_autogen.py)\
+- ??????? MarkDown Design Doc\
+EOF\
+\
+# ?????? gtek_autogen.py\
+cat > gtek_autogen.py <<EOF\
+# gTek Autogen Engine for ${PROJECT_NAME}\
+print("?????? Generating QuantumNFT contract...")\
+\
+contract_code = \"\"\"pragma solidity ^0.8.20;\
+\
+import "@openzeppelin/contracts/token/ERC721/extensions/ERC721URIStorage.sol";\
+import "@openzeppelin/contracts/access/Ownable.sol";\
+\
+contract QuantumNFT is ERC721URIStorage, Ownable {\
+    uint256 public tokenCounter;\
+    constructor(address initialOwner) ERC721("QuantumNFT", "QFT") Ownable(initialOwner) {\
+        tokenCounter = 0;\
+    }\
+    function mintNFT(address recipient, string memory tokenURI) public onlyOwner returns (uint256) {\
+        uint256 newItemId = tokenCounter;\
+        _safeMint(recipient, newItemId);\
+        _setTokenURI(newItemId, tokenURI);\
+        tokenCounter += 1;\
+        return newItemId;\
+    }\
+}\
+\"\"\"\
+\
+with open("contracts/QuantumNFT.sol", "w") as f:\
+    f.write(contract_code)\
+\
+print("⃼?? QuantumNFT.sol created.")\
+EOF\
+\
+# ???????︃? .gitignore\
+cat > .gitignore <<EOF\
+__pycache__/\
+*.log\
+*.tmp\
+node_modules/\
+.env\
+EOF\
+\
+# ????? LICENSE\
+cat > LICENSE <<EOF\
+MIT License  ? gTek Sovereign Systems\
+© 2025 gTek Industries. Mobbin ? Eternal.\
+EOF\
+\
+echo "⃼?? Hyperdimensional Codex Engine Initialized: $PROJECT_NAME"
+bash setup_hyper.sh SovereignCodexAlpha
+ls ~/Sovereign_Fathers_Chat_Final/setup_hyper.sh
+nano ~/Sovereign_Fathers_Chat_Final/setup_hyper.sh
+#/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"\
+\
+\
+# ?????? gTek Hyper Init: Ether Flow Sync Online\
+\
+# Ensure project name was passed\
+if [ -z "$1" ]; then\
+  echo "⃽?? Error: No project name supplied."\
+  echo "Usage: bash setup_hyper.sh [Project_Name]"\
+  exit 1\
+fi\
+\
+PROJECT_NAME="$1"\
+\
+echo "?????? Initializing Hyperdimensional Codex Project: $PROJECT_NAME"\
+\
+# Create directories\
+mkdir -p "$PROJECT_NAME/contracts"\
+\
+cd "$PROJECT_NAME" || exit\
+\
+# ??????? Create Markdown design doc\
+cat > gtek_hyper.md <<EOF\
+# gTek Hyper Script Genesis  ? ${PROJECT_NAME}\
+\
+## ?????? Mission\
+Codex automation system engineered for hyperdimensional project deployment and sovereignty-aligned contract flows.\
+\
+## ⃺??︃? Auto-Artifacts:\
+- ????? Smart Contract (QuantumNFT.sol)\
+- ?????? Python Generator (gtek_autogen.py)\
+- ??????? Design Doc (this file)\
+EOF\
+\
+# ?????? Python autogen script\
+cat > gtek_autogen.py <<EOF\
+# gTek Autogen Engine for ${PROJECT_NAME}\
+print("?????? Generating QuantumNFT contract...")\
+\
+contract_code = \"\"\"pragma solidity ^0.8.20;\
+\
+import "@openzeppelin/contracts/token/ERC721/extensions/ERC721URIStorage.sol";\
+import "@openzeppelin/contracts/access/Ownable.sol";\
+\
+contract QuantumNFT is ERC721URIStorage, Ownable {\
+    uint256 public tokenCounter;\
+    constructor(address initialOwner) ERC721("QuantumNFT", "QFT") Ownable(initialOwner) {\
+        tokenCounter = 0;\
+    }\
+    function mintNFT(address recipient, string memory tokenURI) public onlyOwner returns (uint256) {\
+        uint256 newItemId = tokenCounter;\
+        _safeMint(recipient, newItemId);\
+        _setTokenURI(newItemId, tokenURI);\
+        tokenCounter += 1;\
+        return newItemId;\
+    }\
+}\
+\"\"\"\
+\
+with open("contracts/QuantumNFT.sol", "w") as f:\
+    f.write(contract_code)\
+\
+print("⃼?? QuantumNFT.sol created.")\
+EOF\
+\
+# ???????︃? .gitignore\
+cat > .gitignore <<EOF\
+__pycache__/\
+*.log\
+*.tmp\
+node_modules/\
+.env\
+EOF\
+\
+# ????? LICENSE\
+cat > LICENSE <<EOF\
+MIT License  ? gTek Sovereign Systems\
+© 2025 gTek Industries. Mobbin ? Eternal.\
+EOF\
+\
+echo "⃼?? Hyperdimensional Codex Engine Initialized: $PROJECT_NAME"
+git commit -m "????? Initial Codex Sovereign Activation - Mt Andalusia Al Tunji Tort Claim Genesis"
+# Create Python script in designated Sovereign directory\
+nano ~/Sovereign_Fathers_Chat_Final/sovereign_codex_ops.py
+# On macOS (via Homebrew)\
+brew install --cask synfigstudio\
+\
+# Or download the AppImage (Linux-friendly):\
+chmod +x synfigstudio-*.appimage\
+./synfigstudio-*.appimage
+# Linux:\
+wget https://download.blender.org/release/Blender4.4/blender-4.4.0-linux-x64.tar.xz\
+tar -xf blender-*.tar.xz -C ~/software\
+\
+# macOS Homebrew:\
+brew install --cask blender
+blender --version  # check installation\
+blender --background \\
+        --python my_blender_script.py \\
+        -- my_extra_args
+# e.g. macOS GUI install\
+open ~/Downloads/Natron-*.dmg
+blender -b scene.blend \\
+        --addons "my_addon" \\
+        --python-use-system-env \\
+        -P batch_export.py \\
+        -- --export-format OBJ
+# Step 1: Update Homebrew first\
+brew update\
+\
+# Step 2: Install Synfig Studio via Homebrew Cask\
+brew install --cask synfigstudio\
+\
+# Step 3: Verify installation (optional)\
+open -a SynfigStudio
+# Step 1: Make AppImage executable\
+chmod +x synfigstudio-*.appimage\
+\
+# Step 2: Run the AppImage\
+./synfigstudio-*.appimage
+gTek_auto_sync_push.py
+# Step 1: Create the Python file using Nano\
+nano ~/Sovereign_Fathers_Chat_Final/gTek_auto_sync_push.py
+# Step 2: Make the script executable\
+chmod +x ~/Sovereign_Fathers_Chat_Final/gTek_auto_sync_push.py\
+\
+# Step 3: Run the script\
+python3 ~/Sovereign_Fathers_Chat_Final/gTek_auto_sync_push.py
+chmod +x ~/Sovereign_Fathers_Chat_Final/gTek_auto_sync_push.py\
+
+python3 ~/Sovereign_Fathers_Chat_Final/gTek_auto_sync_push.py
+#/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"\
+\
+\
+echo "?????? Initiating Sovereign Bash Sync..."\
+\
+# Create directories\
+mkdir -p ~/Sovereign_Fathers_Chat_Final/contracts\
+\
+# Create Solidity contract template\
+cat > ~/Sovereign_Fathers_Chat_Final/contracts/SovereignCodex.sol <<EOF\
+// SPDX-License-Identifier: MIT\
+pragma solidity ^0.8.20;\
+\
+import "@openzeppelin/contracts/token/ERC721/extensions/ERC721URIStorage.sol";\
+import "@openzeppelin/contracts/access/Ownable.sol";\
+\
+contract CombatToConcreteNFT is ERC721URIStorage, Ownable {\
+    uint256 public tokenCounter;\
+\
+    constructor(address initialOwner)\
+        ERC721("CombatToConcrete", "CTCNFT")\
+        Ownable(initialOwner)\
+    {\
+        tokenCounter = 0;\
+    }\
+\
+    function mintNFT(address recipient, string memory tokenURI)\
+        public\
+        onlyOwner\
+        returns (uint256)\
+    {\
+        uint256 newItemId = tokenCounter;\
+        _safeMint(recipient, newItemId);\
+        _setTokenURI(newItemId, tokenURI);\
+        tokenCounter += 1;\
+        return newItemId;\
+    }\
+}\
+EOF\
+\
+# Create Makefile (for build tools)\
+cat > ~/Sovereign_Fathers_Chat_Final/contracts/Makefile <<EOF\
+all:\
+	npx hardhat compile\
+EOF\
+\
+# Create supporting Python operations module\
+cat > ~/Sovereign_Fathers_Chat_Final/sovereign_codex_ops.py <<EOF\
+# gTek Sovereign Codex Ops\
+print("?????? Sovereign Codex Ops: Active")\
+EOF\
+\
+# Remove large audit files from Git tracking\
+git rm --cached full_disk_audit_log.txt 2>/dev/null\
+\
+# Stage, commit, and push\
+cd ~/Sovereign_Fathers_Chat_Final\
+git add .\
+git commit -m "?????? Sovereign Sync Push: Created core contract + synced system files"\
+git push origin main\
+\
+echo "⃼?? Sovereign Bash Sync Complete."
+#/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"\
+\
+\
+echo "?????? Initiating Sovereign Bash Sync..."\
+\
+# Define working path\
+WORKDIR="$HOME/Sovereign_Fathers_Chat_Final"\
+mkdir -p "$WORKDIR/contracts"\
+\
+# Create Solidity contract template\
+cat > "$WORKDIR/contracts/SovereignCodex.sol" <<EOF\
+// SPDX-License-Identifier: MIT\
+pragma solidity ^0.8.20;\
+\
+import "@openzeppelin/contracts/token/ERC721/extensions/ERC721URIStorage.sol";\
+import "@openzeppelin/contracts/access/Ownable.sol";\
+\
+contract CombatToConcreteNFT is ERC721URIStorage, Ownable {\
+    uint256 public tokenCounter;\
+\
+    constructor(address initialOwner)\
+        ERC721("CombatToConcrete", "CTCNFT")\
+        Ownable(initialOwner)\
+    {\
+        tokenCounter = 0;\
+    }\
+\
+    function mintNFT(address recipient, string memory tokenURI)\
+        public\
+        onlyOwner\
+        returns (uint256)\
+    {\
+        uint256 newItemId = tokenCounter;\
+        _safeMint(recipient, newItemId);\
+        _setTokenURI(newItemId, tokenURI);\
+        tokenCounter += 1;\
+        return newItemId;\
+    }\
+}\
+EOF\
+\
+# Create Makefile\
+cat > "$WORKDIR/contracts/Makefile" <<EOF\
+all:\
+	npx hardhat compile\
+EOF\
+\
+# Create Python utility\
+cat > "$WORKDIR/sovereign_codex_ops.py" <<EOF\
+# gTek Sovereign Codex Ops\
+print("?????? Sovereign Codex Ops: Active")\
+EOF\
+\
+# Remove oversized files from Git tracking\
+cd "$WORKDIR"\
+git rm --cached full_disk_audit_log.txt 2>/dev/null\
+\
+# Create or update .gitignore to prevent re-adding\
+echo "full_disk_audit_log.txt" >> .gitignore\
+\
+# Git sync\
+git add .\
+git commit -m "?????? Sovereign Sync Push: Generated & synced system files via bash script"\
+git push origin main\
+\
+echo "⃼?? Sovereign Bash Sync Complete."
+chmod +x ~/Sovereign_Fathers_Chat_Final/setup_hyper.sh
+bash ~/Sovereign_Fathers_Chat_Final/setup_hyper.sh SovereignCodexAlpha
+#/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"\
+\
+\
+# ?????? gTek HyperScript  ? Full Project Automator & Git Pusher\
+\
+if [ -z "$1" ]; then\
+  echo "⃽?? Error: No project name supplied."\
+  echo "Usage: bash setup_hyper.sh [Project_Name]"\
+  exit 1\
+fi\
+\
+PROJECT_NAME="$1"\
+REPO_URL="https://github.com/gTek-Keys/$PROJECT_NAME.git"\
+\
+echo "?????? Initializing Hyperdimensional Codex Project: $PROJECT_NAME"\
+\
+# ??????? Create structure\
+mkdir -p "$PROJECT_NAME/contracts"\
+cd "$PROJECT_NAME" || exit\
+\
+# ??????? Design Doc\
+cat > gtek_hyper.md <<EOF\
+# gTek Hyper Script Genesis  ? ${PROJECT_NAME}\
+## ?????? Mission\
+Auto-architect quantum code frameworks at sovereign speed.\
+## ⃺??︃? Artifacts\
+- contracts/QuantumNFT.sol\
+- gtek_autogen.py\
+- Git synced\
+EOF\
+\
+# ?????? Python Generator\
+cat > gtek_autogen.py <<EOF\
+# gTek Autogen Engine for ${PROJECT_NAME}\
+print("?????? Generating QuantumNFT contract...")\
+\
+contract_code = \"\"\"pragma solidity ^0.8.20;\
+\
+import "@openzeppelin/contracts/token/ERC721/extensions/ERC721URIStorage.sol";\
+import "@openzeppelin/contracts/access/Ownable.sol";\
+\
+contract QuantumNFT is ERC721URIStorage, Ownable {\
+    uint256 public tokenCounter;\
+    constructor(address initialOwner) ERC721("QuantumNFT", "QFT") Ownable(initialOwner) {\
+        tokenCounter = 0;\
+    }\
+    function mintNFT(address recipient, string memory tokenURI) public onlyOwner returns (uint256) {\
+        uint256 newItemId = tokenCounter;\
+        _safeMint(recipient, newItemId);\
+        _setTokenURI(newItemId, tokenURI);\
+        tokenCounter += 1;\
+        return newItemId;\
+    }\
+}\
+\"\"\"\
+\
+with open("contracts/QuantumNFT.sol", "w") as f:\
+    f.write(contract_code)\
+\
+print("⃼?? QuantumNFT.sol created.")\
+EOF\
+\
+# ???????︃? .gitignore\
+cat > .gitignore <<EOF\
+__pycache__/\
+*.log\
+*.tmp\
+node_modules/\
+.env\
+EOF\
+\
+# ????? LICENSE\
+cat > LICENSE <<EOF\
+MIT License  ? gTek Sovereign Systems\
+© 2025 gTek Industries. Mobbin ? Eternal.\
+EOF\
+\
+# ?????? GitOps\
+git init\
+git remote add origin "$REPO_URL"\
+git add .\
+git commit -m "?????? HyperScript Init: QuantumNFT + AutoGen Engine"\
+git branch -M main\
+git push -u origin main\
+\
+echo "⃼?? Hyperdimensional Codex Engine Initialized and Pushed: $PROJECT_NAME"
+#/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"\
+\
+\
+# ?????? gTek ChatSync Sovereign Builder\
+# Purpose: Offline-Only GPT-Style Sovereign Chat Creator with UI\
+\
+if [ -z "$1" ]; then\
+  echo "⃽?? Error: No project name provided."\
+  echo "Usage: bash prepare_chatsync.sh [Project_Name]"\
+  exit 1\
+fi\
+\
+PROJECT_NAME="$1"\
+BASE_DIR=~/Sovereign_Fathers_Chat_Final\
+PROJECT_DIR="$BASE_DIR/$PROJECT_NAME"\
+\
+echo "?????? Initializing Sovereign ChatSync UI Builder: $PROJECT_NAME"\
+\
+# ?????? Directory Structure\
+mkdir -p "$PROJECT_DIR/contracts"\
+mkdir -p "$PROJECT_DIR/logs"\
+mkdir -p "$PROJECT_DIR/docs"\
+mkdir -p "$PROJECT_DIR/ui"\
+\
+# ????? Clean Old Logs\
+mkdir -p "$BASE_DIR/logs"\
+rm -f "$BASE_DIR/logs/"*.log "$BASE_DIR/full_disk_audit_log.txt" 2>/dev/null\
+\
+# ????? .gitignore\
+cat > "$PROJECT_DIR/.gitignore" <<EOF\
+__pycache__/\
+*.log\
+*.tmp\
+node_modules/\
+.env\
+EOF\
+\
+# ??????? Manifest\
+cat > "$PROJECT_DIR/docs/manifest.md" <<EOF\
+# ??????? Sovereign Project Manifest: $PROJECT_NAME\
+\
+## ?????? Quantum Description\
+Offline AI Chat UI for sovereign meta-hueman ops.\
+\
+## ????? Modules\
+- Chat Sync UI\
+- Local GPT Logic\
+- Sovereign Time Logs\
+- Digest Export\
+EOF\
+\
+# ?????? Basic Flask UI App\
+cat > "$PROJECT_DIR/ui/app.py" <<EOF\
+from flask import Flask, render_template_string, request\
+\
+app = Flask(__name__)\
+\
+HTML = '''\
+<!DOCTYPE html>\
+<html>\
+<head><title>Sovereign Chat</title></head>\
+<body>\
+<h2>?????? Welcome to Sovereign Chat Interface</h2>\
+<form method="POST">\
+    <textarea name="query" rows="5" cols="50" placeholder="Enter your query..."></textarea><br>\
+    <button type="submit">Submit</button>\
+</form>\
+{% if response %}\
+<hr><h3>Response:</h3><p>{{ response }}</p>\
+{% endif %}\
+</body>\
+</html>\
+'''\
+\
+@app.route("/", methods=["GET", "POST"])\
+def index():\
+    response = ""\
+    if request.method == "POST":\
+        query = request.form["query"]\
+        response = "?????? Sovereign response to: " + query  # Placeholder\
+    return render_template_string(HTML, response=response)\
+\
+if __name__ == "__main__":\
+    app.run(port=5001)\
+EOF\
+\
+# ??????? Alias Setup\
+ALIAS="alias gchatui='python3 $PROJECT_DIR/ui/app.py'"\
+grep -qxF "$ALIAS" ~/.zshrc || echo "$ALIAS" >> ~/.zshrc\
+source ~/.zshrc\
+\
+# ?????? Git Init\
+cd "$PROJECT_DIR" || exit\
+git init\
+git add .\
+git commit -m "?????? Sovereign ChatSync UI Init"\
+git branch -M main\
+\
+echo "⃼?? Sovereign ChatSync UI created. Launch with: gchatui"
+mkdir -p "$PROJECT_DIR/.github/workflows"
+cat > "$PROJECT_DIR/.github/workflows/compile_check.yml" <<EOF\
+name: Compile Solidity Contracts\
+\
+on:\
+  push:\
+    branches: [ main ]\
+\
+jobs:\
+  compile:\
+    runs-on: ubuntu-latest\
+    steps:\
+    - name: Checkout repository\
+      uses: actions/checkout@v3\
+\
+    - name: Setup Node.js\
+      uses: actions/setup-node@v3\
+      with:\
+        node-version: '18'\
+\
+    - name: Install Dependencies\
+      run: |\
+        npm install -g hardhat\
+        npm install\
+\
+    - name: Compile Contracts\
+      run: |\
+        npx hardhat compile\
+EOF
+mkdir -p ./SovereignCodexAlpha/.github/workflows
+cat > ./SovereignCodexAlpha/.github/workflows/compile_check.yml <<EOF\
+name: Compile Solidity Contracts\
+\
+on:\
+  push:\
+    branches: [ main ]\
+\
+jobs:\
+  compile:\
+    runs-on: ubuntu-latest\
+    steps:\
+    - name: Checkout repository\
+      uses: actions/checkout@v3\
+\
+    - name: Setup Node.js\
+      uses: actions/setup-node@v3\
+      with:\
+        node-version: '18'\
+\
+    - name: Install Dependencies\
+      run: |\
+        npm install -g hardhat\
+        npm install\
+\
+    - name: Compile Contracts\
+      run: |\
+        npx hardhat compile\
+EOF
+cd ./SovereignCodexAlpha\
+git add .\
+git commit -m "???????︃? GitHub Actions: Auto-compile workflow added"\
+git push origin main
+cd ~/Sovereign_Fathers_Chat_Final/SovereignCodexAlpha\
+git init
+git remote add origin https://github.com/gTek-Keys/SovereignCodexAlpha.git
+git add .\
+git commit -m "?????? Initial HyperScript push with GitHub Actions"\
+git push -u origin main
+./generate_motion.sh         # Blender renders\
+./composite_effects.sh      # Natron with OpenFX\
+./build_magazine.sh         # InDesign/Scribus layout\
+./export_nft_package.sh     # Prepare metadata & zip for minting
+#/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"\
+\
+\
+# generate_motion.sh  ? Blender render pipeline\
+BLENDER_PROJECT="motion_assets/blender_scene.blend"\
+OUTPUT_DIR="renders"\
+mkdir -p "$OUTPUT_DIR"\
+blender -b "$BLENDER_PROJECT" -o "$OUTPUT_DIR/frame_#####" -a\
+\
+# composite_effects.sh  ? Natron compositing with OpenFX\
+cat <<'EOF' > composite_effects.sh\
+#!/bin/bash\
+NATRON_PROJECT="effects/project.ntp"\
+natron -b "$NATRON_PROJECT"\
+EOF\
+chmod +x composite_effects.sh\
+\
+# build_magazine.sh  ? Scribus/InDesign layout builder\
+cat <<'EOF' > build_magazine.sh\
+#!/bin/bash\
+SCRIBUS_SCRIPT="layout/magazine_layout.sla"\
+scribus -g -py "$SCRIBUS_SCRIPT"\
+EOF\
+chmod +x build_magazine.sh\
+\
+# export_nft_package.sh  ? Metadata + ZIP packaging\
+cat <<'EOF' > export_nft_package.sh\
+#!/bin/bash\
+ASSET_DIR="final_assets"\
+METADATA_JSON="metadata/nft_metadata.json"\
+OUTPUT_ZIP="NFT_Magazine_Release.zip"\
+zip -r "$OUTPUT_ZIP" "$ASSET_DIR" "$METADATA_JSON"\
+EOF\
+chmod +x export_nft_package.sh
+#/bin/bash
+#/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"\
+
+#/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"\
+\
+\
+# gTek Sovereign HyperScript  ? v1.0\
+# Author: Tok | System: Sovereign Codex Ops\
+\
+### DIRECTORIES SETUP ###\
+echo "??????? Creating required directories..."\
+mkdir -p motion_assets effects layout final_assets metadata renders\
+\
+touch motion_assets/blender_scene.blend\
+\
+echo '{\n  "name": "From Combat to Concrete",\n  "description": "Sovereign NFT Magazine - Housing Rights",\n  "creator": "Jerome Elston Hill",\n  "edition": 1\n}' > metadata/nft_metadata.json\
+\
+touch effects/project.ntp\
+\
+touch layout/magazine_layout.sla\
+\
+echo "⃼?? All placeholder files and folders created."\
+\
+### BLENDER RENDER PIPELINE ###\
+echo "?????? Running Blender render..."\
+blender -b motion_assets/blender_scene.blend -o renders/frame_#### -a || echo "⃺??︃? Blender render skipped (missing or empty project)"\
+\
+### NATRON COMPOSITING ###\
+echo "?????? Running Natron compositing..."\
+natron -b effects/project.ntp || echo "⃺??︃? Natron compositing skipped (missing or empty project)"\
+\
+### SCRIBUS LAYOUT ###\
+echo "??????? Running Scribus layout..."\
+scribus -g -py layout/magazine_layout.sla || echo "⃺??︃? Scribus layout skipped (missing or empty project)"\
+\
+### EXPORT NFT PACKAGE ###\
+echo "?????? Exporting NFT package..."\
+zip -r NFT_Magazine_Release.zip final_assets metadata || echo "⃺??︃? Zip failed  ? check file structure."\
+\
+echo "⃼?? Sovereign Build Complete. Check NFT_Magazine_Release.zip"\
+\
+exit 0
+nano ~/Sovereign_Fathers_Chat_Final/gTek_digestive_sweep.py\
+chmod +x ~/Sovereign_Fathers_Chat_Final/gTek_digestive_sweep.py\
+python3 ~/Sovereign_Fathers_Chat_Final/gTek_digestive_sweep.py
+nano ~/Sovereign_Fathers_Chat_Final/gTek_full_disk_audit.py
+python3 ~/Sovereign_Fathers_Chat_Final/gTek_full_disk_audit.py
+# === Create with Nano ===\
+nano ~/Sovereign_Fathers_Chat_Final/gTek_sweep_full.py
+nano ~/Sovereign_Fathers_Chat_Final/gTek_sweep_full.py
+chmod +x ~/Sovereign_Fathers_Chat_Final/gTek_sweep_full.py\
+python3 ~/Sovereign_Fathers_Chat_Final/gTek_sweep_full.py
+rm layout/magazine_layout.sla\
+touch layout/magazine_layout.sla
+mkdir -p ~/Sovereign_Fathers_Chat_Final/layout\
+touch ~/Sovereign_Fathers_Chat_Final/layout/magazine_layout.sla
+brew install git-lfs\
+git lfs install\
+git lfs track "*.txt"\
+git add .gitattributes\
+git add full_disk_audit_log.txt\
+git commit -m "?????? Track large audit log with LFS"\
+git push
+git rm --cached full_disk_audit_log.txt\
+echo "full_disk_audit_log.txt" >> .gitignore\
+git commit -m "????? Remove large log from Git push"\
+git push
+ls ~/Sovereign_Fathers_Chat_Final/layout
+touch motion_assets/from_combat_to_concrete.blend
+mkdir -p ~/Sovereign_Fathers_Chat_Final/motion_assets\
+touch ~/Sovereign_Fathers_Chat_Final/motion_assets/from_combat_to_concrete.blend
+code --install-extension DanielSanMedium.dscodegpt
+curl -fsSL https://ollama.com/install.sh | sh
+open -a "Visual Studio Code"
+touch gtek_codex_agent.py
+zsh --no-rcs
+pip install openai python-dotenv
+nano install_sov_codex.sh
+chmod +x install_sov_codex.sh
+nano .gitignore
+nano LICENSE.md
+nano README.md
+# Download and install nvm:\
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash\
+\
+# in lieu of restarting the shell\
+\. "$HOME/.nvm/nvm.sh"\
+\
+# Download and install Node.js:\
+nvm install 22\
+\
+# Verify the Node.js version:\
+node -v # Should print "v22.16.0".\
+nvm current # Should print "v22.16.0".\
+\
+# Verify npm version:\
+npm -v # Should print "10.9.2".\
+
+npm install -g npm
+cd ~/projects
+# 1. Initialize Git if not done\
+git init\
+\
+# 2. Add your remote repository (replace with yours)\
+git remote add origin git@github.com:YourUsername/YourRepoName.git\
+\
+# 3. Add all changes\
+git add .\
+\
+# 4. Commit with a secure message\
+git commit -m "?????? Sovereign Codex v2.3.1: README, LICENSE, and chat agent upgrades"\
+\
+# 5. Push to GitHub (main branch assumed)\
+git branch -M main\
+git push -u origin main
+pip install flask\
+python3 app.py
+mkdir -p Sovereign_Offline_Chat/templates\
+mkdir -p Sovereign_Offline_Chat/static\
+\
+cd Sovereign_Offline_Chat\
+\
+# Python backend\
+touch app.py\
+\
+# HTML template\
+touch templates/index.html\
+\
+# CSS file\
+touch static/style.css
+mkdir -p Sovereign_Offline_Chat/{templates,static} && \\
+touch Sovereign_Offline_Chat/app.py && \\
+touch Sovereign_Offline_Chat/templates/index.html && \\
+touch Sovereign_Offline_Chat/static/style.css
+nano create_codex_scaffold.sh
+chmod +x create_codex_scaffold.sh\
+./create_codex_scaffold.sh
+cd Sovereign_Offline_Chat\
+python3 app.py
+nano templates/index.html
+nano static/style.css
+mkdir -p codex/memory codex/encryption\
+touch codex/memory/chat_log.txt
+pip install py2app
+nano lm_client.py
+brew install ollama
+ollama run llama3
+nano gtek_codex_agent.py
+python3 gtek_codex_agent.py
+zsh -l
+brew install --cask blender\
+brew install --cask natron\
+brew install --cask scribus
+#/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"\
+\
+# gTek HyperScript: Sovereign Build v1.1\
+# Author: Tok | Ops: Sovereign Codex\
+\
+echo "?????? Initializing directories..."\
+mkdir -p layout content art renders metadata final_assets\
+\
+echo "?????? Placing content files..."\
+cp "From_Combat_to_Concrete_Magazine_Final.docx" content/\
+cp "Updated_Sovereign_Magazine_Final.docx" content/\
+cp "Sovereign_Combined_Magazine_Final.pdf" content/\
+cp *.png art/ 2>/dev/null\
+cp *.jpg art/ 2>/dev/null\
+\
+echo "?????? Rendering motion intro via Blender (if file exists)..."\
+if [ -f motion_assets/blender_scene.blend ]; then\
+    blender -b motion_assets/blender_scene.blend -o renders/frame_#### -a\
+else\
+    echo "⃺??︃? Blender project not found. Skipping motion render."\
+fi\
+\
+echo "?????? Launching Scribus for layout build..."\
+if [ -f layout/magazine_layout.sla ]; then\
+    scribus -g -py layout/magazine_layout.sla\
+else\
+    echo "⃺??︃? No Scribus layout file found. Please design layout in Scribus and save to layout/"\
+fi\
+\
+echo "?????? Finalizing metadata..."\
+cat <<EOF > metadata/nft_metadata.json\
+{\
+  "name": "From Combat to Concrete",\
+  "description": "NFT Magazine asserting veteran housing sovereignty via Codex Law",\
+  "creator": "Jerome Elston Hill Jr.",\
+  "edition": 1111,\
+  "tags": ["veteran", "sovereignty", "housing", "nft", "codex"],\
+  "license": "BFH Trust Designs © 2025"\
+}\
+EOF\
+\
+echo "?????? Packaging for mint..."\
+zip -r NFT_Magazine_Release.zip content art renders metadata layout || echo "⃺??︃? Packaging error\
+\
+echo "⃼?? HyperScript Complete. Your NFT Magazine Release is ready."\
+\
+exit 0
+nano build_release.sh
+chmod +x build_release.sh
+./build_release.sh
+export PATH="/Applications/Natron.app/Contents/MacOS:$PATH"
+echo 'export PATH="/Applications/Natron.app/Contents/MacOS:$PATH"' >> ~/.zshrc\
+source ~/.zshrc
+open layout/magazine_layout.sla -a Scribus
+node -v\
+npm -v
+npm create vite@latest from-combat-magazine -- --template react\
+cd from-combat-magazine\
+npm install
+npm install -D tailwindcss postcss autoprefixer\
+npx tailwindcss init -p
+touch tailwind.config.js\
+touch postcss.config.js
+nano setup-magazine.sh
+chmod +x setup-magazine.sh\
+./setup-magazine.sh
+nano src/CombatMagazine.jsx
+nano src/App.jsx
+git checkout main\
+
+mkdir Make_The_Industry_Filmcode\
+cd Make_The_Industry_Filmcode\
+
+# Create a folder for the new project if not already created\
+mkdir Make_The_Industry_Filmcode\
+cd Make_The_Industry_Filmcode\
+\
+# Move files into the new folder (adjust path to actual files)\
+mv ~/Downloads/Make_The_Industry_* .\
+\
+# Stage all changes\
+git add .\
+\
+# Commit with message\
+git commit -m "?????? Codex Upload: Final Draft, Budget, Smart Contracts, Whitepaper, Metadata"\
+\
+# Push to GitHub\
+git push origin main
+cd ~/gTek_Sovereign_FinTek_WEB_APP_FINTEK_WALLET
+git add .\
+git commit -m "?????? Codex Update: Pushed all production scripts, vaults, and metadata for Make The Industry."\
+git push origin main
+chmod +x gTek_BashHyperScript_push.sh
+./gTek_BashHyperScript_push.sh
+git rm --cached "Remix-Desktop-Insiders-1.0.8-insiders-arm64 (1).dmg"
+echo "Remix-Desktop-Insiders-1.0.8-insiders-arm64 (1).dmg" >> .gitignore
+git add .gitignore\
+git commit -m "??????? Removed oversized .dmg + updated .gitignore to block it"
+cd ~/Users/bfh/gTek Industries Main/gTek_Sovereign_FinTek_WEB_APP_FINTEK_WALLET
+git rm --cached Remix-Desktop-Insiders-1.0.8-insiders-arm64\ \(1\).dmg\
+git commit -m "????? Removed oversized file to comply with GitHub size limits."\
+git push origin main
+chmod +x gTek_BashHyperScript_AutoPush.sh
+REPO_DIR="$HOME/path/to/gTek_Sovereign_FinTek_WEB_APP_FINTEK_WALLET"
+/Users/bfh/Documents/gTek_Sovereign_FinTek_WEB_APP_FINTEK_WALLET
+nano gTek_BashHyperScript_AutoPush.sh
+chmod +x gTek_BashHyperScript_AutoPush.sh\
+./gTek_BashHyperScript_AutoPush.sh
+cd ~/path/to/gTek_Sovereign_FinTek_WEB_APP_FINTEK_WALLET
+git commit -m "?????? Full Repo Sync: Literary Works, Zines, Scripts, Vaults, NFT Metadata"\
+
+#/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"\
+# gTek_NavSync_AutoPush.sh\
+\
+echo "????? Navigating to Sovereign Repo Directory..."\
+cd ~/Users/bfh/gTek Industries Main/gTek_Sovereign_FinTek_WEB_APP_FINTEK_WALLET\
+\
+echo "?????? Tracking and pushing files..."\
+git add .\
+git commit -m "?????? AutoPush Update: Repo Fully Synced with Literary + Visual Codex"\
+git push origin main\
+\
+echo "⃼?? Push complete. Sovereign Repo is now in sync."
+chmod +x gTek_NavSync_AutoPush.sh
+./gTek_NavSync_AutoPush.sh
+nano gTek_NavSync_AutoPush.sh
+chmod +x gTek_NavSync_AutoPush.sh\
+./gTek_NavSync_AutoPush.sh
+unzip MakeTheIndustryNFT_Package.zip\
+git add .\
+git commit -m "?????? Final NFT Filmcode Package: Literary Series, Metadata, Smart Contract"\
+git push origin main
+git config --global user.name "Commander Tok"\
+git config --global user.email "bfhtrustdesigns@homemade-productions.com"
+git add .\
+git commit -m "?????? Final Execution Commit: Codex Mint + Drop Ready State"\
+git push origin main
+# 1. Deploy + Mint via Remix\
+# 2. Confirm TX hash\
+# 3. Platform Broadcast (Manifold etc.)\
+# 4. Collect TX + CID\
+\
+# After TX confirmation:\
+echo "TX_HASH=<your_tx_hash>" > exec_ledger_env\
+# This triggers the email automated workflow and completes the loop
+#/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"\
+\
+# 1. Deploy + Mint via Remix\
+# 2. Confirm TX hash\
+# 3. Platform Broadcast (Manifold etc.)\
+# 4. Collect TX + CID\
+\
+# After TX confirmation:\
+echo "TX_HASH=<your_tx_hash>" > exec_ledger_env\
+\
+# This triggers the email automated workflow and completes the loop
+chmod +x mint_loop.sh
+./mint_loop.sh
+nano mint_loop.sh
+chmod +x mint_loop.sh\
+./mint_loop.sh
+npx hardhat console --network mainnet
+nano inspectTx.js
+npx hardhat init
+#/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"\
+# generate_env.sh\
+gpg --decrypt env.cipher > .env\
+echo "⃼?? .env regenerated from secure vault."
+export $(grep -v '^#' .env.hardhat | xargs)\
+
+npx hardhat accounts --network mainnet
+nano scripts/deploy.js
+mkdir -p scripts && nano scripts/deploy.js
+nano hardhat.config.js
+npm install --save-dev @nomiclabs/hardhat-ethers ethers
+npm install --save-dev @nomiclabs/hardhat-ethers ethers@^5.8.0 --legacy-peer-deps
+npm install dotenv --save
+npm install dotenv --save --legacy-peer-deps
+npx hardhat run scripts/deploy.js --network goerli
+git log -p | grep -i "key\|secret\|private\|token"
+git log --name-only | grep -i "\.env"
+npm install nft.storage
+mkdir assets
+cd ~/gTek_Sovereign_FinTek_WEB_APP_FINTEK_WALLET\
+git pull origin main
+find . -type f \( -iname '*.png' -o -iname '*.jpg' -o -iname '*.json' -o -iname '*.zip' \)
+mkdir -p assets\
+\
+cp ./gTek_Filmcode_Minting_Package/MakeTheIndustryv1.2/*.png assets/\
+cp ./gTek_Filmcode_Minting_Package/MakeTheIndustryv1.2/*.jpg assets/\
+cp ./*.zip assets/
+ls -lh assets/
+NFT_STORAGE_API_KEY=98aa1736.26120f48f3da4cae821c40ddc835d886
+npm install nft.storage --legacy-peer-deps
+nano package.json
+rm -rf node_modules package-lock.json && npm install --legacy-peer-deps
+npm run upload
+nano .env.hardhat
+nano upload.js
+chmod +x gTek_HyperCleanSweep.sh\
+./gTek_HyperCleanSweep.sh
+nano gTek_HyperCleanSweep.sh
+chmod +x gTek_HyperCleanSweep.sh
+./gTek_HyperCleanSweep.sh
+node upload.js
+git add .\
+git commit -m "?????? Final NFT Minting Package Push: Filmcode, Smart Contract, Licensing"\
+git push origin main
+cd ~/gTek_Sovereign_FinTek_WEB_APP_FINTEK_WALLET\
+
+ls -al
+git add .\
+git commit -m "?????? FINAL PUSH: Codex Digest, Smart Contract, Metadata, Licensing Vault"\
+git push origin main
+git add .
+git commit -m "??????? Final Smart Contract Update: CombatToConcreteNFT + Digestive Sync"\
+
+git rm --cached 'Remix-Desktop-Insiders-1.0.8-insiders-arm64 (1).dmg'\
+
+git commit -m "?????? Removed oversized file to comply with GitHub push limits"\
+
+git push origin main
+git filter-branch --force --index-filter \\
+"git rm --cached --ignore-unmatch 'Remix-Desktop-Insiders-1.0.8-insiders-arm64 (1).dmg'" \\
+--prune-empty --tag-name-filter cat -- --all\
+
+git push origin --force --all\
+
+rm -rf .git/refs/original/\
+git reflog expire --expire=now --all\
+git gc --prune=now --aggressive
+#/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"\
+\
+# === gTek Git Purge Script ===\
+# Purging oversized file from history: Remix-Desktop-Insiders .dmg\
+\
+echo "??????? Purging oversized file from Git history..."\
+\
+git filter-branch --force --index-filter \\
+"git rm --cached --ignore-unmatch 'Remix-Desktop-Insiders-1.0.8-insiders-arm64 (1).dmg'" \\
+--prune-empty --tag-name-filter cat -- --all\
+\
+echo "????? Cleaning local Git data..."\
+rm -rf .git/refs/original/\
+git reflog expire --expire=now --all\
+git gc --prune=now --aggressive\
+\
+echo "?????? Force pushing clean history to GitHub..."\
+git push origin --force --all\
+\
+echo "⃼?? Operation complete. Repo is now clean and synced."
+bash gTek_BashHyperScript_AutoPush.sh
+unzip gTek_Filmcode_Minting_Package.zip
+unzip MakeTheIndustryv1.2\ 2.zip
+unzip /path/to/TheBlockZip2.zip -d TheBlockZip2/\
+unzip /path/to/TheBlock3.zip -d TheBlock3/\
+unzip /path/to/TheBlock4.zip -d TheBlock4/\
+unzip /path/to/TheBlock6.zip -d TheBlock6/\
+unzip /path/to/TheBlock7.zip -d TheBlock7/
+mkdir -p ~/FromCombatToConcrete/NFTBlocks\
+cd ~/FromCombatToConcrete/NFTBlocks\
+\
+unzip ~/Downloads/TheBlockZip2.zip -d BlockZip2\
+unzip ~/Downloads/TheBlock3.zip -d Block3\
+unzip ~/Downloads/TheBlock4.zip -d Block4\
+unzip ~/Downloads/TheBlock6.zip -d Block6\
+unzip ~/Downloads/TheBlock7.zip -d Block7
+~/gTekSovereignCommandAndControlCenterMainframe/FromCombatToConcrete
+~/gTek\ Industries\ Main/FromCombatToConcrete
+ls ~\
+ls ~/gTek*
+cd ~/FromCombatToConcrete
+cd ~\
+find . -type d -name ".git"
+cd "/Users/gTek Industries Main/FromCombatToConcrete"
+ls -a
+git add .\
+git commit -m "Added NFT asset blocks and metadata for iTek Lux Coin - CombatToConcrete drop"
+git checkout -b main
+git add .\
+git commit -m "Initial commit: Added NFT asset blocks and metadata for iTek Lux Coin - CombatToConcrete drop"
+# Force add all contents in case .gitignore or indexing missed files\
+git add -A\
+\
+# Confirm status\
+git status\
+\
+# Commit all changes\
+git commit -m "Codex Sync: Pushing full NFT Blocks + Metadata for iTek Lux Coin CombatToConcrete"\
+\
+# Link origin if not done yet\
+git remote add origin https://github.com/gTek-Keys/FromCombatToConcrete.git\
+\
+# Push main branch\
+git push -u origin main
+git add -A
+git status
+git commit -m "Codex Sync: Pushing full NFT Blocks + Metadata for iTek Lux Coin CombatToConcrete"\
+
+git remote add origin https://github.com/gTek-Keys/FromCombatToConcrete.git\
+
+# Replace with your wallet address and IPFS CID link\
+metaboss mint one \\
+  --keypair ~/.config/solana/id.json \\
+  --receiver WALLET_ADDRESS_HERE \\
+  --uri https://ipfs.io/ipfs/PASTE_YOUR_CID_HERE
+# 1. Confirm we are in the correct directory\
+pwd\
+\
+# 2. List files to confirm content exists\
+ls -la\
+\
+# 3. Force-add all files (including hidden & new)\
+git add -A\
+\
+# 4. Confirm staged files\
+git status\
+\
+# 5. Commit again\
+git commit -m "Codex Sync: Initial asset + metadata commit for iTek Lux Coin - CombatToConcrete"\
+\
+# 6. Push to remote\
+git push -u origin main
+pwd
+mkdir -p ~/FromCombatToConcrete/NFTBlocks\
+cd ~/FromCombatToConcrete\
+\
+for file in TheBlock*.zip; do\
+    dirname=$(basename "$file" .zip)\
+    mkdir -p "NFTBlocks/$dirname"\
+    unzip -o "$file" -d "NFTBlocks/$dirname"\
+done
+cd ~/FromCombatToConcrete\
+git add -A\
+git commit -m "Deployed all NFT Blocks, unpacked metadata, initialized wallet"\
+git push -u origin main
+#/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"\
+\
+echo "??????? gTek HyperScript Activated  ? Unpacking the Blockchain Drop Assets..."\
+\
+# Define root repo\
+REPO_DIR="$HOME/gTek\ Industries\ Main/FromCombatToConcrete"\
+cd "$REPO_DIR" || exit 1\
+\
+# Create directories\
+mkdir -p BlockUnpacked/Assets BlockUnpacked/Metadata BlockUnpacked/Keypairs BlockUnpacked/Logs\
+\
+# Unzip all matching TheBlock*.zip files\
+for zipfile in TheBlock*.zip; do\
+    echo "?????? Unzipping $zipfile..."\
+    unzip -o "$zipfile" -d BlockUnpacked/temp_"${zipfile%.zip}" >> BlockUnpacked/Logs/unzip_log.txt\
+done\
+\
+# Sort files\
+echo "??????? Organizing files..."\
+find BlockUnpacked/ -type f \( -iname "*.png" -o -iname "*.jpg" -o -iname "*.jpeg" \) -exec mv {} BlockUnpacked/Assets/ \;\
+find BlockUnpacked/ -type f \( -iname "*.json" -o -iname "*.md" \) -exec mv {} BlockUnpacked/Metadata/ \;\
+find BlockUnpacked/ -type f \( -iname "*keypair*.json" \) -exec mv {} BlockUnpacked/Keypairs/ \;\
+\
+# Configure Solana wallet\
+KEYPAIR_FILE=$(find BlockUnpacked/Keypairs/ -name "*keypair*.json" | head -n 1)\
+if [[ -f "$KEYPAIR_FILE" ]]; then\
+    echo "??????? Setting Solana CLI wallet to $KEYPAIR_FILE"\
+    solana config set --keypair "$KEYPAIR_FILE"\
+    solana address > BlockUnpacked/Logs/wallet_address.txt\
+    echo "⃼?? Wallet Address Registered:"\
+    cat BlockUnpacked/Logs/wallet_address.txt\
+else\
+    echo "⃺??︃? No keypair file found. Wallet not registered."\
+fi\
+\
+echo "?????? gTek Sovereign Mission Completed: All blocks unpacked, assets sorted, wallet (if available) initialized."
+for file in *.zip; do unzip "$file" -d "${file%.*}"; done
+https://github.com/gTek-Keys/FromCombatToConcrete
+curl --proto '=https' --tlsv1.2 -sSfL https://solana-install.solana.workers.dev | bash
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y
+solana-keygen new --outfile ~/.config/solana/id.json
+bash\
+for file in *.zip; do unzip "$file" -d "${file%.*}"; done
+chmod +x gTek_BlockUnpack.sh\
+./gTek_BlockUnpack.sh
+nano ~/FromCombatToConcrete/gTek_BlockUnpack.sh
+chmod +x ~/FromCombatToConcrete/gTek_BlockUnpack.sh
+~/FromCombatToConcrete/gTek_BlockUnpack.sh
+nano gTek_BlockUnpack.sh
+nano gTek_BlockUnpack.sh   # Paste updated script\
+chmod +x gTek_BlockUnpack.sh\
+./gTek_BlockUnpack.sh
+find . -type f -name "TheBlock*.zip"
+find . -type f -iname "*.zip"
+nano gTek_FromCombatToConcrete_Mint.sh
+chmod +x gTek_FromCombatToConcrete_Mint.sh
+./gTek_FromCombatToConcrete_Mint.sh
+npm install -g nftup
+which nftup
+chmod +x gTek_IPFS_Upload.sh\
+./gTek_IPFS_Upload.sh
+nano gTek_IPFS_Upload.sh
+./gTek_IPFS_Upload.sh
+mkdir -p MintMetadata\
+\
+for file in "$UPLOAD_DIR"/*.*; do\
+  [ -f "$file" ] || continue\
+  filename=$(basename "$file")\
+  \
+  echo "?????? Uploading: $filename"\
+  \
+  response=$(curl -s -X POST https://api.nft.storage/upload \\
+    -H "Authorization: Bearer $NFT_STORAGE_API_KEY" \\
+    -H "Content-Type: application/octet-stream" \\
+    --data-binary @"$file")\
+\
+  cid=$(echo "$response" | jq -r .value.cid)\
+  \
+  if [[ "$cid" != "null" && "$cid" != "" ]]; then\
+    echo "⃼?? $filename uploaded. CID: $cid"\
+    echo "{\"name\": \"$filename\", \"image\": \"ipfs://$cid\"}" > "./MintMetadata/${filename%.*}.json"\
+  else\
+    echo "⃽?? Upload failed for $filename"\
+  fi\
+done
+UPLOAD_DIR="./ToMintAssets"
+for file in "$UPLOAD_DIR"/*; do\
+UPLOAD_DIR="./ToMintAssets"\
+mkdir -p MintMetadata\
+\
+for file in "$UPLOAD_DIR"/*; do\
+  [ -f "$file" ] || continue\
+  filename=$(basename "$file")\
+\
+  echo "?????? Uploading: $filename"\
+\
+  response=$(curl -s -X POST https://api.nft.storage/upload \\
+    -H "Authorization: Bearer $NFT_STORAGE_API_KEY" \\
+    -H "Content-Type: application/octet-stream" \\
+    --data-binary @"$file")\
+\
+  cid=$(echo "$response" | jq -r .value.cid)\
+\
+  if [[ "$cid" != "null" && "$cid" != "" ]]; then\
+    echo "⃼?? $filename uploaded. CID: $cid"\
+    echo "{\"name\": \"$filename\", \"image\": \"ipfs://$cid\"}" > "./MintMetadata/${filename%.*}.json"\
+  else\
+    echo "⃽?? Upload failed for $filename"\
+  fi\
+done
+UPLOAD_DIR="./ToMintAssets"\
+mkdir -p MintMetadata\
+\
+for file in "$UPLOAD_DIR"/*; do\
+  [ -f "$file" ] || continue\
+  filename=$(basename "$file")\
+\
+  echo "?????? Uploading: $filename"\
+\
+  response=$(curl -s -X POST https://api.nft.storage/upload \\
+    -H "Authorization: Bearer $NFT_STORAGE_API_KEY" \\
+    -H "Content-Type: application/octet-stream" \\
+    --data-binary @"$file")\
+\
+  cid=$(echo "$response" | jq -r .value.cid)\
+\
+  if [[ "$cid" != "null" && "$cid" != "" ]]; then\
+    echo "⃼?? $filename uploaded. CID: $cid"\
+    echo "{\"name\": \"$filename\", \"image\": \"ipfs://$cid\"}" > "./MintMetadata/${filename%.*}.json"\
+  else\
+    echo "⃽?? Upload failed for $filename"\
+  fi\
+done
+mv ./[SOURCE_FOLDER]/* ./ToMintAssets/
+find . -type f \( -iname "*.png" -o -iname "*.jpg" -o -iname "*.jpeg" -o -iname "*.pdf" -o -iname "*.mp4" \)
+nano gTek_Codex_MasterMint.py
+mkdir -p ./ToMintAssets
+mv ./[source_folder]/* ./ToMintAssets/
+mkdir -p ./ToMintAssets\
+\
+find . -type f \( -iname "*.png" -o -iname "*.jpg" -o -iname "*.jpeg" -o -iname "*.pdf" -o -iname "*.docx" -o -iname "*.md" \) -exec mv {} ./ToMintAssets/ \;
+cat ./MintMetadata/*.json
+export NFT_STORAGE_API_KEY=95144fa7-7460-42de-aa9e-abb4b27dcb9d\
+UPLOAD_DIR="./ToMintAssets"\
+mkdir -p MintMetadata\
+\
+for file in "$UPLOAD_DIR"/*; do\
+  [ -f "$file" ] || continue\
+  filename=$(basename "$file")\
+  echo "?????? Uploading: $filename"\
+\
+  response=$(curl -s -X POST https://api.nft.storage/upload \\
+    -H "Authorization: Bearer $NFT_STORAGE_API_KEY" \\
+    -H "Content-Type: application/octet-stream" \\
+    --data-binary @"$file")\
+\
+  cid=$(echo "$response" | jq -r .value.cid)\
+\
+  if [[ "$cid" != "null" && "$cid" != "" ]]; then\
+    echo "⃼?? $filename uploaded. CID: $cid"\
+    echo "{\
+      \"name\": \"From Combat To Concrete: ${filename%.*}\",\
+      \"symbol\": \"FC2C\",\
+      \"description\": \"NFT Drop documenting sovereign legal struggle and VA housing inequity through the case of Jerome Hill.\",\
+      \"image\": \"ipfs://$cid\",\
+      \"attributes\": [\
+        { \"trait_type\": \"Collection\", \"value\": \"From Combat To Concrete\" },\
+        { \"trait_type\": \"Legal Reference\", \"value\": \"VA Housing + Tort Filing\" },\
+        { \"trait_type\": \"Artist\", \"value\": \"Commander Tok\" },\
+        { \"trait_type\": \"Network\", \"value\": \"Solana\" }\
+      ]\
+    }" > "./MintMetadata/${filename%.*}.json"\
+  else\
+    echo "⃽?? Upload failed for $filename"\
+  fi\
+done
+ls -l ./ToMintAssets
+find . -type f \( -iname "*.png" -o -iname "*.pdf" -o -iname "*.jpg" -o -iname "*.jpeg" -o -iname "*.mp4" \)
+mkdir -p ./ToMintAssets\
+mv ./CombatAssets/* ./ToMintAssets/
+brew install git-lfs
+$ ./install.sh\
+> Git LFS initialized.
+./ToMintAssets/
+open ./ToMintAssets/
+chmod -R 755 ./ToMintAssets/
+ls -l ./ToMintAssets/
+export NFT_STORAGE_API_KEY=95144fa7-7460-42de-aa9e-abb4b27dcb9d
+UPLOAD_DIR="./ToMintAssets"\
+mkdir -p MintMetadata\
+\
+for file in "$UPLOAD_DIR"/*; do\
+  [ -f "$file" ] || continue\
+  filename=$(basename "$file")\
+  echo "?????? Uploading: $filename"\
+\
+  response=$(curl -s -X POST https://api.nft.storage/upload \\
+    -H "Authorization: Bearer $NFT_STORAGE_API_KEY" \\
+    -H "Content-Type: application/octet-stream" \\
+    --data-binary @"$file")\
+\
+  cid=$(echo "$response" | jq -r .value.cid)\
+\
+  if [[ "$cid" != "null" && "$cid" != "" ]]; then\
+    echo "⃼?? $filename uploaded. CID: $cid"\
+    echo "{\
+      \"name\": \"From Combat To Concrete: ${filename%.*}\",\
+      \"symbol\": \"FC2C\",\
+      \"description\": \"NFT Drop documenting sovereign legal struggle and VA housing inequity through the case of Jerome Hill.\",\
+      \"image\": \"ipfs://$cid\",\
+      \"attributes\": [\
+        { \"trait_type\": \"Collection\", \"value\": \"From Combat To Concrete\" },\
+        { \"trait_type\": \"Legal Reference\", \"value\": \"VA Housing + Tort Filing\" },\
+        { \"trait_type\": \"Artist\", \"value\": \"Commander Tok\" },\
+        { \"trait_type\": \"Network\", \"value\": \"Solana\" }\
+      ]\
+    }" > "./MintMetadata/${filename%.*}.json"\
+  else\
+    echo "⃽?? Upload failed for $filename"\
+  fi\
+done
+python3 gTek_Codex_MasterMint.py
+curl -X POST https://api.nft.storage/upload \\
+  -H "Authorization: Bearer 95144fa7-7460-42de-aa9e-abb4b27dcb9d" \\
+  -H "Content-Type: application/octet-stream" \\
+  --data-binary @./ToMintAssets/Class\ A\ Hill.png
+fe885f8a.03cb0410b6ce4ee3a1b9673856755cc2
+export NFT_STORAGE_API_KEY="fe885f8a.03cb0410b6ce4ee3a1b9673856755cc2"
+echo $NFT_STORAGE_API_KEY
+./gTek_UploadAssets.sh
+curl -X POST https://api.nft.storage/upload \\
+  -H "Authorization: Bearer $NFT_STORAGE_API_KEY" \\
+  -H "Content-Type: application/octet-stream" \\
+  --data-binary @"./ToMintAssets/Class A Hill.png"
+cat gTek_UploadAssets.sh
+nano gTek_UploadAssets.sh
+chmod +x gTek_UploadAssets.sh\
+./gTek_UploadAssets.sh
+# 1. Navigate to the project directory\
+cd "/Users/gTek Industries Main/Chat_Builder_Business"\
+\
+# 2. Initialize Git repository (if not already done)\
+git init\
+\
+# 3. Copy license, .gitignore, summary, whitepaper into this folder\
+# Use Finder or cp commands if files aren't already there\
+\
+# 4. Add all files to staging\
+git add .\
+\
+# 5. Commit with Codex marker\
+git commit -m "?????? Initial Sovereign CodexGPT Commit - License, Metadata, Contracts"\
+\
+# 6. Add remote origin (replace with your GitHub repo URL)\
+git remote add origin https://github.com/YOUR_USERNAME/CodexGPT-Sovereign-Forge.git\
+\
+# 7. Push to GitHub\
+git push -u origin main
+cd "/Users/gTek Industries Main/Chat_Builder_Business"\
+
+git add .\
+
+git commit -m "?????? Initial Sovereign CodexGPT Commit - License, Metadata, Contracts"\
+
+git remote add origin https://github.com/gTek-Keys/Chat_Builder_Business/tree/main
+git push -u origin main
+nano generate_codex_docs.py
+chmod +x generate_codex_docs.py
+./generate_codex_docs.py
+python3 generate_codex_docs.py
+cd "/Users/gTek Industries Main/Chat_Builder_Business"\
+git add .\
+git commit -m "?????? Codex Phase I Full Stack Commit  ? Docs + Automation"\
+git push origin main
+cd "/Users/gTek Industries Main/Chat_Builder_Business"\
+git add README_Rewritten.md GitHub_Repository_Description.txt gTek_Profile_Bio.md\
+git commit -m "<0001f9e1> Added Branded README, Repo Description & Bio"\
+git push
+npm install -D @tailwindcss/postcss postcss autoprefixer
+npx tailwindcss init -p
+npm install -D tailwindcss@latest postcss@latest autoprefixer@latest
+rm -rf node_modules package-lock.json\
+npm cache clean --force\
+npm install\
+npm install -D tailwindcss@latest
+ls ./node_modules/.bin/tailwindcss
+./node_modules/.bin/tailwindcss init -p
+echo "alias gtok='python3 ~/gTek_Industries_Main/source_code/scripts/gtek_multiscript_master.py'" >> ~/.zshrc
+python codexgpt_cli.py analyze ./contracts/civic_trust.sol --explain --generate_code\
+
+flask run\
+
+pip install flask flask-cors openai transformers
+npx create-react-app frontend\
+cd frontend\
+npm install -D tailwindcss postcss autoprefixer\
+npx tailwindcss init -p
+@hourly bash /path/to/sovereign_admin_tool/gtek_tasks/cron_job.sh
+alias gtok='python3 /path/to/scripts/gtek_multiscript_master.py'
+pip install web3\
+
+pip install flask-cors\
+
+# 1. Run this instead:\
+npm create vite@latest\
+\
+# 2. When prompted:\
+#    Project name: sovereign-chat\
+#    Framework: React\
+#    Variant: JavaScript or TypeScript (your choice)\
+\
+cd sovereign-chat\
+\
+# 3. Install dependencies\
+npm install socket.io-client tailwindcss postcss autoprefixer\
+\
+# 4. Initialize Tailwind\
+npx tailwindcss init -p
+# 1. Scaffold Vite + React + TypeScript\
+npm create vite@latest\
+\
+# When prompted:\
+#    ⃼?? Project name: sovereign-chat\
+#    ⃼?? Framework: React\
+#    ⃼?? Variant: TypeScript\
+\
+cd sovereign-chat\
+\
+# 2. Install dependencies\
+npm install socket.io-client tailwindcss postcss autoprefixer\
+\
+# 3. Initialize TailwindCSS\
+npx tailwindcss init -p
+npm create vite@latest sovereign-chat --template react\
+cd sovereign-chat\
+npm install socket.io-client tailwindcss postcss autoprefixer\
+npx tailwindcss init -p\
+
+cd sovereign-chat\
+npm install socket.io-client tailwindcss postcss autoprefixer\
+npx tailwindcss init -p\
+
+npm create vite@latest\
+
+cd sovereign-chat\
+
+npm install socket.io-client tailwindcss postcss autoprefixer\
+npx tailwindcss init -p\
+
+# Explicitly reference Tailwind if npx fails\
+./node_modules/.bin/tailwindcss init -p
+npx tailwindcss init -p\
+
+npx --yes tailwindcss init -p\
+
+# Directly run from local node_modules bin\
+./node_modules/.bin/tailwindcss init -p
+npm install -D tailwindcss@latest\
+
+ls node_modules/.bin/tailwindcss\
+
+npm install -g tailwindcss\
+
+tailwindcss init -p\
+
+npm install -g tailwindcss
+tailwindcss init -p
+npm bin -g
+npm help
+npm prefix -g
+/Users/bfh/.nvm/versions/node/v22.16.0
+/Users/bfh/.nvm/versions/node/v22.16.0/bin/tailwindcss init -p
+npm install -D tailwindcss\
+
+ls ./node_modules/.bin/tailwindcss\
+
+./node_modules/.bin/tailwindcss init -p\
+
+npx tailwindcss@latest init -p
+/** @type {import('tailwindcss').Config} */\
+export default {\
+  content: [\
+    "./index.html",\
+    "./src/**/*.{js,ts,jsx,tsx}",\
+  ],\
+  theme: {\
+    extend: {},\
+  },\
+  plugins: [],\
+}
+# 1. Create tailwind.config.js\
+nano tailwind.config.js
+# 2. Create postcss.config.js\
+nano postcss.config.js
+# 3. Edit index.css\
+nano src/index.css
+mkdir src/components
+npm install -D @tailwindcss/postcss
+npm install socket.io-client
+nano src/Chat.tsx
+nano src/App.tsx
+nano src/index.css
+npm run dev
+chmod +x fix_tailwind_env.py\
+./fix_tailwind_env.py
+nano fix_tailwind_env.py
+#/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"\
+echo "?????? Sovereign Chat Beacon v2.0  ? Tailwind + Flask Setup"\
+python3 fix_tailwind_env.py
+#/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"\
+echo "?????? Sovereign Chat Beacon v2.0  ? Tailwind + Flask Setup"\
+python3 fix_tailwind_env.py\
+# /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+#/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"\
+echo "?????? Sovereign Chat Beacon v2.0  ? Tailwind + Flask Setup"\
+\
+# Execute Tailwind + Flask environment fixer\
+python3 fix_tailwind_env.py\
+\
+# Optional: Install Homebrew (commented)\
+# /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+nano setup.sh
+chmod +x setup.sh
+./setup.sh
+pip install flask flask-socketio eventlet python-dotenv
+python app.py
+python3 app.py
+cd /Users/gTek\ Industries\ Main/Sovereign_Fathers_Chat_Final\
+npm install\
+npm run dev
+uvicorn main:app --reload --port 3000
+npm install express axios cors
+nano server.js
+npm init -y
+npm install express axios dotenv
+const express = require('express');\
+const axios = require('axios');\
+require('dotenv').config();\
+\
+const app = express();\
+const PORT = 3000;\
+\
+app.get('/api/hunter', async (req, res) => {\
+    const domain = req.query.domain;\
+    const apiKey = process.env.HUNTER_API_KEY;\
+\
+    try {\
+        const response = await axios.get(`https://api.hunter.io/v2/domain-search?domain=${domain}&api_key=${apiKey}`);\
+        res.json(response.data);\
+    } catch (err) {\
+        res.status(500).json({ error: err.message });\
+    }\
+});\
+\
+app.listen(PORT, () => console.log(`Server running on http://localhost:${PORT}`));
+HUNTER_API_KEY=8f81a302e9e255841812146dbf99640fb470d53f
+node index.js
+cd "/Users/gTek Industries Main/Sovereign_Fathers_Chat_Final"\
+git init\
+git remote add origin https://github.com/gTek-Keys/Sovereign_Fathers_Chat_Final.git\
+git add .\
+git commit -m "Final setup for Sovereign Fathers Chat with Hunter Recon + Crontab Automation"\
+git push -u origin main
+#/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"\
+(crontab -l ; echo "*/15 * * * * node /Users/gTek\ Industries\ Main/Sovereign_Fathers_Chat_Final/hunter_sweep.js >> /Users/bfh/logs/hunter_cron.log 2>&1") | crontab -
+chmod +x hunter_sweep.js\
+chmod +x verify_hunter_env.js\
+mkdir -p ~/logs\
+touch ~/logs/hunter_cron.log
+(crontab -l ; echo "*/15 * * * * node /Users/gTek\ Industries\ Main/Sovereign_Fathers_Chat_Final/hunter_sweep.js >> /Users/bfh/logs/hunter_cron.log 2>&1") | crontab -
+chmod -R 755 /Users/gTek\ Industries\ Main/Sovereign_Fathers_Chat_Final\
+touch /Users/gTek\ Industries\ Main/Sovereign_Fathers_Chat_Final/.env\
+echo ".env" >> .gitignore
+cat << 'EOF' > launch_sov.sh\
+#!/bin/bash\
+echo "?????? Launching Sovereign Fathers Chat"\
+echo "?????? Starting Node server..."\
+npm start &\
+sleep 5\
+echo "??????? Testing Hunter Recon endpoint..."\
+curl http://localhost:3000/api/hunter?domain=gtekindustries.com\
+echo "??????? Logs:"\
+tail -n 20 ~/logs/hunter_cron.log\
+EOF\
+\
+chmod +x launch_sov.sh
+git add .\
+git commit -m "??????? Sovereign Fathers Chat Launch Protocol Complete"\
+git push origin main
+#/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"\
+echo "?????? Launching Sovereign Fathers Chat"\
+echo "?????? Starting Node server..."\
+npm start &\
+sleep 5\
+echo "??????? Testing Hunter Recon endpoint for 'gtekindustries.com'..."\
+curl http://localhost:3000/api/hunter?domain=gtekindustries.com\
+echo "??????? Hunter Recon Logs (last 20 lines):"\
+tail -n 20 ~/logs/hunter_cron.log
+nano launch_sov.sh\
+# Then paste the script above
+chmod +x launch_sov.sh
+git add .\
+git commit -m "?????? Sovereign Fathers Chat full system locked and launched"\
+git push origin main
+mkdir public
+mv index.html public/
+nano hunter_legal_lookup.sh
+chmod +x hunter_legal_lookup.sh
+cat domain_results.json | jq
+./hunter_legal_lookup.sh
+nano hunter_multiscan.sh
+chmod +x hunter_multiscan.sh\
+./hunter_multiscan.sh
+python3 hunter_power_contacts.py
+"davinciapts.com"
+python3 hunter_davinci_lookup.py
+ls -R "/Users/gTek Industries Main/Sovereign_Fathers_Chat_Final" > repo_tree.txt && cat repo_tree.txt
+chmod +x launch_sov.sh\
+./launch_sov.sh
+brew install node
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash\
+source ~/.zshrc\
+nvm install --lts
+which node\
+node -v
+npm start &
+/usr/local/bin/node server.js &
+export PATH="/usr/local/bin:$PATH"
+./launch_sov.sh
+which node
+ls
+curl 'http://localhost:3000/api/hunter?domain=cc-courts.org'\
+curl 'http://localhost:3000/api/hunter?domain=lacourt.org'\
+curl 'http://localhost:3000/api/hunter?domain=va.gov'\
+curl 'http://localhost:3000/api/hunter?domain=cao.ca.gov'
+nano verify_hunter_env.js
+node verify_hunter_env.js
+nano hunter_sweep.js
+crontab -e\
+# Add:\
+*/15 * * * * node /full/path/to/hunter_sweep.js >> /full/path/logs/hunter_cron.log
+npm start
+# Clean any leftover Git locks\
+rm -f .git/index.lock\
+\
+# Initialize if not already a repo\
+git init\
+\
+# Add remote origin (only if not set)\
+git remote add origin https://github.com/gTek-Keys/Tales_From_The_Cryptic_Codex.git\
+\
+# Stage all changes\
+git add .\
+\
+# Commit with sovereign message\
+git commit -m "?????? Codex Upload: All creative, automation, and integration assets"\
+\
+# Push to GitHub main branch\
+git push origin main
+ls -la\
+# Confirm files exist in current directory
+python3 tok_push.py "Codex-integrated push confirmed with Python 3.11.8"\
+
+git add .\
+git commit -m "??????? Added Sovereign Codex Notary + Patent Scaffold (JHILL-THM-ARCH)"\
+git push origin main\
+
+cd ~/FuturegTekCompanyVault\
+unzip ~/Downloads/Sovereign_Codex_Notary_Package.zip\
+
+cd /Users/gTekIndustriesMain/FuturegTekCompanyVault\
+
+unzip ~/Downloads/Sovereign_Codex_Notary_Package.zip\
+
+cd "/Users/gTek Industries Main/FuturegTekCompanyVault"\
+unzip Sovereign_Codex_Notary_Package.zip\
+git add .\
+git commit -m "??????? Codex Notary + Patent Scaffold for JHILL-THM-ARCH  ? Sovereign Push Locked"\
+git push origin main\
+
+git add codex_reparations_research_report.md\
+git commit -m "??????? Codex Reparations Report (REPARATIONS_CX001)  ? Registered under JHILL-THM-ARCH"\
+git push origin main\
+
+pip install openai typer rich\
+
+python tok_terminal.py ask "Let ?s build a Codex ritual for patent tracking."\
+
+python tok_terminal.py ask "Let's generate a Notion codex loop."\
+
+python3 tok_terminal.py ask "Let's generate a Notion codex loop."\
+
+nano tok_terminal.py\
+
+python3 tok_terminal.py ask Let's generate a Notion codex loop.\
+\
+nano tok_push.py\
+
+pip install openai==0.28\
+
+python3 tok_push.py "Update Notion sync ritual logic"\
+
+nano tok_push.py\
+
+python3 tok_push.py "First full sovereign commit with Tok ritual sync"\
+
+pip uninstall openai -y\
+pip install openai==1.11.0\
+
+[200~nano tok_push.py~
+nano tok_push.py
+python3 tok_push.py "Final test: Codex summary push with GPT-4"\
+
+brew install pyenv\
+pyenv install 3.11.8\
+pyenv global 3.11.8\
+
+pip uninstall openai httpx -y\
+pip install openai==1.11.0 httpx==0.26.0\
+
+cd /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/openai\
+
+cd ~/FuturegTekCompanyVault\
+
+cd ~\
+find . -type d -name "FuturegTekCompanyVault"\
+
+cd path/to/FuturegTekCompanyVault\
+
+cd ~\
+
+find . -type d -name "FuturegTekCompanyVault"\
+
+cd ~/Downloads/MetaQuantum_CodexSuite\
+python3 gTekCodex_MetaQuantum_RunAll.py\
+
+cd ~/Downloads/\
+unzip MetaQuantum_CodexSuite.zip -d MetaQuantum_CodexSuite\
+cd MetaQuantum_CodexSuite/\
+python3 gTekCodex_MetaQuantum_RunAll.py\
+
+cd ~/\
+python3 ~/Downloads/gTekCodex_WalletConnect.py\
+
+curl https://public-api.solscan.io/account/EEhuYsTGdiDMjjez3KiBaC9w3XRZqrxMohkaEpH9UUUy -H "token: YOUR_SOLSCAN_API_KEY"\
+
+cd ~/\
+python3 ~/Downloads/gTekCodex_iTekLux_WalletScanner.py\
+
+https://solscan.io/account/EEhuYsTGdiDMjjez3KiBaC9w3XRZqrxMohkaEpH9UUUy\
+
+~/Codex_iTekLux_Scan/solana_wallet.json\
+
+ls ~/Codex_iTekLux_Scan/\
+
+cd ~/\
+python3 ~/Downloads/gTekCodex_MetaQuantum_RunAll.py\
+
+mv ~/Downloads/gTekCodex_RecoveryBot.py /Users/\
+cd /Users/\
+python3 gTekCodex_RecoveryBot.py\
+
+sudo mv ~/Downloads/gTekCodex_RecoveryBot.py /Users/\
+cd /Users/\
+sudo python3 gTekCodex_RecoveryBot.py\
+
+mv ~/Downloads/gTekCodex_AnchorRecovery_Pro.py /Users/\
+cd /Users/\
+python3 gTekCodex_AnchorRecovery_Pro.py\
+
+cd ~/\
+python3 ~/Downloads/gTekCodex_AnchorRecovery_Pro_Safe.py\
+
+cd ~/\
+
+nano gTekCodex_AnchorRecovery_Pro_Safe.py\
+
+chmod +x gTekCodex_AnchorRecovery_Pro_Safe.py\
+
+ls /Volumes/\
+
+cd /Users/\
+python3 gtek_codex_drive_sweep.py\
+
+mv ~/Downloads/gtek_codex_drive_sweep.py /Users/\
+cd /Users/\
+python3 gtek_codex_drive_sweep.py\
+
+sudo mv ~/Downloads/gtek_codex_drive_sweep.py /Users/\
+cd /Users/\
+sudo python3 gtek_codex_drive_sweep.py\
+
+mv ~/Downloads/gtek_global_codex_audit.py "/Users/gTek Industries Main/"\
+chmod +x "/Users/gTek Industries Main/gtek_global_codex_audit.py"\
+python3 "/Users/gTek Industries Main/gtek_global_codex_audit.py"\
+
+mv gtek_global_codex_audit.py /Users/\
+cd /Users/\
+python3 gtek_global_codex_audit.py\
+
+cd /Users/\
+python3 gtek_global_codex_audit.py\
+
+cd ~/Downloads/\
+ls | grep gtek_global_codex_audit\
+
+sudo mv ~/Downloads/gtek_global_codex_audit.py /Users/\
+cd /Users/\
+python3 gtek_global_codex_audit.py\
+
+find /Users -name gtek_global_codex_audit.py 2>/dev/null\
+
+mv ~/Downloads/gtek_global_codex_audit.py /Users/\
+cd /Users/\
+python3 gtek_global_codex_audit.py\
+
+sudo mv ~/Downloads/gtek_global_codex_audit.py /Users/\
+
+cd /Users/\
+sudo python3 gtek_global_codex_audit.py\
+
+python3 gTekCodex_AnchorRecovery_Pro_Safe.py\
+
+cd ~/\
+python3 ~/Downloads/gTekCodex_LicenseCollector.py\
+
+cd ~/\
+python3 ~/Downloads/gTekCodex_ExternalDrive_OneShot.py\
+
+mkdir -p UnrealProject/Content/Data\
+mkdir -p UnrealProject/Content/UI\
+mkdir -p UnrealProject/Content/Blueprints\
+mkdir -p UnrealProject/Documentation\
+
+echo "# UnrealProject\n\nThis folder contains the Division Expansion Tactical UI system, JSON data, and interface mockups ready for Unreal Engine integration." > UnrealProject/README.md\
+
+git add UnrealProject\
+git commit -m "Added Division Expansion Tactical UI data, mockups, and Unreal integration folders"\
+git push origin main\
+
+ls ~/Downloads | grep Division_RegionsData\
+ls ~/Downloads | grep user_interface\
+
+mv ~/Downloads/Division_RegionsData.json UnrealProject/Content/Data/\
+mv ~/Downloads/A_user_interface_screenshot_of_a_tactical_overview.png UnrealProject/Documentation/\
+mv ~/Downloads/A_2D_digital_image_displays_a_user_interface_mocku.png UnrealProject/Documentation/\
+
+cd "/Users/gTek Industries Main/Tom_Clancy-s_Expansion"\
+unzip Division_FinalDocs_Pack.zip -d UnrealProject/Documentation/\
+
+UnrealProject/Documentation/\
+
+ls UnrealProject/Documentation/\
+
+Tom_Clancy-s_Expansion/Division_Tactical_UI.uproject\
+
+cat > Division_Tactical_UI.uproject <<EOF\
+{\
+  "FileVersion": 3,\
+  "EngineAssociation": "5.3",\
+  "Category": "",\
+  "Description": "Division Tactical Region Interface  ? Unreal Engine Project by Commander Tok",\
+  "Modules": [\
+    {\
+      "Name": "Division_Tactical_UI",\
+      "Type": "Runtime",\
+      "LoadingPhase": "Default"\
+    }\
+  ],\
+  "TargetPlatforms": [\
+    "Mac",\
+    "Windows",\
+    "Linux"\
+  ],\
+  "Plugins": [],\
+  "AdditionalDependencies": []\
+}\
+EOF\
+
+ls | grep .uproject\
+
+open -a "Unreal Editor" Division_Tactical_UI.uproject\
+
+ls /Applications | grep Unreal\
+
+open -a "/Applications/Unreal Engine/5.3/Engine/Binaries/Mac/UnrealEditor.app" Division_Tactical_UI.uproject\
+
+find /Users /Applications /Volumes -type d -name UnrealEditor.app 2>/dev/null\
+
+open -a "/Users/Shared/Epic Games/UE_5.6/Engine/Binaries/Mac/UnrealEditor.app" Division_Tactical_UI.uproject\
+
+chmod +x push_to_github.py\
+
+./push_to_github.py\
+
+cd "/Users/gTek Industries Main/Tom_Clancy-s_Expansion/"\
+python3 gtek_master_codex_audit.py\
+
+/mnt/data/DivisionCodexUI_Plugins/gTekCodex\
+⃴??⃴?⃴? gTekCodex.uplugin\
+⃴??⃴?⃴? Source/\
+    ⃴??⃴?⃴? gTekCodex/\
+        ⃴??⃴?⃴? Public/\
+        ⃴??⃴?⃴? Private/\
+
+mv ~/Downloads/install_gTekCodex_plugin.py "/Users/gTek Industries Main/Tom_Clancy-s_Expansion/"\
+cd "/Users/gTek Industries Main/Tom_Clancy-s_Expansion/"\
+python3 install_gTekCodex_plugin.py\
+
+mv DivisionCodexUI/DivisionCodexUI.uproject .\
+
+cd "/Users/gTek Industries Main/Tom_Clancy-s_Expansion/"\
+python3 install_gTekCodex_plugin.py\
+
+open -a "/Users/Shared/Epic Games/UE_5.6/Engine/Binaries/Mac/UnrealEditor.app" DivisionCodexUI.uproject\
+
+cd "/Users/gTek Industries Main/Tom_Clancy-s_Expansion/"\
+python3 gtek_activate_all_codex.py\
+
+python3 plugin_toggler.py\
+python3 codex_linker.py\
+python3 asset_loader.py\
+python3 license_applier.py\
+
+mv ~/Downloads/plugin_toggler.py "/Users/gTek Industries Main/Tom_Clancy-s_Expansion/"\
+mv ~/Downloads/codex_linker.py "/Users/gTek Industries Main/Tom_Clancy-s_Expansion/"\
+mv ~/Downloads/asset_loader.py "/Users/gTek Industries Main/Tom_Clancy-s_Expansion/"\
+mv ~/Downloads/license_applier.py "/Users/gTek Industries Main/Tom_Clancy-s_Expansion/"\
+
+cd "/Users/gTek Industries Main/Tom_Clancy-s_Expansion/"\
+python3 gtek_codex_organizer.py\
+
+cd ~/\
+python3 ~/Downloads/gTekCodex_MetaQuantum_OneShot.py\
+
+mv ~/Downloads/gtek_codex_drive_sweep.py ~/Downloads/\
+chmod +x ~/Downloads/gtek_codex_drive_sweep.py\
+
+python3 ~/Downloads/gTekCodex_ExternalDrive_OneShot.py\
+
+sudo python3 ~/Downloads/gTekCodex_ExternalDrive_OneShot.py\
+
+rm -rf ~/Library/Application\ Support/GitHub\ Desktop\
+rm -rf ~/Library/Caches/com.github.GitHubClient\
+rm -rf ~/Library/Preferences/com.github.GitHubClient.plist
+brew install --cask github
+python3 digest_audit.py
+nano ~/digest_audit.py
+python3 ~/digest_audit.py
+python3 gtek_resume_digest_writer.py
+head -n 20 /Users/bfh/FinTek_Resume_Audit/resume_terminal_digest_audit.json
+python3 gtek_resume_digest_writer_v2.py
+nano mission_directive.log
+bash /mnt/data/create_with_nano.sh codex_mission.log
+python3 /mnt/data/software_audit_tool.py
+python3 software_audit_tool.py
+mv ~/Downloads/software_audit_tool.py ~/
+python3 ~/software_audit_tool.py
+find ~ -type d -name "*unzipped" -empty -print -delete\
+find ~ -type d -empty -print -delete
+brew update && brew install azure-cli\
+
+az version\
+
+az login\
+
+az group create --name AuditAppResourceGroup --location eastus\
+
+az staticwebapp create \\
+  --name AuditAppStaticWeb \\
+  --resource-group AuditAppResourceGroup \\
+  --source . \\
+  --location eastus \\
+  --app-location "dashboard" \\
+  --output-location "build" \\
+  --sku Free\
+
+az staticwebapp create \\
+  --name AuditAppStaticWeb \\
+  --resource-group AuditAppResourceGroup \\
+  --location eastus \\
+  --source https://github.com/gTek-Keys/Audit-your-time-of-day-plugin \\
+  --branch main \\
+  --token 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 \\
+  --app-location "dashboard" \\
+  --output-location "build" \\
+  --sku Free
+az staticwebapp create \\
+  --name AuditAppStaticWeb \\
+  --resource-group AuditAppResourceGroup \\
+  --location eastus2 \\
+  --source https://github.com/gTek-Keys/Audit-your-time-of-day-plugin \\
+  --branch main \\
+  --token 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 \\
+  --app-location "dashboard" \\
+  --output-location "build" \\
+  --sku Free
+az provider register --namespace Microsoft.Web
+git init
+git remote add origin git@github.com:gTek-Keys/Sovereign_Hill_Portfolio.git
+git add .\
+git commit -m "?????? Full Codex Sovereign System: Web App, Branding, Contracts, Vault"
+python3 gtek_python_push_multiscript.py
+python3 gtek_codex_digest_multiscript.py
+bash ~/Downloads/sovereign_cleanup_and_organizer.sh
+python3 ~/Downloads/create_music_scaffold_and_cleanup.py\
+
+find ~/gTek\ Industries\ Main/ -type d \( -name "*_unzipped" -o -name "*.unzipped" \) -exec bash -c '[[ -z "$(ls -A "$1")" ]] && rm -rf "$1"' _ {} \;\
+
+find ~/gTek\ Industries\ Main/ -type d -name "*_unzipped" -empty -exec rm -r {} +\
+
+nano filename.txt
+nano codex_mission.log
+bash nano_advanced_codex_utility.sh
+mv ~/Downloads/nano_advanced_codex_utility.sh ~/The_Block_Auditer_Gamification_Software-gTek_Induftries_Global_Design/
+~/The_Block_Auditer_Gamification_Software-gTek_Induftries_Global_Design
+npm install -g typescript ts-node\
+npm install @helius-labs/sdk fs path
+npm install axios
+sudo npm install -g typescript ts-node
+bash ~/path/to/clean_gTek_Industries_Main.sh\
+
+mv ~/Downloads/clean_gTek_Industries_Main.sh ~/\
+
+bash ~/clean_gTek_Industries_Main.sh\
+
+mv ~/Downloads/clean_gTek_Industries_Main_with_log.sh ~/\
+
+bash ~/clean_gTek_Industries_Main_with_log.sh\
+
+~/Desktop/unzipped_cleanup.log\
+
+mv ~/Downloads/clean_gTek_Industries_Main_verbose.sh ~/\
+
+bash ~/clean_gTek_Industries_Main_verbose.sh\
+
+#/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"\
+\
+TARGET_DIR="$HOME/gTek Industries Main"\
+LOG_FILE="$HOME/Desktop/unzipped_cleanup.log"\
+\
+echo "????? Tekrakken Cleanup: $(date)" > "$LOG_FILE"\
+\
+find "$TARGET_DIR" -type d \( -name "*_unzipped" -o -name "*.unzipped" \) | while read -r dir\
+do\
+  filecount=$(find "$dir" -type f | wc -l)\
+  if [ "$filecount" -eq 0 ]; then\
+    echo "????? Removing EMPTY: $dir"\
+    echo "Removed: $dir" >> "$LOG_FILE"\
+    rmdir "$dir"\
+  elif [ "$filecount" -eq 1 ] && [ -f "$dir/.DS_Store" ]; then\
+    echo "⃺??︃? Removing HIDDEN FILES ONLY: $dir"\
+    rm -f "$dir/.DS_Store"\
+    rmdir "$dir"\
+    echo "Removed after cleaning: $dir" >> "$LOG_FILE"\
+  else\
+    echo "⃻?? Not empty (skipped): $dir"\
+    echo "Skipped (not empty): $dir" >> "$LOG_FILE"\
+  fi\
+done\
+\
+echo "⃼?? Completed: $(date)" >> "$LOG_FILE"\
+
+mv ~/Downloads/gTek_Force_Cleanse.sh ~/\
+
+bash ~/gTek_Force_Cleanse.sh\
+
+#/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"\
+\
+# gTek_Music_Anchor_Sweep_Sudo.sh\
+# Uses sudo to authenticate and sweep ~/MusicAnchor\
+\
+echo "??????? Verifying admin access to initiate Music Anchor Sweep..."\
+sudo -v || exit 1\
+\
+MUSIC_DIR="$HOME/MusicAnchor"\
+LOG_FILE="$HOME/Desktop/music_anchor_cleanup.log"\
+\
+echo "?????? Music Sweep Started: $(date)" | sudo tee "$LOG_FILE"\
+\
+# Find and delete junk folders/files\
+sudo find "$MUSIC_DIR" -type d \\( -name "*_unzipped" -o -name "*.tmp" -o -name "untitled*" \\) | while read -r item\
+do\
+  echo "????? Removing: $item"\
+  echo "Removed: $item" | sudo tee -a "$LOG_FILE"\
+  sudo rm -rf "$item"\
+done\
+\
+echo "?????? Sweep Complete: $(date)" | sudo tee -a "$LOG_FILE"\
+
+mv ~/Downloads/gTek_Music_Anchor_Sweep_Sudo.sh ~/\
+
+mkdir ~/MusicAnchor\
+
+bash ~/gTek_Music_Anchor_Sweep_Sudo.sh\
+
+mv ~/Downloads/gTek_Music_Anchor_Sweep_Full.sh ~/\
+bash ~/gTek_Music_Anchor_Sweep_Full.sh\
+
+nano sovereign_chat_aggregator.py\
+
+python3 sovereign_chat_aggregator.py\
+
+nano sovereign_terminal_audit.py\
+
+python3 sovereign_terminal_audit.py\
+
+sudo /usr/sbin/installer -allowUntrusted -verboseR -pkg '/Library/Caches/Avid/AvidLink/Downloads/Avid_Link_25.5.1_Mac.pkg' -target /
+npm install\
+
+ npm install -g npm@11.4.2
+sudo npm install -g npm@11.4.2\
+
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash\
+source ~/.nvm/nvm.sh\
+nvm install node\
+nvm use node\
+npm install -g npm@11.4.2\
+
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash\
+
+export NVM_DIR="$HOME/.nvm"\
+source "$NVM_DIR/nvm.sh"\
+
+npm install -g @anthropic-ai/claude-code
+claude
+*.gch.rsp
+find . -name "*.gch.rsp"
+echo "*.gch.rsp" >> .gitignore
+cat .gitignore
+git ls-files | grep ".gch.rsp"
+killall Google\ Drive\ File\ Stream\
+open -a "Google Drive"
+codexshell ritual deploy vault_01 \\
+  --estate="Jerome Elston Hill Jr." \\
+  --crid="JHILL-THM-ARCH-CRID-51509329" \\
+  --chain=polygon \\
+  --metadata-ipfs="<IPFS_HASH>" \\
+  --token=$TOKN\
+
+brew reinstall python@3.11\
+
+brew link python@3.11 --force\
+
+which python3\
+python3 --version\
+
+pip install codexshell\
+
+npm install -g web3.storage\
+web3.storage upload metadata.json\
+
+sudo chown -R $(whoami) ~/.npm\
+
+npx @web3-storage/w3up-client upload metadata.json\
+
+sudo chown -R $(whoami) ~/.npm\
+npm cache clean --force\
+
+npm install -g @web3-storage/w3up-client\
+
+w3up login  # (enter your email, click link)\
+
+export PATH="$PATH:$(npm bin -g)"\
+
+echo 'export PATH="$PATH:$(npm bin -g)"' >> ~/.zshrc\
+source ~/.zshrc\
+
+w3up --version\
+
+npm bin -g\
+
+ls -la /usr/local/lib/node_modules/.bin\
+ls -la /opt/homebrew/lib/node_modules/.bin\
+ls -la ~/.npm-global/bin\
+
+find / -type f -name w3up 2>/dev/null | grep node_modules\
+
+npx --yes @web3-storage/w3up-client upload metadata.json\
+
+python3 codexchat_cli_prototype.py ritual deploy vault_01 \\
+  --estate="Jerome Elston Hill Jr." \\
+  --crid="JHILL-THM-ARCH-CRID-51509329" \\
+  --chain=polygon \\
+  --metadata-ipfs="bafkreibrqtspnt3taeg4exfuitwu6ls6ilmtjwhtrqzbzueichphyd7pze" \\
+  --token=$TOKN\
+
+echo '{\
+  "project": "Sovereign Codexing",\
+  "crid": "JHILL-THM-ARCH-CRID-51509329",\
+  "estate": "Jerome Elston Hill Jr.",\
+  "skills": ["Solidity", "zk-rollups", "IPFS", "DAO tools", "Ritual UX", "Symbolic logic", "Python", "CodexShell CLI", "LLM prompt engineering", "Web3 multi-chain", "Chainlink oracles", "Afro-Indigenous design"],\
+  "tags": ["NFT", "Infra / API", "DAO / Community", "Crypto-AI", "DeFi", "Ethereum", "Polygon", "zkSync", "Solana", "Base"]\
+}' > metadata.json\
+
+echo '#!/bin/bash\
+python3 codexchat_cli_prototype.py ritual deploy vault_01 \\
+  --estate="Jerome Elston Hill Jr." \\
+  --crid="JHILL-THM-ARCH-CRID-51509329" \\
+  --chain=polygon \\
+  --metadata-ipfs="bafkreibrqtspnt3taeg4exfuitwu6ls6ilmtjwhtrqzbzueichphyd7pze" \\
+  --token=$TOKN' > codex_deploy.sh\
+\
+chmod +x codex_deploy.sh\
+
+mv /path/to/codexchat_cli_prototype.py /Users/bfh/Documents/GitHub/iTek-Lux-TrustChain-Sovereign-Blockchain/\
+
+mv /path/to/codexchat_cli_prototype.py ...\
+
+find ~/ -name "codexchat_cli_prototype.py" 2>/dev/null\
+
+cd /Users/bfh/Documents/GitHub/iTek-Lux-TrustChain-Sovereign-Blockchain\
+code .
+git init\
+git add .\
+git commit -m "Initialize CodexShell Vault Deployment"
+git remote add origin https://github.com/YOUR_USERNAME/iTek-Lux-TrustChain-Sovereign-Blockchain.git\
+git push -u origin main
+cd /Users/bfh/Documents/GitHub/iTek-Lux-TrustChain-Sovereign-Blockchain\
+\
+mkdir vault docs\
+touch LICENSE .gitignore codexshell_config.json vault/ritual_log_01.md vault/crid_manifest.json docs/symbolic_architecture.md docs/theorem_map.svg
+nano gtek_push_codex_init.py
+python3 gtek_push_codex_init.py
+ls -la iTek-Lux-TrustChain-Sovereign-Blockchain
+cd iTek-Lux-TrustChain-Sovereign-Blockchain\
+git init\
+git add .\
+git commit -m "Initialize Sovereign Codex repo"
+mkdir -p iTek-Lux-TrustChain-Sovereign-Blockchain/.github/workflows\
+cd iTek-Lux-TrustChain-Sovereign-Blockchain\
+touch .github/workflows/codexshell.yml requirements.txt
+cd iTek-Lux-TrustChain-Sovereign-Blockchain\
+git add .\
+git commit -m "?????? Convert Codex repo into sovereign template + activate funding track"\
+git push
+git remote add origin https://github.com/gTek-Keys/iTek-Lux-TrustChain-Sovereign-Blockchain.git
+git branch -M main\
+git push -u origin main
+git pull --rebase origin main
+cd ~\
+cd Documents/GitHub/iTek-Lux-TrustChain-Sovereign-Blockchain
+cd iTek-Lux-TrustChain-Sovereign-Blockchain
+ls -la
+code README.md codex_deploy.sh
+git add README.md codex_deploy.sh\
+git rebase --continue\
+git push -u origin main --force
+nano codex_nft_metadata.json
+mkdir CodexMintKit\
+cd CodexMintKit
+zip -r CodexMintKit.zip CodexMintKit
+nano create_codex_mintkit.py
+python3 create_codex_mintkit.py
+cd ..\
+zip -r CodexMintKit.zip CodexMintKit
+curl https://api.anthropic.com/v1/messages \\
+        --header "x-api-key: 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" \\
+        --header "anthropic-version: 2023-06-01" \\
+        --header "content-type: application/json" \\
+        --data \\
+    '{\
+        "model": "claude-3-5-sonnet-20241022",\
+        "max_tokens": 1024,\
+        "messages": [\
+            {"role": "user", "content": "Hello, world"}\
+        ]\
+    }'
+mkdir CodexVault_AI_Bundle\
+cd CodexVault_AI_Bundle
+nano claude_cli.py
+nano gpt_codex_cli.py
+#/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"\
+\
+echo "Codex AI Ritual Engine"\
+echo "Choose engine: (1) Claude  (2) GPT-4o"\
+read engine\
+if [ "$engine" = "1" ]; then\
+  python3 claude_cli.py\
+elif [ "$engine" = "2" ]; then\
+  python3 gpt_codex_cli.py\
+else\
+  echo "Invalid choice"\
+fi
+nano codexshell_ai.sh
+nano vault_agent_embed.html
+nano vault_ai_manifest.json
+mkdir gTekGlobalDesign\
+cd gTekGlobalDesign
+nano gtek_webscaffold.py
+python3 gtek_webscaffold.py
+python3 codex_ai_cli.py
+nano clean_and_organize_mac.py
+python3 ~/path/to/clean_and_organize_mac.py
+python3 ~/clean_and_organize_mac.py
+top -o cpu
+sudo mdutil -E /\
+sudo mdutil -a -i on
+killall Dock
+defaults write com.apple.WindowManager AutoHide -bool YES && killall Dock
+sudo purge\
+sudo periodic daily weekly monthly
+launchctl list | grep -i md\
+launchctl list | grep -i fileprovider
+ls ~/Library/LaunchAgents\
+ls /Library/LaunchAgents
+sudo launchctl unload -w /System/Library/LaunchDaemons/com.apple.metadata.mds.plist\
+sudo launchctl unload -w /System/Library/LaunchDaemons/com.apple.metadata.mds.index.plist
+sudo shutdown -r now
+sudo dscacheutil -flushcache
+sudo killall -HUP mDNSResponder
+Codex Routing Node: Use Termux on Samsung as a server ⃦?? Mac connects via script
+chmod +x codex_route_mac_to_samsung.sh
+./codex_route_mac_to_samsung.sh
+nano codex_route_mac_to_samsung.sh
+chmod +x codex_route_mac_to_samsung.sh\
+./codex_route_mac_to_samsung.sh
+curl http://172.19.199.223:5000/
+ip a
+launchctl list | grep -i adobe\
+launchctl list | grep -i dropbox\
+launchctl list | grep -i drive
+launchctl bootout gui/$(id -u) [label-name]
+#/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"\
+\
+\
+# === System Silence Toggle Script ===\
+# Author: bfh trust designs\
+# Date: July 12, 2025\
+# Description: Toggles background services for Adobe, Dropbox, and Drive\
+\
+USER_ID=$(id -u)\
+\
+SERVICES=(\
+  "com.adobe.AdobeCreativeCloud"\
+  "com.adobe.ARMDCHelper.cc24aef4a1b90ed56a725c38014c95072f92651fb65e1bf9c8e43c37a23d420d"\
+  "com.adobe.ccxprocess"\
+  "com.dropbox.DropboxUpdater.wake"\
+  "com.getdropbox.dropbox.dbkextd"\
+  "application.com.google.drivefs.73307900.73307909"\
+)\
+\
+# Toggle command logic\
+if [[ "$1" == "silence" ]]; then\
+  echo "??????? Entering System Silence Mode..."\
+  for svc in "${SERVICES[@]}"; do\
+    launchctl bootout gui/$USER_ID "$svc" 2>/dev/null && echo "⃼??︃? Disabled: $svc"\
+  done\
+elif [[ "$1" == "wake" ]]; then\
+  echo "??????? Waking background services..."\
+  for svc in "${SERVICES[@]}"; do\
+    launchctl bootstrap gui/$USER_ID "/Library/LaunchAgents/$svc.plist" 2>/dev/null && echo "⃼?? Enabled: $svc"\
+  done\
+else\
+  echo "Usage: ./system_silence_toggle.sh [silence|wake]"\
+fi
+nano ~/system_silence_toggle.sh
+chmod +x ~/system_silence_toggle.sh
+./system_silence_toggle.sh silence
+nano ~/sovereign_cleanse_audit.sh
+chmod +x ~/sovereign_cleanse_audit.sh
+./sovereign_cleanse_audit.sh
+mkdir -p ~/Apollo_Node/Logs\
+mkdir -p ~/Apollo_Node/Scripts\
+mkdir -p ~/Apollo_Node/Codex_Reports
+top -l 1 -n 0 | head -n 20 > ~/Apollo_Node/Logs/system_top_snapshot.txt\
+ps aux | grep -v grep | grep -E "adobe|dropbox|drive" >> ~/Apollo_Node/Logs/process_check.txt
+ln -s ~/Codex_Cleanup_Audit_Log.txt ~/Apollo_Node/Codex_Reports/Latest_Audit.txt
+[200~streamlit run codex_builder.py
+~
+git init\
+git add .\
+git commit -m "Initial commit"\
+git remote add origin https://github.com/your-username/gpt-codex-builder.git\
+git push -u origin main\
+
+pip install streamlit
+mkdir codex_builder\
+cd codex_builder\
+python -m venv venv\
+source venv/bin/activate  # or venv\Scripts\activate on Windows\
+pip install streamlit pydantic pyttsx3 weasyprint\
+
+pip install --upgrade pip
+pip install openai-whisper sounddevice\
+
+nano app.py && nano persona_blueprint.py && nano flow_manager.py && nano tts_module.py\
+
+y
+brew install cairo pango gdk-pixbuf libffi\
+
+pip install weasyprint\
+
+python -c "from weasyprint import HTML; print('WeasyPrint is working!')"\
+
+nano requirements.txt\
+
+git add app.py flow_manager.py persona_blueprint.py tts_module.py export_utils.py requirements.txt .streamlit/config.toml\
+git commit -m "Finalized Codex Builder with full features"\
+git push origin main\
+
+sudo apt install espeak\
+
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"\
+
+brew --version\
+
+brew install espeak\
+
+espeak "Hello from your Mac"\
+
+python3 -m venv codex-env\
+source codex-env/bin/activate\
+
+pip install streamlit pyttsx3 pydantic\
+
+streamlit run codex_builder.py\
+
+engine = pyttsx3.init(driverName='nsss')  # macOS native speech driver\
+
+pip install pyobjc\
+
+pip install streamlit pyttsx3 pydantic\
+pip install pyobjc  # Required for macOS TTS\
+
+pip install streamlit pyttsx3 pydantic pyobjc\
+
+pip install streamlit pyttsx3 pydantic\
+pip install pyobjc  # for macOS TTS\
+pip install openai-whisper sounddevice scipy  # optional for voice input\
+
+pip install streamlit pyttsx3 pydantic qrcode pillow\
+pip install pyobjc  # for macOS TTS\
+pip install openai-whisper sounddevice scipy  # optional for voice input\
+
+pip install streamlit pyttsx3 pydantic qrcode pillow pyobjc\
+
+pip install openai-whisper sounddevice scipy\
+
+cd path/to/New_Chat_App\
+git add requirements.txt\
+git commit -m "Add requirements for Streamlit deployment"\
+git push origin main\
+
+mv ~/Downloads/codex_builder.py ~/path/to/New_Chat_App/\
+cd ~/path/to/New_Chat_App/\
+
+git add codex_builder.py\
+git commit -m "Add full Codex Builder app"\
+git push origin main\
+
+nano codex_builder.py\
+
+mv codex_builder.py path/to/New_Chat_App/\
+cd path/to/New_Chat_App/\
+git add codex_builder.py\
+git commit -m "Final Codex Builder with memory and sharing"\
+git push origin main\
+
+nano .streamlit/config.toml\
+
+mkdir -p .streamlit\
+nano .streamlit/config.toml\
+
+nano manifest_utils.py\
+
+source codex-env/bin/activate\
+
+cd /Users/bfh/Ieee\ Dropbox/Jerome\ Hill/Mac/Documents/GitHub/New_Chat_App\
+
+nano flow_manager.py\
+
+nano persona_blueprint.py\
+
+nano tts_module.py\
+
+nano export_utils.py\
+
+nano chat_arena.py\
+
+nano archetypes.json\
+
+nano app.py\
+
+streamlit run app.py\
+
+git clone https://github.com/gTek-Keys/RealEstat-Minting.git\
+cd RealEstat-Minting\
+
+npm install -g truffle\
+
+git clone https://github.com/gTek-Keys/gNaRa-gNeN-.git\
+cd gNaRa-gNeN-\
+
+git add .\
+git commit -m "Initial sovereign drop: whitepaper, metadata, IP license"\
+
+cd path/to/your/gNaRa-gNeN-\
+
+git status\
+
+git add .\
+git commit -m "Add full Codex drop: whitepaper, license, metadata"\
+git push origin main\
+
+git push origin master\
+
+rm gNaRa_gNeN4_Trademark_IP_Sheet\\ \\(1\\).txt\
+rm gNaRa_gNeN4_Whitepaper_v1\\ \\(1\\).pdf\
+rm README\\ 2.md\
+
+rm "gNaRa_gNeN4_Trademark_IP_Sheet (1).txt"\
+rm "gNaRa_gNeN4_Whitepaper_v1 (1).pdf"\
+rm "README 2.md"\
+
+mv gTek_Sovereign_Private_License_v3.txt LICENSE\
+
+git add .\
+git commit -m "Codex drop complete: duplicates removed, license enforced"\
+git push origin main\
+
+git pull origin main --rebase\
+
+git push origin main\
+
+git add .\
+git rebase --continue\
+
+open /Users/bfh/Documents/The_Official_gTek_Files_CHAT/Recovered_Apple_Keys
+open /mnt/data/Desktop_Recovered_Apple_Keys
+mkdir -p ~/Desktop/Recovered_Apple_Keys
+cp ~/Library/Application\ Support/com.openai.chat/sessions/shared-sandbox/data/Recovered_Apple_Keys/Screenshot\ 2025-07-14\ at\ 15.07.40.png ~/Desktop/Recovered_Apple_Keys/
+nano requirements.txt
+pip install -r requirements.txt
+nano app.py
+git add .\
+git commit -m "⃼?? Final working Codex UI running on desktop"\
+git push origin main
+cd ~/Documents/GitHub/gTok-Tok-Chat-Mandar-n-AfroAsiaticFuturistic-Language-Codex-Platform-\
+nano app.py
+streamlit run app.py
+pip install fastapi uvicorn
+codex_api.py
+nano codex_api.py
+uvicorn codex_api:app --reload
+rm -rf node_modules package-lock.json\
+npm cache clean --force\
+npm install\
+
+npm run build\
+
+npm run\
+
+npm install firebase\
+
+ls ~/Downloads | grep Docker.dmg\
+
+docker login -u ceptokrem
+echo "DOCKER_PAT=dckr_pat_xrNevPKnFGIqJakozR5Y1TpybyU" >> .env\
+
+open /Applications/Docker.app\
+
+export PATH="/Applications/Docker.app/Contents/Resources/bin:$PATH"\
+
+echo 'export PATH="/Applications/Docker.app/Contents/Resources/bin:$PATH"' >> ~/.zshrc\
+source ~/.zshrc\
+
+docker-compose up --build\
+
+docker --version\
+
+docker compose up --build\
+
+ls -la | grep docker-compose.yml\
+
+git init\
+git remote add origin https://github.com/gTek-Keys/gNaRa-gNeN-.git\
+git add .\
+git commit -m "Initial commit: Sovereign Comm System + Docker Shell"\
+git branch -M main\
+git push -u origin main\
+
+git add .\
+git commit -m "Phase 14.2 Complete  ? Codex Ritual Engine + Claude/Dante Integration + Unreal Vault Visuals"\
+git push origin main\
+
+mv ~/Downloads/vault_push_summary.md ./docs/\
+git add docs/vault_push_summary.md\
+git commit -m "Added Vault Push Summary  ? Phase 14.2 Completion"\
+git push origin main\
+
+mkdir -p docs\
+cp FAITHCORE_ESTATE_SUBMISSION_BUNDLE/vault_push_summary.md docs/vault_push_summary.md\
+git add docs/vault_push_summary.md\
+git commit -m "Added Vault Push Summary  ? Phase 14.2 Completion"\
+git push origin main\
+
+npm install -g @walletconnect/cli\
+
+npm install @walletconnect/core@latest\
+
+mkdir -p public/cidex-metadata\
+cd public/cidex-metadata\
+
+cat <<EOF > mHi_CodexNFT_Metadata.json\
+{\
+  "name": "Codex Drop  ? mHi",\
+  "description": "MetAHueman Intelligence assistant created via GPT CodexShell.",\
+  "image": "ipfs://CID/ritual_card_mhi.png",\
+  "external_url": "https://gtekglobal.design/codex/mhi",\
+  "attributes": [\
+    { "trait_type": "Persona", "value": "mHi" },\
+    { "trait_type": "Voice", "value": "Whisper-ElevenLabs" },\
+    { "trait_type": "CodexPhase", "value": "14.2" },\
+    { "trait_type": "License", "value": "gTek Sovereign Codex v3.0" },\
+    { "trait_type": "Chain", "value": "Ethereum" }\
+  ]\
+}\
+EOF\
+
+cd ~/path/to/gNaRa-gNeN\
+
+cd ../../\
+
+curl -O https://sandbox.openai.com/mnt/data/generate_codex_metadata.sh\
+
+#/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"\
+\
+mkdir -p public/cidex-metadata\
+\
+cat <<EOF > public/cidex-metadata/mHi_CodexNFT_Metadata.json\
+{\
+  "name": "Codex Drop  ? mHi",\
+  "description": "MetAHueman Intelligence assistant created via GPT CodexShell.",\
+  "image": "ipfs://CID/ritual_card_mhi.png",\
+  "external_url": "https://gtekglobal.design/codex/mhi",\
+  "attributes": [\
+    { "trait_type": "Persona", "value": "mHi" },\
+    { "trait_type": "Voice", "value": "Whisper-ElevenLabs" },\
+    { "trait_type": "CodexPhase", "value": "14.2" },\
+    { "trait_type": "License", "value": "gTek Sovereign Codex v3.0" },\
+    { "trait_type": "Chain", "value": "Ethereum" }\
+  ]\
+}\
+EOF\
+
+chmod +x generate_codex_metadata.sh\
+./generate_codex_metadata.sh\
+
+nano generate_codex_metadata.sh\
+
+chmod +x generate_codex_metadata.sh\
+
+./generate_codex_metadata.sh\
+
+ls public/cidex-metadata\
+
+cat public/cidex-metadata/mHi_CodexNFT_Metadata.json\
+
+cp public/cidex-metadata/mHi_CodexNFT_Metadata.json public/cidex-metadata/Claude_CodexNFT_Metadata.json\
+cp public/cidex-metadata/mHi_CodexNFT_Metadata.json public/cidex-metadata/Dante_CodexNFT_Metadata.json\
+
+mv ~/Downloads/CodexNFT_Deployment_Bundle.zip ./vault/\
+cd vault/\
+unzip CodexNFT_Deployment_Bundle.zip\
+git add .\
+git commit -m "Added CodexNFT Deployment Vault  ? Claude + Dante Phase 15.2"\
+git push origin main\
+
+python codexpush.py --out ./public/cidex-metadata\
+
+ls ~/Downloads | grep codexpush.py\
+
+mv ~/Downloads/codexpush.py ./codexpush.py\
+
+python3 codexpush.py --out ./public/cidex-metadata\
+
+python3 pin_codex_to_ipfs.py --path ./public/cidex-metadata --token YOUR_API_KEY\
+
+cd ~/…/gNaRa-gNeN\
+nano .env\
+
+cd ~/Documents/GitHub/gNaRa-gNeN\
+
+mkdir -p gTek_Multiscript && cd gTek_Multiscript\
+
+nano auto_pin_to_ipfs.py\
+
+python3 enhance_codex_metadata.py\
+python3 auto_pin_to_ipfs.py\
+
+enhance_metadata("public/cidex-metadata/mHi_CodexNFT_Metadata.json", ...)\
+
+nano enhance_codex_metadata.py\
+
+python3 enhance_codex_metadata.py\
+
+/Users/bfh/Google Drive/My Drive/gNaRa-gNeN/\
+
+cd "/Google Drive/My Drive/gNaRa-gNeN-"\
+git init\
+git remote add origin https://github.com/gTek-Keys/gNaRa-gNeN-.git\
+git pull origin main --allow-unrelated-histories\
+
+git remote -v\
+
+az group create --name sovereign-msg-rg --location eastus\
+
+az deployment group create \\
+  --resource-group sovereign-msg-rg \\
+  --template-file azure_deploy.json \\
+  --parameters storageAccountName=sovereignblob \\
+               cosmosDbAccountName=sovereigncosmos\
+
+cat << 'EOF' > azure_deploy.json\
+{\
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",\
+  "contentVersion": "1.0.0.0",\
+  "parameters": {\
+    "location": {\
+      "type": "string",\
+      "defaultValue": "eastus",\
+      "metadata": {\
+        "description": "Location for all resources."\
+      }\
+    },\
+    "storageAccountName": {\
+      "type": "string",\
+      "metadata": {\
+        "description": "Name of the blob storage account."\
+      }\
+    },\
+    "cosmosDbAccountName": {\
+      "type": "string",\
+      "metadata": {\
+        "description": "Cosmos DB account name."\
+      }\
+    }\
+  },\
+  "resources": [\
+    {\
+      "type": "Microsoft.Storage/storageAccounts",\
+      "apiVersion": "2022-09-01",\
+      "name": "[parameters('storageAccountName')]",\
+      "location": "[parameters('location')]",\
+      "kind": "StorageV2",\
+      "sku": {\
+        "name": "Standard_LRS"\
+      }\
+\
+EOF
+cat <<EOF > .env\
+NOTION_API_KEY=sk-xxxxx\
+ZAPIER_WEBHOOK_URL=https://hooks.zapier.com/hooks/catch/...\
+HUNTER_API_KEY=8f81a302...\
+USPS_CONSUMER_KEY=ByGD8WW...\
+USPS_CONSUMER_SECRET=qz7G51E...\
+EOF\
+
+pip install fastapi uvicorn pytesseract python-multipart fpdf pillow python-dotenv\
+
+gNaRa-gNeN-/\
+⃴??⃴?⃴? main.py\
+⃴??⃴?⃴? routes.py\
+⃴??⃴?⃴? ocr.py\
+⃴??⃴?⃴? digest.py\
+⃴??⃴?⃴? .env\
+
+cat main.py\
+
+cat <<EOF > main.py\
+from fastapi import FastAPI\
+from routes import router\
+\
+app = FastAPI(title="Sovereign Comm Backend")\
+app.include_router(router)\
+EOF\
+
+cat <<EOF > routes.py\
+from fastapi import APIRouter, UploadFile, File\
+import pytesseract\
+from PIL import Image\
+import io\
+\
+router = APIRouter()\
+\
+@router.post("/ocr")\
+async def run_ocr(file: UploadFile = File(...)):\
+    contents = await file.read()\
+    image = Image.open(io.BytesIO(contents)).convert("L")\
+    text = pytesseract.image_to_string(image)\
+    return {"text": text[:2000]}\
+EOF\
+
+uvicorn main:app --reload\
+
+sudo hdiutil attach Docker.dmg\
+ sudo /Volumes/Docker/Docker.app/Contents/MacOS/install\
+ sudo hdiutil detach /Volumes/Docker
+mkdir -p logs\
+
+nano auto_log_vault_push.sh\
+
+chmod +x auto_log_vault_push.sh\
+
+bash auto_log_vault_push.sh\
+
+cat ./logs/vault_push.log\
+
+nano notion_sync.js\
+
+nano notion_push_log.js\
+
+npm install @notionhq/client\
+
+cat -A .env\
+
+cat .env\
+
+node notion_push_log.js\
+
+node --env-file=.env notion_push_log.js\
+
+ node --env-file=.env notion_push_log.js
+sudo rm -rf ~/.Trash/"*"
+sudo rm -rf /Volumes/*/.Trashes\
+sudo rm -rf /private/var/root/.Trash/*
+kill -9 [PID]
+kill -9 4589
+lsof | grep .Trash
+sudo rm -rf /private/var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/T/PKInstallSandboxTrash/*
+sudo rm -rf ~/.Trash/*
+npm install -g @wix/cli
+git clone git@github.com:gTek-Keys/tales-from-the-cryptic-codex.git\
+cd tales-from-the-cryptic-codex\
+npm install
+wix dev
+ping -c 5 8.8.8.8\
+
+ifconfig\
+
+ifconfig en5\
+
+ping 192.168.68.1\
+
+source .env\
+
+find . -name "mintCodexNFT.js"\
+
+nano mintCodexNFT.js\
+
+chmod +x mintCodexNFT.js\
+
+npm install alchemy-sdk dotenv\
+
+npm audit fix --force
+rm -rf node_modules package-lock.json\
+npm install\
+
+npm install form-data\
+
+node mintCodexNFT.js\
+
+alias vaultquery="node blockscout_query.js"\
+alias codexvote="node reown_codex_mint.js"\
+
+bfh@BFHs-MacBook-Pro:gNaRa-gNeN- % alias vaultquery="node blockscout_query.js"\
+alias codexvote="node reown_codex_mint.js"\
+\
+bfh@BFHs-MacBook-Pro:gNaRa-gNeN- % alias vaultquery="node blockscout_query.js"\
+alias codexvote="node reown_codex_mint.js"\
+\
+bfh@BFHs-MacBook-Pro:gNaRa-gNeN- % \
+
+echo 'alias vaultquery="node blockscout_query.js"' >> ~/.zshrc\
+echo 'alias codexvote="node reown_codex_mint.js"' >> ~/.zshrc\
+source ~/.zshrc\
+
+alias codexpush="python3 codexpush.py"\
+alias vaultsync="bash auto_log_vault_push.sh"\
+alias heartbeat="python3 heartbeat_nodewatch.py"\
+
+nano .env\
+
+ nano .env
+npm install alchemy-sdk\
+
+mkdir alchemy-demo\
+cd alchemy-demo\
+npm init --yes\
+touch demo-script.js
+curl --request POST \\
+     --url https://eth-mainnet.g.alchemy.com/v2/deYGmxWppdkE_4gJWdls_ \\
+     --header 'accept: application/json' \\
+     --header 'content-type: application/json' \\
+     --data '\
+{\
+  "id": 1,\
+  "jsonrpc": "2.0",\
+  "method": "alchemy_getTokenBalances",\
+  "params": [\
+    "0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045",\
+    "erc20"\
+  ]\
+}\
+'
+node demo-script.js
+npm install @coinbase/cdp-sdk
+npm audit fix
+npm install @coinbase/onchainkit
+cat .gitmodules\
+
+git config --file .git/config --get-regexp submodule\
+
+git config --unset submodule.active\
+
+ls -la\
+
+rm -rf The_Block_Auditer_Gamification_Software-_XCODEFilegTek_Induftries_Global_Design\
+git add -A\
+git commit -m "Remove unused submodule folder"\
+git push origin main\
+
+mv ~/Downloads/phantom_submodule_cleaner.sh "/Users/bfh/Library/CloudStorage/GoogleDrive-collabnonfaablab@gtekglobal.design/My Drive/The_Block_Auditer_Gamification_Software-gTek_Induftries_Global_Design/"\
+
+chmod +x phantom_submodule_cleaner.sh\
+./phantom_submodule_cleaner.sh\
+
+chmod +x ~/Downloads/Codex_Autoinstall_All.sh\
+~/Downloads/Codex_Autoinstall_All.sh\
+
+chmod +x ~/Downloads/Codex_Full_Upgrade_Stack.sh\
+~/Downloads/Codex_Full_Upgrade_Stack.sh\
+
+mv ~/Downloads/Codex_Stack_Deployment_Certificate.md "Your_Local_Repo_Path/"\
+
+mv ~/Downloads/Codex_Stack_Deployment_Certificate.md "/Users/bfh/Library/CloudStorage/GoogleDrive-collabnonfaablab@gtekglobal.design/My Drive/The_Block_Auditer_Gamification_Software-gTek_Induftries_Global_Design/"\
+
+cd "/Users/bfh/Library/CloudStorage/GoogleDrive-collabnonfaablab@gtekglobal.design/My Drive/The_Block_Auditer_Gamification_Software-gTek_Induftries_Global_Design/"\
+git add Codex_Stack_Deployment_Certificate.md\
+git commit -m "??????? Add Codex Stack Deployment Certificate"\
+git push origin main\
+
+mv ~/Downloads/.codexrc "/Users/bfh/Library/CloudStorage/GoogleDrive-collabnonfaablab@gtekglobal.design/My Drive/The_Block_Auditer_Gamification_Software-gTek_Induftries_Global_Design/"\
+cd "/Users/bfh/Library/CloudStorage/GoogleDrive-collabnonfaablab@gtekglobal.design/My Drive/The_Block_Auditer_Gamification_Software-gTek_Induftries_Global_Design/"\
+git add .codexrc\
+git commit -m "?????? Add Codex Stack .codexrc configuration"\
+git push origin main\
+
+curl -o ~/Downloads/.codexrc https://chat.openai.com/sandbox/download/.codexrc\
+
+mv ~/Downloads/.codexrc "/Users/bfh/Library/CloudStorage/GoogleDrive-collabnonfaablab@gtekglobal.design/My Drive/The_Block_Auditer_Gamification_Software-gTek_Induftries_Global_Design/"\
+
+cd "/Users/bfh/Library/CloudStorage/GoogleDrive-collabnonfaablab@gtekglobal.design/My Drive/The_Block_Auditer_Gamification_Software-gTek_Induftries_Global_Design/"\
+git add .codexrc\
+git commit -m "?????? Add Codex Stack .codexrc configuration"\
+git push origin main\
+
+mv ~/Downloads/CodexSync.sh "/path/to/your/repo/"\
+
+chmod +x CodexSync.sh\
+
+mv ~/Downloads/CodexSync.sh "/Users/bfh/Library/CloudStorage/GoogleDrive-collabnonfaablab@gtekglobal.design/My Drive/The_Block_Auditer_Gamification_Software-gTek_Induftries_Global_Design/"\
+
+mv ~/Downloads/CodexSync.sh .\
+
+curl -o ~/Downloads/CodexSync.sh https://chat.openai.com/sandbox/download/CodexSync.sh\
+
+mv ~/Downloads/CodexSync.sh .\
+chmod +x CodexSync.sh\
+./CodexSync.sh\
+
+bfh@BFHs-MacBook-Pro:The_Block_Auditer_Gamification_Software-gTek_Induftries_Global_Design % mv ~/Downloads/CodexSync.sh .\
+chmod +x CodexSync.sh\
+./CodexSync.sh\
+\
+./CodexSync.sh: line 1: html: No such file or directory\
+./CodexSync.sh: line 2: syntax error near unexpected token `<'\
+'/CodexSync.sh: line 2: `<head><title>308 Permanent Redirect</title></head>\
+bfh@BFHs-MacBook-Pro:The_Block_Auditer_Gamification_Software-gTek_Induftries_Global_Design % \
+
+cd "/Users/bfh/Library/CloudStorage/GoogleDrive-collabnonfaablab@gtekglobal.design/My Drive/The_Block_Auditer_Gamification_Software-gTek_Induftries_Global_Design/"\
+mv ~/Downloads/CodexSync.sh .\
+chmod +x CodexSync.sh\
+./CodexSync.sh\
+
+nano .codexrc\
+
+git add .codexrc\
+git commit -m "?????? Replace broken .codexrc with valid Codex JSON config"\
+git push origin main\
+
+./CodexSync.sh\
+
+mv ~/Downloads/codex_sync_ci.yml ".github/workflows/"\
+
+cd "/Users/bfh/Library/CloudStorage/GoogleDrive-collabnonfaablab@gtekglobal.design/My Drive/The_Block_Auditer_Gamification_Software-gTek_Induftries_Global_Design/"\
+git add .github/workflows/codex_sync_ci.yml\
+git commit -m "?????? Add CodexSync CI (Strict Mode): Fail build on missing components"\
+git push origin main\
+
+mv ~/Downloads/CodexLint.sh .git/hooks/pre-commit\
+chmod +x .git/hooks/pre-commit\
+
+mv ~/Downloads/CodexBackup.sh .\
+chmod +x CodexBackup.sh\
+./CodexBackup.sh\
+
+mv ~/Downloads/codex_logger.yml .github/workflows/\
+git add .github/workflows/codex_logger.yml\
+git commit -m "??????? Add Codex Logger for CI audit reporting"\
+git push origin main\
+
+TARGET_REPOS=("repo2" "repo3")\
+
+mv ~/Downloads/CodexReplicator.sh .\
+chmod +x CodexReplicator.sh\
+./CodexReplicator.sh\
+
+nano CodexReplicator.sh\
+
+chmod +x CodexReplicator.sh\
+./CodexReplicator.sh\
+
+mkdir -p "/Users/bfh/Library/CloudStorage/GoogleDrive-collabnonfaablab@gtekglobal.design/My Drive/gTek_Mobile_Command_Center"\
+mkdir -p "/Users/bfh/Documents/SovereignCodex_Backup"\
+
+./CodexReplicator.sh\
+
+mv ~/Downloads/CodexManifest.md .\
+git add CodexManifest.md\
+git commit -m "??????? Add CodexManifest.md to confirm full sovereign sync"\
+git push origin main\
+
+chmod +x CodexVault.sh CodexInstaller.sh\
+./CodexVault.sh\
+./CodexInstaller.sh\
+
+mv ~/Downloads/CodexVault.sh .\
+mv ~/Downloads/CodexInstaller.sh .\
+
+chmod +x CodexVault.sh CodexInstaller.sh\
+
+./CodexVault.sh\
+./CodexInstaller.sh\
+
+ls -lh CodexVault_20250725_173934.tar.gz\
+
+npm install -g @irys/bundlr-cli\
+
+npm install -g bundlr-cli\
+
+git clone https://github.com/Bundlr-Network/cli.git bundlr-cli\
+cd bundlr-cli\
+npm install\
+npm link\
+
+npm install -g ardrive-cli\
+
+ardrive login --key-file ./ardrive-wallet.json\
+
+ls -lh ardrive-wallet.json CodexVault_20250725_173934.tar.gz\
+
+ardrive upload-file CodexVault_20250725_173934.tar.gz \\
+  --wallet-path ./ardrive-wallet.json \\
+  --folder-name "CodexVault" \\
+  --public\
+
+ardrive create-folder \\
+  --wallet-path ./ardrive-wallet.json \\
+  --parent-folder-id root \\
+  --folder-name "CodexVault" \\
+  --public\
+
+ardrive create-folder \\
+  -k ./ardrive-wallet.json \\
+  --parent-folder-id root \\
+  --folder-name "CodexVault" \\
+  --public\
+
+ardrive create-folder \\
+  -k ./ardrive-wallet.json \\
+  --parent-folder-id root \\
+  --folder-name "CodexVault"\
+
+mkdir -p ElijahMcCoy_AuditSuite/{audit_cli,visualizer,gui_projucer/Source,exports/pdf,exports/json}\
+
+# CLI script\
+mv elijah_mccoy_suite_v4_1.py ElijahMcCoy_AuditSuite/audit_cli/\
+\
+# D3 visualizer\
+mv d3_audit_visualizer.html ElijahMcCoy_AuditSuite/visualizer/\
+\
+# JUCE GUI components\
+mv ElijahMcCoyAuditGUI.h ElijahMcCoySuite.jucer Main.cpp ElijahMcCoy_AuditSuite/gui_projucer/Source/\
+mv ElijahMcCoySuite.jucer ElijahMcCoy_AuditSuite/gui_projucer/\
+\
+# JSON / Export folders will be filled on runtime\
+touch ElijahMcCoy_AuditSuite/exports/crid_register.json\
+
+ElijahMcCoy_AuditSuite/audit_cli/\
+
+cd ElijahMcCoy_AuditSuite/audit_cli/\
+
+nano elijah_mccoy_suite_v4_1.py\
+
+python3 elijah_mccoy_suite_v4_1.py\
+
+mv ElijahMcCoy_AuditSuite "Elijah McCoy Auditing Suite"\
+
+~/Elijah McCoy Auditing Suite/exports/json/\
+
+cd ~/  # or just cd\
+mv ElijahMcCoy_AuditSuite "Elijah McCoy Auditing Suite"\
+
+cd ~/
+ls -l | grep Elijah\
+
+mv "ElijahMcCoy_AuditSuite" "Elijah McCoy Auditing Suite"\
+
+cd "Elijah McCoy Auditing Suite"\
+
+cd exports/json/\
+ls\
+
+nano ~/Elijah\ McCoy\ Auditing\ Suite/audit_cli/elijah_mccoy_suite_v4_3.py\
+
+python3 elijah_mccoy_suite_v4_3.py\
+
+cd ~/Elijah\ McCoy\ Auditing\ Suite/audit_cli/\
+python3 elijah_mccoy_suite_v4_3.py\
+
+~/Elijah McCoy Auditing Suite/audit_cli/\
+
+cd ~/Elijah\ McCoy\ Auditing\ Suite/audit_cli/\
+
+nano ~/Elijah\ McCoy\ Auditing\ Suite/audit_cli/digestive_audit_engine.py\
+
+python3 ~/Elijah\ McCoy\ Auditing\ Suite/audit_cli/digestive_audit_engine.py\
+
+# Save as hyper_audit.py\
+python3 hyper_audit.py\
+
+nano ~/Desktop/hyper_audit.py\
+
+chmod +x ~/Desktop/hyper_audit.py\
+
+python3 ~/Desktop/hyper_audit.py\
+
+nano /Users/Shared/hyper_audit.py\
+
+chmod +x /Users/Shared/hyper_audit.py\
+
+python3 /Users/Shared/hyper_audit.py\
+
+# Move it to your system folder\
+sudo mv hyper_audit_advanced.py /Users/Shared/hyper_audit.py\
+\
+# Make it executable\
+sudo chmod +x /Users/Shared/hyper_audit.py\
+\
+# Run the audit\
+python3 /Users/Shared/hyper_audit.py\
+
+cd "/Users/bfh/Library/CloudStorage/GoogleDrive-collabnonfaablab@gtekglobal.design/My Drive/"\
+unzip ~/Downloads/BFH_SOVEREIGN_SYSTEMS_REPO.zip\
+cd BFH-SOVEREIGN-SYSTEMS\
+git init\
+git add .\
+git commit -m "Initialize Sovereign Vault with secure licensing and structure"\
+
+git remote add origin https://github.com/YOUR_USERNAME/BFH-SOVEREIGN-SYSTEMS.git\
+git branch -M main\
+git push -u origin main\
+
+~/Downloads/\
+
+ls ~/Downloads\
+
+cd "/Users/bfh/Library/CloudStorage/GoogleDrive-*/My Drive/BFH-SOVEREIGN-SYSTEMS"\
+\
+# Move key files into the vault directory\
+mv ~/Downloads/manifest_ArDrive_gNaRa.json vault/manifest.json\
+mv ~/Downloads/final_nft_metadata_gNaRa_gNeN4.json vault/mint_metadata.json\
+mv ~/Downloads/DAO_Proposal_gNaRa_gNeN4.md vault/DAO_Proposal.md\
+\
+# Move infrastructure script to cloud\
+mv ~/Downloads/helius_get_token_accounts.py cloud/\
+\
+# Move public funding docs to docs\
+mv ~/Downloads/gNaRa_gNeN4_Crowdfund_Landing.md docs/\
+\
+# Overwrite README in root\
+mv ~/Downloads/README.md README.md\
+
+cd "/Users/bfh/Library/CloudStorage/GoogleDrive-collabnonfaablab@gtekglobal.design/My Drive/BFH-SOVEREIGN-SYSTEMS"\
+
+ls\
+
+ls ~/Downloads | grep -E 'manifest|DAO_Proposal|metadata|helius|get_token|README|Crowdfund'\
+
+ls "/Users/bfh/Documents/GitHub/gNaRa-gNeN-"\
+\
+ls "/Users/bfh/Library/CloudStorage/GoogleDrive-collabnonfaablab@gtekglobal.design/My Drive/The_Block_Auditer_Gamification_Software-gTek_Induftries_Global_Design"\
+
+cd "/Users/bfh/Library/CloudStorage/GoogleDrive-collabnonfaablab@gtekglobal.design/My Drive/The_Block_Auditer_Gamification_Software-gTek_Induftries_Global_Design"\
+unzip 'CodexVault_Final_Embedded.zip'\
+
+# Adjust if your repo path differs\
+cd "/Users/bfh/Library/CloudStorage/GoogleDrive-collabnonfaablab@gtekglobal.design/My Drive/The_Block_Auditer_Gamification_Software-gTek_Induftries_Global_Design"\
+\
+# Move files into proper locations\
+mv CodexManifest.md "/Users/bfh/Library/CloudStorage/GoogleDrive-collabnonfaablab@gtekglobal.design/My Drive/BFH-SOVEREIGN-SYSTEMS/vault/manifest.json"\
+mv README_Codex_LexVault.txt "/Users/bfh/Library/CloudStorage/GoogleDrive-collabnonfaablab@gtekglobal.design/My Drive/BFH-SOVEREIGN-SYSTEMS/README.md"\
+
+cd "/Users/bfh/Library/CloudStorage/GoogleDrive-collabnonfaablab@gtekglobal.design/My Drive/The_Block_Auditer_Gamification_Software-gTek_Induftries_Global_Design"\
+ls | grep -E 'manifest|DAO|README|Crowdfund|CodexManifest|metadata|helius'\
+
+# Rename and move the NFT metadata file (after confirming content)\
+mv "TheBlockAuditor_codex_nft_metadata.json.docx" "/Users/bfh/Library/CloudStorage/GoogleDrive-collabnonfaablab@gtekglobal.design/My Drive/BFH-SOVEREIGN-SYSTEMS/vault/mint_metadata.json"\
+\
+# Move README\
+mv "README.md" "/Users/bfh/Library/CloudStorage/GoogleDrive-collabnonfaablab@gtekglobal.design/My Drive/BFH-SOVEREIGN-SYSTEMS/README.md"\
+
+mv "TheBlockAuditor_codex_nft_metadata.json.docx" "/Users/bfh/Library/CloudStorage/GoogleDrive-collabnonfaablab@gtekglobal.design/My Drive/BFH-SOVEREIGN-SYSTEMS/vault/mint_metadata.json"\
+\
+mv "README.md" "/Users/bfh/Library/CloudStorage/GoogleDrive-collabnonfaablab@gtekglobal.design/My Drive/BFH-SOVEREIGN-SYSTEMS/README.md"\
+
+BFH-SOVEREIGN-SYSTEMS/
+⃴??⃴?⃴? frontend/                # React app (current Codex Audit Webapp)
+⃴?   ⃴??⃴?⃴? public/
+⃴?   ⃴?   ⃴??⃴?⃴? api/audit-log.json  # Served audit data
+⃴?   ⃴??⃴?⃴? src/
+⃴?   ⃴?   ⃴??⃴?⃴? components/         # Shared UI components
+⃴?   ⃴?   ⃴??⃴?⃴? pages/              # Main dashboard logic
+⃴?   ⃴??⃴?⃴? index.html
+⃴??⃴?⃴? backend/
+⃴?   ⃴??⃴?⃴? server.py              # Flask/FastAPI backend
+⃴?   ⃴??⃴?⃴? templates/
+⃴?       ⃴??⃴?⃴? index.html         # For SSR fallback or landing
+⃴??⃴?⃴? scripts/
+⃴?   ⃴??⃴?⃴? gtek_codex_super_audit.py  # Automated audit engine
+⃴??⃴?⃴? .env
+⃴??⃴?⃴? Dockerfile
+⃴??⃴?⃴? README.md
+⃴??⃴?⃴? deploy/
+    ⃴??⃴?⃴? netlify.toml
+    ⃴??⃴?⃴? vercel.json
+    ⃴??⃴?⃴? systemctl.service
+BFH-SOVEREIGN-SYSTEMS/\
+⃴??⃴?⃴? frontend/                # React app (current Codex Audit Webapp)\
+⃴?   ⃴??⃴?⃴? public/\
+⃴?   ⃴?   ⃴??⃴?⃴? api/audit-log.json  # Served audit data\
+⃴?   ⃴??⃴?⃴? src/\
+⃴?   ⃴?   ⃴??⃴?⃴? components/         # Shared UI components\
+⃴?   ⃴?   ⃴??⃴?⃴? pages/              # Main dashboard logic\
+⃴?   ⃴??⃴?⃴? index.html\
+⃴??⃴?⃴? backend/\
+⃴?   ⃴??⃴?⃴? server.py              # Flask/FastAPI backend\
+⃴?   ⃴??⃴?⃴? templates/\
+⃴?       ⃴??⃴?⃴? index.html         # For SSR fallback or landing\
+⃴??⃴?⃴? scripts/\
+⃴?   ⃴??⃴?⃴? gtek_codex_super_audit.py  # Automated audit engine\
+⃴??⃴?⃴? .env\
+⃴??⃴?⃴? Dockerfile\
+⃴??⃴?⃴? README.md\
+⃴??⃴?⃴? deploy/\
+    ⃴??⃴?⃴? netlify.toml\
+    ⃴??⃴?⃴? vercel.json\
+    ⃴??⃴?⃴? systemctl.service\
+
+bfh@BFHs-MacBook-Pro:~ % 

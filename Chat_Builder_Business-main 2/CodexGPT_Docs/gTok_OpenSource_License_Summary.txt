@@ -1,0 +1,4 @@
+Licenses Used:
+- MIT / GPL / Apache (software)
+- SIL Open Font License (fonts)
+- Creative Commons CC0 / CC-BY (media)
