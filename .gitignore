@@ -97,12 +97,21 @@ codex-env/
 # Logs
 *.log
 logs/
+Log-backup-*.txt
+*_audit_log.txt
 
 # Temporary files
 tmp/
 temp/
 *.tmp
 *.temp
+*.bak
+*.old
+
+# Build artifacts
+Build*.txt
+digest_*.json
+*.crdownload
 
 # Blockchain/Crypto
 *.json.backup
