@@ -127,28 +127,28 @@ jobs:
           cd build
           
           # Create a CMakeLists.txt that will attempt to compile the source files
-          cat > CMakeLists.txt << 'EOF'
-cmake_minimum_required(VERSION 3.15)
-project(JUCEProject)
-
-set(CMAKE_CXX_STANDARD 17)
-
-# Try to include JUCE header directory if it exists
-if(EXISTS "${CMAKE_CURRENT_SOURCE_DIR}/../JuceLibraryCode")
-    include_directories("${CMAKE_CURRENT_SOURCE_DIR}/../JuceLibraryCode")
-endif()
-
-# Add source files for compilation (CodeQL will analyze during this step)
-add_executable(JUCEProject
-    ../Source/Main.cpp
-    ../Source/MainComponent.cpp
-)
-
-target_include_directories(JUCEProject PRIVATE
-    ../Source
-    ../JuceLibraryCode
-)
-EOF
+          cat > CMakeLists.txt << 'CMAKEEOF'
+          cmake_minimum_required(VERSION 3.15)
+          project(JUCEProject)
+          
+          set(CMAKE_CXX_STANDARD 17)
+          
+          # Try to include JUCE header directory if it exists
+          if(EXISTS "${CMAKE_CURRENT_SOURCE_DIR}/../JuceLibraryCode")
+              include_directories("${CMAKE_CURRENT_SOURCE_DIR}/../JuceLibraryCode")
+          endif()
+          
+          # Add source files for compilation (CodeQL will analyze during this step)
+          add_executable(JUCEProject
+              ../Source/Main.cpp
+              ../Source/MainComponent.cpp
+          )
+          
+          target_include_directories(JUCEProject PRIVATE
+              ../Source
+              ../JuceLibraryCode
+          )
+          CMAKEEOF
           
           # Run cmake and make - continue even if they fail since CodeQL analyzes during compilation
           echo "Running CMake configuration..."
