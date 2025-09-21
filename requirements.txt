@@ -5,3 +5,7 @@ pydantic
 sounddevice
 scipy
 whisper
+fastapi
+uvicorn
+cryptography
+python-multipart
